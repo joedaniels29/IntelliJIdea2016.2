@@ -1,0 +1,1 @@
+TRUNCATE table exam_comments;

@@ -1,0 +1,1 @@
+select * from student, takes where student.id=takes.id and not student.id in (select student.id from student, takes where student.id=takes.id and year < 2010);

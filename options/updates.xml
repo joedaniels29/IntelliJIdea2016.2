@@ -1,0 +1,9 @@
+<application>
+  <component name="UpdatesConfigurable">
+    <pluginHosts>
+      <item value="https://github.com/jkaving/intellij-colors-solarized" />
+    </pluginHosts>
+    <option name="LAST_TIME_CHECKED" value="1461005559430" />
+    <option name="LAST_BUILD_CHECKED" value="IU-145.597" />
+  </component>
+</application>

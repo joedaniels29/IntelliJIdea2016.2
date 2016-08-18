@@ -1,0 +1,1 @@
+TRUNCATE application_configurations;

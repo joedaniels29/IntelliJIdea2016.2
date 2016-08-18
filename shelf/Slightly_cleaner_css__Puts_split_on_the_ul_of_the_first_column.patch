@@ -1,0 +1,101 @@
+Index: frontend/app/models/cubist.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/models/cubist.coffee	(date 1409886685000)
++++ frontend/app/models/cubist.coffee	(revision )
+@@ -9,6 +9,7 @@
+   labels: Ember.K
+ 
+   metrics: Ember.K
++  drawables: Ember.K
+   shouldRedraw: Ember.K
+   chart: () ->
+     Ember.run.scheduleOnce "render", this, =>
+@@ -30,14 +31,13 @@
+       kLabels = @get('labels')
+       dElement = @get("cubist.delegateElement")
+ 
+-
+       selection = dElement.selectAll(".graph")
+       selection.data([selection], (d) -> return kWidth )
+ 
+       element.enter().append("div").attr('class','graph')
+       element.exit().remove()
+       element = d3.select(kElementID).select(".graph")
+-      kMetrics = @get('cubismMetrics')
++      kMetrics = @get('drawables')
+ 
+       #    kMetrics ?= (@metric(o, kContext) for o in groupsOfValues )
+ 
+@@ -60,28 +60,20 @@
+       )
+ 
+       # add a horizon graph and format as percentage
+-      element.selectAll(".user .horizon, .user .horizon")
++      element.selectAll(".cohort .horizon, .user .horizon")
+       .data(kMetrics)
+-      .enter().call(->
+-
+-
+-
+-
+-      )
+-#      .insert("div", ".bottom")
+-      .attr("class", "horizon")
++      .enter().each((item)->
++        d3.select(item.element).insert("div", ".bottom").attr("class", "horizon")
+-      .call(
+-        kContext.horizon()
++        .call(
++          kContext.horizon()
+-        .height(kHeight)
+-        .title((object, i) ->
+-          kLabels?.objectAt(i) || ""
+-        )
++          .height(item.height)
++          .title((object, i) -> item.title|| "")
+-        .format(d3.format("%"))
+-        .metric((d, i) ->
++          .format(d3.format("%"))
++          .metric((d, i) ->
+-          kMetrics[i]
++            item.metric
+-        ).extent([0, 1])
++          ).extent([0, 1])
+-        .colors (ctxt, index)->
+-          [kColors(index), kColors(index)]
++          .colors (ctxt, index)-> item.colors
++        )
+       )
+ 
+       #Make the labels move with the dateline
+Index: frontend/app/components/j-timeline.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/components/j-timeline.coffee	(date 1409886685000)
++++ frontend/app/components/j-timeline.coffee	(revision )
+@@ -35,6 +35,9 @@
+     kWidth ?= 400
+     kContext = @get("cubismContext") #cubism.context().step(4 * 24 * 60 * 60 * 1000).size(kWidth).stop();
+     return unless kContext?
++
++    kElementID = "#" + @get("elementId")
++    d3.select(kElementID).selectAll(".graph").data([selection], (d) -> return kWidth ).enter().append("div").attr('class','graph').exit().remove()
+ #    groupsOfValues = @get("groupedValues")
+ #    groupsOfValues ||= []
+     kContext.size(kWidth)
+@@ -46,10 +49,7 @@
+     dElement = @get("cubist.delegateElement")
+ 
+     selection = dElement.selectAll(".graph")
+-    selection.data([selection], (d) -> return kWidth )
+ 
+-    element.enter().append("div").attr('class','graph')
+-    element.exit().remove()
+     element = d3.select(kElementID).select(".graph")
+     kMetrics = @get('cubismMetrics')
+ 

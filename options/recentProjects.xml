@@ -1,0 +1,918 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Projects/Contract/readahead_tablet" />
+        <option value="$USER_HOME$/Projects/Work/ReachSearch" />
+        <option value="$USER_HOME$/Projects/Work/trelawney" />
+        <option value="$USER_HOME$/Projects/Mine/osx-jxa" />
+        <option value="$USER_HOME$/Projects/Mine/PersonalSite" />
+        <option value="$USER_HOME$/Projects/Work/oasis" />
+        <option value="$USER_HOME$/Projects/Work/resident-worklist" />
+        <option value="$USER_HOME$/.tmuxinator" />
+        <option value="$USER_HOME$/Projects/Work/ember-cli-trelawney" />
+        <option value="$USER_HOME$/Projects/Contract/readahead_hybrid" />
+        <option value="$USER_HOME$/Projects/Mine/website" />
+        <option value="$USER_HOME$/Projects/Mine/ember-so-fresh" />
+        <option value="$USER_HOME$/Projects/Mine/json-easy-merge" />
+        <option value="$USER_HOME$/Projects/Mine/Interviews/Google" />
+        <option value="$USER_HOME$/Projects/Mine/koans" />
+        <option value="$USER_HOME$/.zsh_scripts" />
+        <option value="$USER_HOME$/.config/powerline" />
+        <option value="$USER_HOME$/Downloads/koans" />
+        <option value="/usr/local/lib/python2.7/site-packages/powerline" />
+        <option value="/usr/local/lib/python2.7/site-packages" />
+        <option value="$USER_HOME$/Projects/Work/findings-notification" />
+        <option value="$USER_HOME$/Projects/Mine/ember-cli-diff" />
+        <option value="$USER_HOME$" />
+        <option value="$USER_HOME$/.zprezto" />
+        <option value="$USER_HOME$/Projects/Work/peer-review" />
+        <option value="$USER_HOME$/Projects/Mine/Soundless" />
+        <option value="$USER_HOME$/Library/Script Libraries" />
+        <option value="$USER_HOME$/Projects/School/csmc491/bluetooth" />
+        <option value="$USER_HOME$/Projects/Mine/CMSC483-Optimization" />
+        <option value="$USER_HOME$/Projects/School/cmsc433/exam2" />
+        <option value="$USER_HOME$/Downloads/BasicService" />
+        <option value="$USER_HOME$/Projects/School/csmc491/GmapDemo" />
+        <option value="$USER_HOME$/Projects/School/csmc491/Assignment1" />
+        <option value="$USER_HOME$/Projects/School/csmc491/GPS" />
+        <option value="$USER_HOME$/Downloads/SensorApp 2" />
+        <option value="$USER_HOME$/Downloads/ServiceExample 2" />
+        <option value="$USER_HOME$/Projects/Mine/ember-cli-ipa" />
+        <option value="$USER_HOME$/Projects/Mine/ember-cli-lettering-js" />
+        <option value="$USER_HOME$/Projects/Work/ReachSearch/deployments/reach-search-20160314T112336-working_version_2_sorting_updated-229-gd7c07f6/db_scripts" />
+        <option value="$USER_HOME$/Downloads/ServiceExample" />
+        <option value="$USER_HOME$/Projects/Contract/readahead_hybrid_tablet" />
+        <option value="$USER_HOME$/Projects/Contract/PurchaseExample" />
+        <option value="$USER_HOME$/Projects/Mine/ember-inspector" />
+        <option value="$USER_HOME$/Projects/Mine/crusty_model" />
+        <option value="$USER_HOME$/IdeaProjects/untitled1" />
+        <option value="$USER_HOME$/Projects/School/csmc491/FragmentExample" />
+        <option value="$USER_HOME$/Projects/Contract/sample" />
+        <option value="$USER_HOME$/IdeaProjects/untitled" />
+        <option value="$USER_HOME$/Downloads/SensorApp" />
+        <option value="$USER_HOME$/Projects/Mine/MyApplication3" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Projects/Contract/readahead_tablet" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Projects/Contract/readahead_tablet" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.972" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1465064704124" />
+              <option name="buildTimestamp" value="1463198400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.config/powerline">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.1617" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1466443099266" />
+              <option name="buildTimestamp" value="1464926400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.tmuxinator">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1470346879024" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.zprezto">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.972" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1464985972693" />
+              <option name="buildTimestamp" value="1463198400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.zsh_scripts">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.1617" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1466510539434" />
+              <option name="buildTimestamp" value="1464926400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.2151" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1452089617537" />
+              <option name="buildTimestamp" value="1450414800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/BasicService">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.597" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1461167021000" />
+              <option name="buildTimestamp" value="1459224000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/Bluetooth2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.597" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1462634103245" />
+              <option name="buildTimestamp" value="1459224000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/CurencyCalculator">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.3600" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1455043403194" />
+              <option name="buildTimestamp" value="1454389200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/SensorApp">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.4199" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1456409037438" />
+              <option name="buildTimestamp" value="1455858000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/SensorApp 2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459096586831" />
+              <option name="buildTimestamp" value="1458187200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/ServiceExample">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.184" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1458622093683" />
+              <option name="buildTimestamp" value="1456808400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/ServiceExample 2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1458944377837" />
+              <option name="buildTimestamp" value="1458187200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/koans">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.1617" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1466424447770" />
+              <option name="buildTimestamp" value="1464926400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.4199" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1456449411138" />
+              <option name="buildTimestamp" value="1455858000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/untitled1">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.184" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1457194264924" />
+              <option name="buildTimestamp" value="1456808400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Library/Script Libraries">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1463418930404" />
+              <option name="buildTimestamp" value="1461902400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Contract/PurchaseExample">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.184" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1458230029934" />
+              <option name="buildTimestamp" value="1456808400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Contract/readahead_hybrid">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1469806338296" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Contract/readahead_hybrid_tablet">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.184" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1458316732787" />
+              <option name="buildTimestamp" value="1456808400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Contract/readahead_tablet">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1447.26" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1471531132891" />
+              <option name="buildTimestamp" value="1470110400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Contract/sample">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.4199" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1456936491026" />
+              <option name="buildTimestamp" value="1455858000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/CMSC483-Optimization">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.597" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1462379357219" />
+              <option name="buildTimestamp" value="1459224000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/Interviews/Google">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1468964528656" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/MyApplication2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.3600" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1455057442590" />
+              <option name="buildTimestamp" value="1454389200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/MyApplication3">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.3600" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1455214029967" />
+              <option name="buildTimestamp" value="1454389200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/PersonalSite">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1471102684785" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/Soundless">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.971" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1463422062956" />
+              <option name="buildTimestamp" value="1461902400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/alfred2-ruby-template">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.3600" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1454611589143" />
+              <option name="buildTimestamp" value="1454389200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/crusty_model">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.184" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1457278900555" />
+              <option name="buildTimestamp" value="1456808400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/dumbaddon">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.249" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1445797902380" />
+              <option name="buildTimestamp" value="1444795200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-cli-animatecss">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.249" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1447184665938" />
+              <option name="buildTimestamp" value="1444795200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-cli-bourbon">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.2151" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1451406972987" />
+              <option name="buildTimestamp" value="1450414800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-cli-diff">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.972" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1465234429091" />
+              <option name="buildTimestamp" value="1463198400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-cli-easy-table">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.249" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1446497766057" />
+              <option name="buildTimestamp" value="1444795200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-cli-ipa">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1458847233972" />
+              <option name="buildTimestamp" value="1458187200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-cli-lettering-js">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1458774099067" />
+              <option name="buildTimestamp" value="1458187200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-cli-neat">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.249" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1446482179667" />
+              <option name="buildTimestamp" value="1444795200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-cli-powerbars">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.2925" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1453228737553" />
+              <option name="buildTimestamp" value="1452488400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-cli-textillate">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.249" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1446497785079" />
+              <option name="buildTimestamp" value="1444795200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-inspector">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.184" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1457652153793" />
+              <option name="buildTimestamp" value="1456808400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/ember-so-fresh">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1469290391056" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/json-easy-merge">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1469107301077" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/jsx">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.3600" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1454643892472" />
+              <option name="buildTimestamp" value="1454389200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/koans">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1468845376194" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/liquid-fire">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.249" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1445137366254" />
+              <option name="buildTimestamp" value="1444795200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/myapp">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-144.3600" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1455043753581" />
+              <option name="buildTimestamp" value="1454389200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/osx-jxa">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1471102700877" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Mine/website">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1469293332628" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/cmsc433/exam1">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.747" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1447636677269" />
+              <option name="buildTimestamp" value="1447304400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/cmsc433/exam2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.597" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1461763932612" />
+              <option name="buildTimestamp" value="1459224000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/cmsc433/extra_credit">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.747" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1449779862333" />
+              <option name="buildTimestamp" value="1447304400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/cmsc433/homework5">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-142.5239" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1444007162607" />
+              <option name="buildTimestamp" value="1443585600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/cmsc433/homework6">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.249" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1446239665356" />
+              <option name="buildTimestamp" value="1444795200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/cmsc433/homework7">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.249" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1446239740214" />
+              <option name="buildTimestamp" value="1444795200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/cmsc461/Lab3">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.249" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1445021217882" />
+              <option name="buildTimestamp" value="1444795200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/csmc491/Assignment1">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459883823935" />
+              <option name="buildTimestamp" value="1458187200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/csmc491/FragmentExample">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.184" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1457104996349" />
+              <option name="buildTimestamp" value="1456808400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/csmc491/GPS">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.258" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459447098310" />
+              <option name="buildTimestamp" value="1458187200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/csmc491/GmapDemo">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.597" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1461092210664" />
+              <option name="buildTimestamp" value="1459224000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/School/csmc491/bluetooth">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.597" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1462648301284" />
+              <option name="buildTimestamp" value="1459224000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/MRIProject">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.249" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1445378957828" />
+              <option name="buildTimestamp" value="1444795200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/ReachSearch">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1447.26" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1471476317273" />
+              <option name="buildTimestamp" value="1470110400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/ReachSearch/deployments/reach-search-20160314T112336-working_version_2_sorting_updated-229-gd7c07f6/db_scripts">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.184" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1458652055173" />
+              <option name="buildTimestamp" value="1456808400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/ReachSearch/frontend">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.1453" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1450713766871" />
+              <option name="buildTimestamp" value="1450155600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/ember-cli-trelawney">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1470185226823" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/findings-notification">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.1617" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1465563050160" />
+              <option name="buildTimestamp" value="1464926400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/oasis">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1470919234820" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/oasis/frontend">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.1453" />
+              <option name="productionCode" value="IU" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1450711368101" />
+              <option name="buildTimestamp" value="1450155600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/peer-review">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.972" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1464802046139" />
+              <option name="buildTimestamp" value="1463198400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/resident-worklist">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1121.32" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1470855531433" />
+              <option name="buildTimestamp" value="1468036800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Work/trelawney">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.1447.26" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1471443357440" />
+              <option name="buildTimestamp" value="1470110400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/usr/local/lib/python2.7/site-packages">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.1617" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1466363231696" />
+              <option name="buildTimestamp" value="1464926400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/usr/local/lib/python2.7/site-packages/powerline">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.1617" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1466363510863" />
+              <option name="buildTimestamp" value="1464926400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/Projects/Mine/Interviews" />
+  </component>
+</application>

@@ -1,0 +1,599 @@
+Index: app/assets/javascripts/scripts.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/assets/javascripts/scripts.js	(revision c509c15bbd1889fcd3290b8cf39de85ef96e6058)
++++ app/assets/javascripts/scripts.js	(revision )
+@@ -2,310 +2,315 @@
+  * Add some junk to prevent issues with console.debug and console.log
+  * within internet explorer and other old browsers
+  */
+-if(typeof console == "undefined"){
++if (typeof console == "undefined") {
+-  var console = Object();
++    var console = Object();
+-  console.debug = console.log = function(args) {
++    console.debug = console.log = function (args) {
+-	  return false;
+-	};
++        return false;
++    };
+ }
+ 
+ /*
+  * Setup stuff on load
+  */
+-$(document).ready(function() {
++$(document).ready(function () {
+-	// receive message from parent handler
+-	rw.receiveMessageFromParent();
++    // receive message from parent handler
++    rw.receiveMessageFromParent();
+ 
+-	// initialize sorter
+-	$("#results").tablesorter();
++    // initialize sorter
++    $("#results").tablesorter();
+ 
+-	// setup modality buttons
++    // setup modality buttons
+-	$("#modalities div.button").click(function() {
++    $("#modalities div.button").click(function () {
+-		$(this).toggleClass("selected");
+-		var input = $($(this).find("input"));
+-		if (input.attr("checked")) {
+-		  input.removeAttr("checked");
+-		  input.siblings(".img").addClass("unchecked");
++        $(this).toggleClass("selected");
++        var input = $($(this).find("input"));
++        if (input.attr("checked")) {
++            input.removeAttr("checked");
++            input.siblings(".img").addClass("unchecked");
+-      if( input.val() == 0 ){
++            if (input.val() == 0) {
+-        $(this).siblings(".button")
+-          .removeClass("selected")
+-          .find("input")
+-          .removeAttr("checked")
+-          .siblings(".img")
+-          .addClass("unchecked");
+-      }
+-		} else {
+-		  input.siblings(".img").removeClass("unchecked");
+-		  input.attr("checked", true);
++                $(this).siblings(".button")
++                    .removeClass("selected")
++                    .find("input")
++                    .removeAttr("checked")
++                    .siblings(".img")
++                    .addClass("unchecked");
++            }
++        } else {
++            input.siblings(".img").removeClass("unchecked");
++            input.attr("checked", true);
+-      if( input.val() == 0 ){
++            if (input.val() == 0) {
+-        $(this).siblings(".button")
+-          .addClass("selected")
+-          .find("input")
++                $(this).siblings(".button")
++                    .addClass("selected")
++                    .find("input")
+-          .attr("checked","true")
++                    .attr("checked", "true")
+-          .siblings(".img")
+-          .removeClass("unchecked");
+-      }
+-		}
++                    .siblings(".img")
++                    .removeClass("unchecked");
++            }
++        }
+-		try{
++        try {
+-		  OWATracker.trackAction('Search', 'Modalities', $(this).html().replace(/\<.*/,""), (input.attr("checked")?0:1));
++            OWATracker.trackAction('Search', 'Modalities', $(this).html().replace(/\<.*/, ""), (input.attr("checked") ? 0 : 1));
+-		} catch (x) {
+-		  // OWA Tracker is not loaded
+-		}
+-	}).first().click();
++        } catch (x) {
++            // OWA Tracker is not loaded
++        }
++    }).first().click();
+ 
+-  // catch the img click
+-	$("#modalities div.modality img").click(
++    // catch the img click
++    $("#modalities div.modality img").click(
+-	  function(){
++        function () {
+-		  $(this).parents("div.button:eq(0)").click();
+-	  });
+-	$("#theReports .head .button").click(
++            $(this).parents("div.button:eq(0)").click();
++        });
++    $("#theReports .head .button").click(
+-	  function(){
++        function () {
+-		  $(this).toggleClass("selected").siblings("h3").removeClass("selected");
++            $(this).toggleClass("selected").siblings("h3").removeClass("selected");
+-		  $("#theReports .tabs #"+$(this).attr("tab")).show().siblings("div").hide();
++            $("#theReports .tabs #" + $(this).attr("tab")).show().siblings("div").hide();
+-	  });
++        });
+ 
+-	// setup search on search image
+-	$("#searchButton").click(
++    // setup search on search image
++    $("#searchButton").click(
+-	  function() {
++        function () {
+-		  rw.search();
++            rw.search();
+-		  try{
++            try {
+-		    OWATracker.trackAction('Search', 'Button Click Text Search', $("#headerWrapper #search").val(), 5);
+-		  } catch (x) {
+-		    // OWA Tracker is not loaded
+-		  }
+-	  }).click();// run on start
++                OWATracker.trackAction('Search', 'Button Click Text Search', $("#headerWrapper #search").val(), 5);
++            } catch (x) {
++                // OWA Tracker is not loaded
++            }
++        }).click();// run on start
+ 
+-  // setup search on refresh  image
++    // setup search on refresh  image
+-	$("#reports #count").on("click",".refresh:not(.active)",function(){
++    $("#reports #count").on("click", ".refresh:not(.active)", function () {
+-	  rw.search();
++        rw.search();
+-	  try{
++        try {
+-		  OWATracker.trackAction('Refresh', 'Refresh button to redo search', "Search refresh icon clicked", 6);
+-	  } catch (x) {
+-		  // OWA Tracker is not loaded
+-	  }
+-	});
++            OWATracker.trackAction('Refresh', 'Refresh button to redo search', "Search refresh icon clicked", 6);
++        } catch (x) {
++            // OWA Tracker is not loaded
++        }
++    });
+ 
+-  // setup search auto update on change
++    // setup search auto update on change
+-	$("#reports #count-wrap").on("change","#interval",function(){
++    $("#reports #count-wrap").on("change", "#interval", function () {
+-    rw.searchInterval.start();
++        rw.searchInterval.start();
+-	  try{
++        try {
+-		  OWATracker.trackAction('Change auto-update', 'auto update every', $("#reports #count #interval").val(), 7);
+-	  } catch (x) {
+-		  // OWA Tracker is not loaded
+-	  }
+-	});
++            OWATracker.trackAction('Change auto-update', 'auto update every', $("#reports #count #interval").val(), 7);
++        } catch (x) {
++            // OWA Tracker is not loaded
++        }
++    });
+ 
+-	// setup automatic serach on drop down changes
+-	$("#headerWrapper select").change(
++    // setup automatic serach on drop down changes
++    $("#headerWrapper select").change(
+-	  function(){
++        function () {
+-		  rw.search();
++            rw.search();
+-		  try{
++            try {
+-		    OWATracker.trackAction('Search', 'Misc Selects', $(this).children("option:selected").html(), 4);
+-		  } catch (x) {
+-		    // OWA Tracker is not loaded
+-		  }
+-	  });
++                OWATracker.trackAction('Search', 'Misc Selects', $(this).children("option:selected").html(), 4);
++            } catch (x) {
++                // OWA Tracker is not loaded
++            }
++        });
+ 
+-	// logic for datepicker
+-	$("#headerWrapper #startDate").datepicker({
++    // logic for datepicker
++    $("#headerWrapper #startDate").datepicker({
+-    maxDate:0,
++        maxDate: 0,
+-		defaultDate: 0,
++        defaultDate: 0,
+-		onClose: function(dateText, inst) {
++        onClose: function (dateText, inst) {
+-			if(dateText==""){
++            if (dateText == "") {
+-				return;
+-			}
+-			rw.search();
+-			$("#displayStartDate").val(dateText);
+-		}
+-	});
++                return;
++            }
++            rw.search();
++            $("#displayStartDate").val(dateText);
++        }
++    });
+-	$("#displayStartDate").click(function(){
++    $("#displayStartDate").click(function () {
+-		$("#startDate").datepicker("show");
+-	});
+-	$("#headerWrapper #endDate").datepicker({
++        $("#startDate").datepicker("show");
++    });
++    $("#headerWrapper #endDate").datepicker({
+-    maxDate:0,
++        maxDate: 0,
+-		defaultDate: 0,
++        defaultDate: 0,
+-		onClose: function(dateText, inst) {
++        onClose: function (dateText, inst) {
+-			if(dateText==""){
++            if (dateText == "") {
+-				return;
+-			}
+-			$("#displayEndDate").val(dateText);
+-			rw.search();
+-		}
+-	});
++                return;
++            }
++            $("#displayEndDate").val(dateText);
++            rw.search();
++        }
++    });
+-	$("#displayEndDate").click(function(){
++    $("#displayEndDate").click(function () {
+-		$("#endDate").datepicker("show");
+-	});
++        $("#endDate").datepicker("show");
++    });
+ 
+-	// setup search on all button clicks
++    // setup search on all button clicks
+-	$("#headerWrapper div.button").click(function(){
++    $("#headerWrapper div.button").click(function () {
+-		rw.search();
+-	});
++        rw.search();
++    });
+ 
+-  // setup search on enter key in text search box
++    // setup search on enter key in text search box
+-	$("#headerWrapper #search").keyup(function(i,v){
++    $("#headerWrapper #search").keyup(function (i, v) {
+-		// enter key only
++        // enter key only
+-		if(i.which==13){
++        if (i.which == 13) {
+-		  rw.search();
++            rw.search();
+-		  try{
++            try {
+-			  OWATracker.trackAction('Search', 'Text Search', $(this).val(), 1);
+-		  } catch (x) {
+-			  // OWA Tracker is not loaded
+-		  }
+-		}
+-	});
++                OWATracker.trackAction('Search', 'Text Search', $(this).val(), 1);
++            } catch (x) {
++                // OWA Tracker is not loaded
++            }
++        }
++    });
+ 
+-	// Setup open in pacs button click
++    // Setup open in pacs button click
+-  $("#reportHead .openImages").click(function(){
++    $("#reportHead .openImages").click(function () {
+-		var examId = $("#reportHead .examid").html();
+-		var exam = rw.recent[examId];
++        var examId = $("#reportHead .examid").html();
++        var exam = rw.recent[examId];
+-		rw.sendMessageToParent('{"method":"openInPACS","accNum":"'+exam.acc+'","patientid":"'+exam.mrn+'"}');
++
++        var json = {"method": "openInPACS", "patient_acc": exam.acc, "patient_mrn": exam.mrn , "patient_facility": (exam.site == "JHH" ? "JHHPeer" : exam.site)};
++        rw.sendMessageToParent(JSON.stringify(json));
+-		try{
++        try {
+-		  OWATracker.trackAction('Open', 'In PACS', 'MRN:'+exam.mrn+',ACC:'+exam.acc, 1);
++            OWATracker.trackAction('Open', 'In PACS', 'MRN:' + exam.mrn + ',ACC:' + exam.acc, 1);
+-		} catch (x) {
+-		  // OWA Tracker is not loaded
+-		}
+-	});
++        } catch (x) {
++            // OWA Tracker is not loaded
++        }
++    });
+ 
+-  // Setup open in rad assist only button click
++    // Setup open in rad assist only button click
+-	$("#reportHead .openInRadAssistOnly").click(function(){
++    $("#reportHead .openInRadAssistOnly").click(function () {
+-		var examId = $("#reportHead .examid").html();
+-		var exam = rw.recent[examId];
++        var examId = $("#reportHead .examid").html();
++        var exam = rw.recent[examId];
+-		rw.sendMessageToParent('{"method":"openInRadAssistOnly","accNum":"'+exam.acc+'","patientid":"'+exam.mrn+'"}');
++        var json = {"method": "openInRadAssistOnly", "patient_acc": exam.acc, "patient_mrn": exam.mrn, "patient_facility": (exam.site == "JHH" ? "JHHPeer" : exam.site)};
++        rw.sendMessageToParent(JSON.stringify(json));
+-		try{
++        try {
+-		  OWATracker.trackAction('Open', 'In RadAssist', "MRN:"+exam.mrn, 2);
++            OWATracker.trackAction('Open', 'In RadAssist', "MRN:" + exam.mrn, 2);
+-		} catch (x) {
+-		  // OWA Tracker is not loaded
+-		}
+-	});
++        } catch (x) {
++            // OWA Tracker is not loaded
++        }
++    });
+ 
+-  // Setup Close open report by fading it out fast
++    // Setup Close open report by fading it out fast
+-	$("#openedReport .close").click(function() {
++    $("#openedReport .close").click(function () {
+-		$("#openedReport").fadeOut("fast");
+-	});
++        $("#openedReport").fadeOut("fast");
++    });
+ 
+-	// setup switch report version tab
++    // setup switch report version tab
+-	$("#theReports").on("click","#versions",function(){
++    $("#theReports").on("click", "#versions", function () {
+-	  $("#switchVersion div").remove();
+-	  var accession = $("#openedReport .acc").html().split(":")[1];
+-	  rw.reportsByAcc(accession);
+-	});
++        $("#switchVersion div").remove();
++        var accession = $("#openedReport .acc").html().split(":")[1];
++        rw.reportsByAcc(accession);
++    });
+-	$("#theReports").on("click",".switch_to_temp",function(){
++    $("#theReports").on("click", ".switch_to_temp", function () {
+-	  var $this = $(this);
++        var $this = $(this);
+-	  console.debug("Switch to this version - this",$this,$this.attr("id"),$this.attr("exam"));
++        console.debug("Switch to this version - this", $this, $this.attr("id"), $this.attr("exam"));
+-	  rw.switchToTemp($this.attr("id"),$this.attr("exam"));
++        rw.switchToTemp($this.attr("id"), $this.attr("exam"));
+-	});
++    });
+ 
+-	// Setup on clicking a specific report record
+-	$("#reportsWrapper table").on(
+-	  "click",
+-	  "tr:not(:first)",
++    // Setup on clicking a specific report record
++    $("#reportsWrapper table").on(
++        "click",
++        "tr:not(:first)",
+-	  function() {
++        function () {
+-		  $(this).toggleClass("selected").siblings("tr").removeClass("selected");
+-		  // if case is not selected, then open it
+-		  if ($(this).hasClass("selected")) {
+-		    // first close any open report
+-		    $("#openedReport:visible").hide();
+-		    // then get aliases for reports
+-		    var diffReport = $("#diffReport pre");
+-		    var resReport = $("#residentReport pre");
+-		    var finalReport = $("#finalReport pre");
++            $(this).toggleClass("selected").siblings("tr").removeClass("selected");
++            // if case is not selected, then open it
++            if ($(this).hasClass("selected")) {
++                // first close any open report
++                $("#openedReport:visible").hide();
++                // then get aliases for reports
++                var diffReport = $("#diffReport pre");
++                var resReport = $("#residentReport pre");
++                var finalReport = $("#finalReport pre");
+ 
+-		    $("#openedReport .head .button:eq(0)").click();
+-		    var examId = $(this).attr("exam");
+-		    $("#reportHead .examid").html(examId);
++                $("#openedReport .head .button:eq(0)").click();
++                var examId = $(this).attr("exam");
++                $("#reportHead .examid").html(examId);
+ 
+-		    $("#theReports .head .button:eq(0)").addClass("selected").siblings(".button").removeClass("selected");
++                $("#theReports .head .button:eq(0)").addClass("selected").siblings(".button").removeClass("selected");
+ 
+-		    // info to post to header
+-		    var tds = $(this).find("td");
+-		    var ths = $(this).parents("table:eq(0)").find("th");
++                // info to post to header
++                var tds = $(this).find("td");
++                var ths = $(this).parents("table:eq(0)").find("th");
+ 
+-		    // get current exam from cache
+-		    var exam = rw.recent[examId];
+-		    // resident and final report
++                // get current exam from cache
++                var exam = rw.recent[examId];
++                // resident and final report
+-		    try{
++                try {
+-			    if($.browser.msie && $.browser.version == "7.0"){
++                    if ($.browser.msie && $.browser.version == "7.0") {
+-			      resReport.html("<pre>"+exam.prelimR['report_body']+"</pre>");
++                        resReport.html("<pre>" + exam.prelimR['report_body'] + "</pre>");
+-			    }else{
++                    } else {
+-			      resReport.html(exam.prelimR['report_body']);
+-			    }
++                        resReport.html(exam.prelimR['report_body']);
++                    }
+-		    }catch(e){
++                } catch (e) {
+ 
+-		    }
++                }
+ 
+-		    // if no final report  then use prelim instead
++                // if no final report  then use prelim instead
+-		    try{
++                try {
+-			    if($.browser.msie && $.browser.version == "7.0"){
++                    if ($.browser.msie && $.browser.version == "7.0") {
+-			      finalReport.html("<pre>"+exam.finalR['report_body']+"</pre>");
++                        finalReport.html("<pre>" + exam.finalR['report_body'] + "</pre>");
+-			    }else{
++                    } else {
+-			      finalReport.html(exam.finalR['report_body']);
+-			    }
++                        finalReport.html(exam.finalR['report_body']);
++                    }
+-		    }catch(e){
++                } catch (e) {
+-			    if($.browser.msie && $.browser.version == "7.0"){
++                    if ($.browser.msie && $.browser.version == "7.0") {
+-			      finalReport.html("<pre>"+exam.prelimR['report_body']+"</pre>");
++                        finalReport.html("<pre>" + exam.prelimR['report_body'] + "</pre>");
+-			    }else{
++                    } else {
+-			      finalReport.html(exam.prelimR['report_body']);
+-			    }
+-		    }
++                        finalReport.html(exam.prelimR['report_body']);
++                    }
++                }
+ 
+-		    // This will create the track changes of the resident report versus the final report
+-		    rw.generateTrackChanges();
++                // This will create the track changes of the resident report versus the final report
++                rw.generateTrackChanges();
+ 
+-		    // put in header the junk
++                // put in header the junk
+-		    tds.each(function(i, v) {
++                tds.each(function (i, v) {
+-			    var data = $(v).html();
+-			    $("#reportHead .resident").html(rw.recent[tds.parents("tr:first").attr("exam")].resident);
+-			    switch (i) {
+-			    case 0:
+-				    $("#reportHead .date").html(data);
+-				    break;
+-			    case 1:
++                    var data = $(v).html();
++                    $("#reportHead .resident").html(rw.recent[tds.parents("tr:first").attr("exam")].resident);
++                    switch (i) {
++                        case 0:
++                            $("#reportHead .date").html(data);
++                            break;
++                        case 1:
+-				    $("#reportHead .diff").html("Diff:"+data);
++                            $("#reportHead .diff").html("Diff:" + data);
+-				    break;
+-			    case 2:
++                            break;
++                        case 2:
+-				    $("#reportHead .mrn").html("MRN:"+data);
++                            $("#reportHead .mrn").html("MRN:" + data);
+-				    break;
+-			    case 3:
++                            break;
++                        case 3:
+-				    $("#reportHead .acc").html("Acc:"+data);
++                            $("#reportHead .acc").html("Acc:" + data);
+-				    // also log the value and opening the report
++                            // also log the value and opening the report
+-				    try{
++                            try {
+-				      OWATracker.trackAction('Open', 'Report', "ACC:"+data, 3);
++                                OWATracker.trackAction('Open', 'Report', "ACC:" + data, 3);
+-				    } catch (x) {
+-				      // OWA Tracker is not loaded
+-				    }
+-			    case 4:
+-				    $("#reportHead .patient_name").html(data);
+-				    break;
+-			    case 5:
+-				    $("#reportHead .modality").html(data);
+-				    break;
+-			    case 6:
+-				    $("#reportHead .study").html(data);
+-				    break;
+-			    case 7:
+-				    $("#reportHead .status").html(data);
+-				    break;
+-				    /*case 8:
+-				      $("#reportHead .flag").html(data);
+-				      break;
+-				    */
+-			      /* case 8:
+-				       $("#reportHead .resident").html(data);
+-				       break;*/
+-			    case 8:
+-				    $("#reportHead .attending").html(data);
+-				    break;
+-			    }
+-			  });
++                            } catch (x) {
++                                // OWA Tracker is not loaded
++                            }
++                        case 4:
++                            $("#reportHead .patient_name").html(data);
++                            break;
++                        case 5:
++                            $("#reportHead .modality").html(data);
++                            break;
++                        case 6:
++                            $("#reportHead .study").html(data);
++                            break;
++                        case 7:
++                            $("#reportHead .status").html(data);
++                            break;
++                        /*case 8:
++                         $("#reportHead .flag").html(data);
++                         break;
++                         */
++                        /* case 8:
++                         $("#reportHead .resident").html(data);
++                         break;*/
++                        case 8:
++                            $("#reportHead .attending").html(data);
++                            break;
++                    }
++                });
+ 
+-		    // load reports
+-		    // then run diffReport()
++                // load reports
++                // then run diffReport()
+-		    $("#openedReport").fadeIn("fast",function(){$("#openedReport").scrollTop(0);}); // now show it
++                $("#openedReport").fadeIn("fast", function () {
++                    $("#openedReport").scrollTop(0);
++                }); // now show it
+-		  } else {
+-		    // closing the report that is currently open
+-		    $("#openedReport").fadeOut("fast");
+-		  }
+-	  });
+-	rw.generateTrackChanges();
++            } else {
++                // closing the report that is currently open
++                $("#openedReport").fadeOut("fast");
++            }
++        });
++    rw.generateTrackChanges();
+ 
+ });

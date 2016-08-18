@@ -1,0 +1,20 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b7637d54-8f98-41e3-bec2-d8e79aa48b58" name="GL" url="http://gl.umbc.edu">
+        <fileTransfer host="gl.umbc.edu" port="22" rootFolder="/afs/umbc.edu/users/j/o/josephd3/home" accessType="SFTP" password="dfe9dfd9dfc5dfc5dfdadf9adf9ddf98df93df8b" username="josephd3">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e25a1a05-aa10-4cff-8831-84619b7290bb" name="harb" url="http://harb.rad.jhmi.edu">
+        <fileTransfer host="harb.rad.jhmi.edu" port="22" rootFolder="/home/jdanie37" accessType="SFTP" password="dfc0dfc5dfc0dfc5df9bdf9adf9bdf9c" username="jdanie37">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

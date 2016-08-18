@@ -1,0 +1,5 @@
+<templateSet group="user">
+  <template name="topts" value="Trelawney.OPTIONS." description="Trelawney opts" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

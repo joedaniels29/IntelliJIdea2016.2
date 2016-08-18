@@ -1,0 +1,260 @@
+Index: frontend/app/mixins/famous-mixins.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/mixins/famous-mixins.coffee	(revision )
++++ frontend/app/mixins/famous-mixins.coffee	(revision )
+@@ -0,0 +1,34 @@
++`import Em from 'ember'`
++
++contextualize = Em.Mixin.create
++  render: (buffer) ->
++    context = Engine.createContext(buffer._element)
++#    @fmSurface.setContent buffer._element
++    @_super.apply this, arguments
++
++contextDelegate = Em.Mixin.create
++  context: Ember.computed.alias("parentView.context")
++
++
++# mixin to add drag behavior to a view
++draggable = Em.Mixin.create
++  render: ->
++    if not @draggable
++      @draggable = new Draggable
++      @renderNode = @renderNode.add(@draggable)
++      @_super.apply @, arguments
++      @draggable.subscribe @fmSurface
++      @draggable.on 'end', => @trigger('endDrag')
++      @draggable.on 'start', => @trigger('beginDrag')
++
++# mixin to easily do different transitions
++transitionable = Em.Mixin.create
++  fmTransform: (transform, method, immediate=false)->
++    # halt any pending transition if needed
++    if immediate
++      @fmStateModifier.halt()
++    # wrap with promise
++    new Em.RSVP.Promise (resolve, reject)=>
++      @fmStateModifier.setTransform transform, method, => resolve(@)
++
++`export {draggable, transitionable}`
+Index: frontend/app/components/famous-context.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/components/famous-context.coffee	(revision )
++++ frontend/app/components/famous-context.coffee	(revision )
+@@ -0,0 +1,7 @@
++`import Ember from 'ember'`
++`import { contextualize} from 'frontend/mixins/famous-mixins'`
++FamousContextComponent = Ember.Component.extend(contextualize
++
++)
++
++`export default FamousContextComponent`
+Index: frontend/tests/unit/controllers/listings-test.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/unit/controllers/listings-test.coffee	(revision )
++++ frontend/tests/unit/controllers/listings-test.coffee	(revision )
+@@ -0,0 +1,12 @@
++`import { test, moduleFor } from 'ember-qunit'`
++
++moduleFor 'controller:listings', 'ListingsController', {
++  # Specify the other units that are required for this test.
++  # needs: ['controller:foo']
++}
++
++# Replace this with your real tests.
++test 'it exists', ->
++  controller = @subject()
++  ok controller
++
+Index: frontend/app/views/listings.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/views/listings.coffee	(revision )
++++ frontend/app/views/listings.coffee	(revision )
+@@ -0,0 +1,108 @@
++`import Ember from 'ember'`
++`import {draggable, transitionable, contextualize} from 'frontend/mixins/famous-mixins'`
++
++Engine = famous.core.Engine
++Surface = famous.core.Surface
++Scrollview = famous.views.Scrollview
++ViewSequence = famous.core.ViewSequence
++Modifier = famous.core.Modifier
++Transform = famous.core.Transform
++StateModifier = famous.modifiers.StateModifier
++
++
++
++ListingsView = Ember.View.extend( contextualize,
++  attributeBindings: ["style"]
++  style: "width:500px; height:500px;position: absolute;"
++  template:""
++  didInsertElement: ->
++    surfaces = []
++    scrollview = new Scrollview(margin: 15)
++    Engine.pipe scrollview
++    viewSequence = new ViewSequence(
++      array: surfaces
++      loop: false
++    )
++    scrollview.sequenceFrom viewSequence
++
++    context = Engine.createContext(@$()[0])
++    s = context.getSize()
++    size = [undefined, 300]
++
++    centerModifier = new StateModifier(
++      size: s
++      origin: [
++        0.5
++        0.5
++      ]
++      align: [
++        0.5
++        0.5
++      ]
++    )
++    context.add(centerModifier)
++    context.add scrollview
++
++    model = @get("controller")
++
++    model.forEach (m) ->
++
++      m
++      surface = new Surface(
++        size: size
++        content: m
++#        properties:
++#          textAlign: "center"
++#          lineHeight: "100px"
++#          color: "white"
++#          backgroundColor: "hsl(" + (model.indexOf(m) * 360 / model.get("length")) + ", 100%, 50%)"
++#          boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)"
++      )
++      surfaces.push surface
++      return
++
++  render: (buffer) ->
++#    unless App.get("mainContext")
++      mainContext = Engine.createContext($(".famous-root").get(0))
++      mainContext.setPerspective 200
++#      App.set "mainContext", mainContext
++    unless @fmSurface
++      @fmSurface = new Surface(@surfaceProperties)
++
++      # should be a better way to map events =)
++      @fmSurface.on "click", ((_this) ->
++        (e) ->
++
++          # remap click is tricky =(
++          Em.run.next ->
++            e.stopPropagation()
++            e.target.click()
++            return
++
++          return
++      )(this)
++      @fmSurface.on "touchmove", ((_this) ->
++        (e) ->
++          _this.trigger "touchmove", e
++          return
++      )(this)
++      @fmSurface.on "touchstart", ((_this) ->
++        (e) ->
++          _this.trigger "touchstart", e
++          return
++      )(this)
++      @fmSurface.on "touchend", ((_this) ->
++        (e) ->
++          _this.trigger "touchend", e
++          return
++      )(this)
++      @fmStateModifier = new StateModifier(
++        origin: @initialOrign
++        transform: @initialTransform
++      )
++      App.get("mainContext").add(@fmStateModifier).add @fmSurface
++    @fmSurface.setContent buffer._element
++    @_super.apply this, arguments
++)
++
++`export default ListingsView`
+Index: frontend/tests/unit/views/listings-test.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/unit/views/listings-test.coffee	(revision )
++++ frontend/tests/unit/views/listings-test.coffee	(revision )
+@@ -0,0 +1,7 @@
++`import { test, moduleFor } from 'ember-qunit'`
++
++moduleFor 'view:listings', 'ListingsView'
++
++# Replace this with your real tests.
++test 'it exists', ->
++  ok @subject()
+Index: frontend/tests/unit/mixins/famous-mixins-test.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/unit/mixins/famous-mixins-test.coffee	(revision )
++++ frontend/tests/unit/mixins/famous-mixins-test.coffee	(revision )
+@@ -0,0 +1,10 @@
++`import Ember from 'ember'`
++`import FamousMixinsMixin from 'frontend/mixins/famous-mixins'`
++
++module 'FamousMixinsMixin'
++
++# Replace this with your real tests.
++test 'it works', ->
++  FamousMixinsObject = Ember.Object.extend FamousMixinsMixin
++  subject = FamousMixinsObject.create()
++  ok subject
+Index: frontend/app/templates/components/famous-context.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/components/famous-context.hbs	(revision )
++++ frontend/app/templates/components/famous-context.hbs	(revision )
+@@ -0,0 +1,1 @@
++{{yield}}
+Index: frontend/tests/unit/components/famous-context-test.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/unit/components/famous-context-test.coffee	(revision )
++++ frontend/tests/unit/components/famous-context-test.coffee	(revision )
+@@ -0,0 +1,17 @@
++`import { test, moduleForComponent } from 'ember-qunit'`
++
++moduleForComponent 'famous-context', 'FamousContextComponent', {
++  # specify the other units that are required for this test
++  # needs: ['component:foo', 'helper:bar']
++}
++
++test 'it renders', ->
++  expect 2
++
++  # creates the component instance
++  component = @subject()
++  equal component.state, 'preRender'
++
++  # appends the component to the page
++  @append()
++  equal component.state, 'inDOM'

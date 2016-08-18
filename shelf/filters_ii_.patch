@@ -1,0 +1,151 @@
+Index: frontend/app/controllers/filtered-users.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/controllers/filtered-users.coffee	(revision )
++++ frontend/app/controllers/filtered-users.coffee	(revision )
+@@ -0,0 +1,31 @@
++`import Ember from 'ember'`
++
++FilteredUsersController = Ember.Controller.extend(
++  needs: ['user', "filters"]
++
++
++
++  currentUser: Ember.computed.alias("controllers.user.currentUser")
++  defaultAvailableUsers: (->
++    [@get("currentUser")]
++  ).property("currentUser")
++
++  usersInKey:Ember.computed.defaultTo('defaultAvailableUsers')
++
++
++
++  filteredUsers:Ember.computed.alias("defaultAvailableUsers")
++
++#  setFilteredUsers:(->
++#      @set('filteredUsers', @get("defaultUsers"))
++#  ).observes("defaultUsers.@each", "selectedUsers", "selectedCohorts", "showingIndividuals")
++
++
++
++  cohortsAvailableToMe:->
++    this.get("store").find("cohort")
++
++  metricSpacesAvailableToMe:->
++    this.get("store").find("metricSpace")
++)
++`export default FilteredUsersController`
+Index: frontend/app/controllers/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/controllers/index.js	(date 1408026802000)
++++ frontend/app/controllers/index.js	(revision )
+@@ -3,5 +3,11 @@
+ 
+ export default Ember.Controller.extend({
+     needs:['user'],
+-    user: Ember.computed.alias('controllers.user.currentUser')
++    user: Ember.computed.alias('controllers.user.currentUser'),
++//    setDefaultUsers: function(){
++//        this.set('defaultUsers', [this.get('user')])
++//    }.observes('user')
++    defaultUsers: function(){
++        return [this.get('user')]
++    }.property('user')
+ });
+Index: frontend/app/templates/index.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/index.hbs	(date 1408026802000)
++++ frontend/app/templates/index.hbs	(revision )
+@@ -1,4 +1,1 @@
+-<div class="split">
+-    <div class="half">{{render 'user' user}}</div>
+-    <div class="half">{{render 'filters'}}</div>
+-</div>
++{{render 'filteredUsers'}}
+\ No newline at end of file
+Index: frontend/tests/unit/controllers/filtered-users-test.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/unit/controllers/filtered-users-test.coffee	(revision )
++++ frontend/tests/unit/controllers/filtered-users-test.coffee	(revision )
+@@ -0,0 +1,12 @@
++`import { test, moduleFor } from 'ember-qunit'`
++
++moduleFor 'controller:filtered-users', 'FilteredUsersController', {
++  # Specify the other units that are required for this test.
++  # needs: ['controller:foo']
++}
++
++# Replace this with your real tests.
++test 'it exists', ->
++  controller = @subject()
++  ok controller
++
+Index: frontend/app/templates/filters.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/filters.hbs	(date 1408026802000)
++++ frontend/app/templates/filters.hbs	(revision )
+@@ -14,7 +14,7 @@
+                         </span>
+                     </li>
+                 {{/each}}
+-            </ul>
++            </ul>e
+             <hr/>
+             <div class="well">
+                 {{j-on-off-switch on='individuals' off='group' checked=showingIndividuals }}
+Index: frontend/app/templates/filtered-users.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/filtered-users.hbs	(revision )
++++ frontend/app/templates/filtered-users.hbs	(revision )
+@@ -0,0 +1,6 @@
++<div class="split">
++    <div class="half">{{render 'users' filteredUsers}}</div>
++    <div class="half">
++        {{render 'filters' }}
++    </div>
++</div>
+Index: frontend/app/controllers/filters.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/controllers/filters.coffee	(date 1408026802000)
++++ frontend/app/controllers/filters.coffee	(revision )
+@@ -2,15 +2,14 @@
+ 
+ 
+ FiltersController = Ember.Controller.extend(
+-  setItems: (->
+-    @set("availableCohorts", this.get("store").find("cohort"))
+-    @set("availableMetricSpaces", this.get("store").find("metricSpace"))
+-    @set "filters", Ember.Object.create(
++  filters: (->
++    Ember.Object.create(
+       user: Ember.A(),
+       metricSpace: Ember.A(),
+       cohort: Ember.A()
+-    )  unless @get("items")
+-  ).on("init")
++    )
++  ).property()
++
+ 
+   usersOrCohorts: Ember.computed.any('selectedCohorts', 'selectedUsers')
+   draggingKey: Ember.computed.bool('keyElement')

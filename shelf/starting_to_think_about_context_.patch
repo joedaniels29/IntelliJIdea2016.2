@@ -1,0 +1,173 @@
+Index: frontend/app/controllers/context-manager.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/controllers/context-manager.js	(revision )
++++ frontend/app/controllers/context-manager.js	(revision )
+@@ -0,0 +1,91 @@
++import Ember from 'ember';
++
++export default Ember.ArrayController.extend({
++    messagesReceived: [],
++    lastMessage: function () {
++        return this.messagesReceived.length ? this.messagesReceived[this.messagesReceived.length - 1] : null
++    },
++    parentUrl: document.referrer,
++    isInIFrame: (window.location != window.parent.location) ? true : false,
++    openDirectly: function (patientid, accNum, archive, callback) {
++        // http://127.0.0.1:2005/RAWebServer?patientID=4320596&accNum=9531868&archive=JHHPeer
++        if (!patientid || isNaN(patientid)) {
++            throw ("PatientIDRequired");
++        }
++        args = {};
++        args['patientID'] = patientid;
++
++        // allow passing in accnum as array
++        if (accNum && !isNaN(accNum)) {
++            args.accNum = accNum;
++        } else if (typeof accNum == "array") {
++            args.accNum = accNum.join("+");
++        }
++        // allow passing of archive
++        if (archive && archive != "") {
++            args.archive = archive;
++        }
++        $.ajax({
++            dataType: "jsonp",
++            url: "http://127.0.0.1:2005/RAWebServer",
++            data: args,
++            error: function (x, s) {
++                if (x.status == 200) {
++                } else {
++                    alert("Could not launch in RadAssist");
++                }
++            },
++            complete: function (x, s) {
++
++            }
++        });
++    },
++    openInPACS: function (acc, mrn, archive) {
++        if (this.isInIFrame) {
++            this._sendMessageToDesktop('{"method":"openInPACS","patient_acc":' + acc + ',"patient_mrn":' + mrn + ',"patient_facility":"' + archive + '"}');
++        } else {
++            this.openDirectly(mrn, acc, archive, null);
++        }
++    },
++    openInRadAssistOnly: function (acc, mrn, archive) {
++        if (!this.isInIFrame) {
++            this.openDirectly(mrn, null, archive, null);
++        } else {
++            this._sendMessageToDesktop('{"method":"openInRadAssistOnly","patient_acc":' + acc + ',"patient_mrn":' + mrn + ',"patient_facility":"' + archive + '"}');
++        }
++    },
++    _sendMessageToDesktop: function (message) {
++        try {
++            $.postMessage(message, document.referrer, window.parent);
++        } catch (x) {
++            throw "Fail";
++        }
++    },
++    spoofContext: function () {
++        cm.messagesReceived.push({
++            accNum: 10206452,
++            method: "openInRadAssistOnly",
++            patientid: 4663131});
++    },
++    startDesktopListener: function () {
++        // Used for context management with web desktop
++        var ele = this;
++        $.receiveMessage(
++            function (e) {
++                console.debug("PeerReviewMessageFromWebdesktop", e);
++                var message = 0;
++                try {
++                    message = $.parseJSON(e.data);
++                } catch (e) {
++                    message = $.parseJSON(e);
++                }
++                message.acc = message.acc || message.patient_acc || message.accNum || null;
++                message.mrn = message.mrn || message.patient_mrn || message.patientid || null;
++
++                cm.messagesReceived.push(message);
++            });
++    },
++    getLatestMessage: function () {
++        this._sendMessageToDesktop('{"method":"getContext"}');
++    }
++});
+Index: frontend/tests/unit/controllers/context-manager-test.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/unit/controllers/context-manager-test.js	(revision )
++++ frontend/tests/unit/controllers/context-manager-test.js	(revision )
+@@ -0,0 +1,12 @@
++import { test, moduleFor } from 'ember-qunit';
++
++moduleFor('controller:context-manager', 'ContextManagerController', {
++  // Specify the other units that are required for this test.
++  // needs: ['controller:foo']
++});
++
++// Replace this with your real tests.
++test('it exists', function() {
++  var controller = this.subject();
++  ok(controller);
++});
+Index: frontend/app/models/session.coffee
+===================================================================
+--- frontend/app/models/session.coffee	(date 1403784482000)
++++ frontend/app/models/session.coffee	(date 1403784482000)
+@@ -1,9 +0,0 @@
+-`import Ember from 'ember';`
+-#`import User from 'frontend/models/user'`
+-#
+-Session = Em.Object.extend
+-  user: null,
+-  init: (userId) ->
+-    @set 'user', User.findById(userId)
+-
+-`export default Session`
+\ No newline at end of file
+Index: frontend/tests/unit/components/tooltip-test.js
+===================================================================
+--- frontend/tests/unit/components/tooltip-test.js	(date 1403784482000)
++++ frontend/tests/unit/components/tooltip-test.js	(date 1403784482000)
+@@ -1,18 +0,0 @@
+-import { test, moduleForComponent } from 'ember-qunit';
+-
+-moduleForComponent('tooltip', 'TooltipComponent', {
+-  // specify the other units that are required for this test
+-  // needs: ['component:foo', 'helper:bar']
+-});
+-
+-test('it renders', function() {
+-  expect(2);
+-
+-  // creates the component instance
+-  var component = this.subject();
+-  equal(component.state, 'preRender');
+-
+-  // appends the component to the page
+-  this.append();
+-  equal(component.state, 'inDOM');
+-});
+Index: frontend/app/templates/components/user-stats-glance.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/components/user-stats-glance.hbs	(date 1403784482000)
++++ frontend/app/templates/components/user-stats-glance.hbs	(revision )
+@@ -2,7 +2,7 @@
+     <li>24 <span>Read</span>
+         {{#a-tooltip class="left"}}This is the total number of cases you have read today{{/a-tooltip}}
+     </li>
+-    <li>2 <span>Reviewed</span>{{#a-tooltip class="above"}}The number of cases that you have peer reviewed today. Try to
++    <li>2 <span>Reviewed</span>{{#a-tooltip class="left"}}The number of cases that you have peer reviewed today. Try to
+         review at
+         least 2.{{/a-tooltip}}</li>
+     <li>4 <span>Available</span>{{#a-tooltip class="below"}}<p>This is the total number of cases you have read

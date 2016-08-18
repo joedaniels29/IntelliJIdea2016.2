@@ -1,0 +1,626 @@
+Index: frontend/app/controllers/order-stats.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/controllers/order-stats.coffee	(date 1410147514000)
++++ frontend/app/controllers/order-stats.coffee	(revision )
+@@ -1,6 +1,6 @@
+ `import Ember from 'ember'`
+-
+-OrderStats = Ember.Controller.extend(
++`import CubistDelegate from 'frontend/mixins/cubist-delegate'`
++OrderStats = Ember.Controller.extend(CubistDelegate,
+ 
+   needs: ["timespan", "filters"]
+   fromDate: Ember.computed.alias("controllers.timespan.fromDate")
+\ No newline at end of file
+Index: frontend/app/mixins/cubist.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/mixins/cubist.coffee	(date 1410147514000)
++++ frontend/app/mixins/cubist.coffee	(revision )
+@@ -1,10 +1,25 @@
+ `import Ember from 'ember'`
+ `import 'vendor/cubism/cubism.v1'`
++`import cubist from 'frontend/models/cubist'`
+ 
+-
+ CubistMixin = Ember.Mixin.create(
+-  context: Ember.computed -> cubism.context()
+-  data:null
++  init: ->
++    this._super()
++    this.addObserver("cubist", this, (sender, key, value, rev)->
++      parent = this.get("parentController.cubist")
++      parent.removeChildCubist(this.get("cubist")) if parent?
++    )
++  cubist: Ember.computed("model", ->
++    parent = this.get("parentController.cubist")
++    c = cubist.create(parent:parent)
++    parent.addChildCubist(c) if parent?
++    return c
++  )
++  context: Ember.computed("model", -> cubism.context())
++  data: Ember.K()
++  actions:
++    updateContext:->
++      this.set("cubist.delegateElement")
+ 
+ 
+ 
+Index: frontend/app/controllers/cohort.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/controllers/cohort.coffee	(date 1410147514000)
++++ frontend/app/controllers/cohort.coffee	(revision )
+@@ -1,31 +1,32 @@
+ `import Ember from 'ember'`
++`import CubistDelegate from 'frontend/mixins/cubist-delegate'`
+ 
+-CohortController = Ember.ObjectController.extend({
++CohortController = Ember.ObjectController.extend(CubistDelegate, {
+ #  alias: (->
+ #    Ember.Object.create(orders: [])
+ #  ).property()
+-  orders:null
++  orders: null
+-  cohort:true
++  cohort: true
+-  orderRatio:Ember.computed.alias("cohortAvgCompliance")
++  orderRatio: Ember.computed.alias("cohortAvgCompliance")
+   setAggValues: (->
+ #    Ember.run.scheduleOnce("afterRender", this, =>
+ #      Ember.changeProperties =>
+-        return unless @get('model')?
+-        Promise.all(@get('model.users').mapBy("orders")).then((orderGroups)=>
++    return unless @get('model')?
++    Promise.all(@get('model.users').mapBy("orders")).then((orderGroups)=>
+ #          Ember.changeProperties =>
+-            avg = 0
+-            aggOrderCount = 0
+-            aggOrders = []
+-            orderGroups.forEach (orders) =>
+-              aggOrders.pushObjects(orders.get("content"))
+-              orderCount = orders.get("length")
+-              aggOrderCount += orderCount
+-              avg += orders.filterBy("outcome", true).get("length") / orderCount
++      avg = 0
++      aggOrderCount = 0
++      aggOrders = []
++      orderGroups.forEach (orders) =>
++        aggOrders.pushObjects(orders.get("content"))
++        orderCount = orders.get("length")
++        aggOrderCount += orderCount
++        avg += orders.filterBy("outcome", true).get("length") / orderCount
+ 
+-            @set('orderCount', aggOrderCount)
+-            @set('cohortAvgCompliance', avg / orderGroups.get('length'))
+-            @set('deOrders', aggOrders)
+-            ""
++      @set('orderCount', aggOrderCount)
++      @set('cohortAvgCompliance', avg / orderGroups.get('length'))
++      @set('deOrders', aggOrders)
++      ""
+ 
+ #      )
+     )).observes('model.users.[]').on('init')
+@@ -38,6 +39,6 @@
+ 
+ 
+ 
+-})
++});
+ 
+ `export default CohortController`
+Index: frontend/app/models/cubist.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/models/cubist.coffee	(date 1410147514000)
++++ frontend/app/models/cubist.coffee	(revision )
+@@ -3,18 +3,54 @@
+ #CubismDataSource = Ember.Object
+ CubismDataSource = Ember.Object.extend(
+ #  metrics:Ember.K
+-  modeling:Ember.K
++  modeling: Ember.K
+-  modelingDateKey:Ember.K
++  modelingDateKey: Ember.K
+   filter: Ember.K
+   labels: Ember.K
+ 
+-  metrics: Ember.K
++  childCubists: (->
++    return []
++  ).property()
++#  metrics: Ember.K
++
++  setRenderables: (->
++    @set("renderables", [])).on("init")
++  elements: ( ->
++    this.get("renderables").reduce(
++      ((previousValue, item)->
++        previousValue.addObject(item["element"]))
++    , []
++    )
++  ).property("renderables.[]")
++
++#  childElements: (->
++#    @get("childCubists").mapBy("elements").reduce(
++#      ((previousValue, item)->
++#        previousValue.addObjects(item.element))
++#    , []
++#    )
++#  ).property("childCubists.[]", "renderables.[]")
++#
++  selection: (->
++    return d3.selectAll(this.get("elements"));
++    d3.selectAll(selectables)
++  ).property("elements")
+   shouldRedraw: Ember.K
+-  chart: () ->
++
++#  add:(renderable)->
++
++  addChildCubist: (c)->
++    @get("childCubists").addObject(c)
++  removeChildCubist: (c)->
++    @get("childCubists").removeObject(c)
++
++
++  chart: (() ->
+     Ember.run.scheduleOnce "render", this, =>
+       kContext = @get("context")
++      if !kContext?
+-      console.log("needs context")
++        console.log("needs context")
+-      return unless kContext?
++        return
+ 
+       kWidth = @get("givenWidth")
+       kWidth ?= 400
+@@ -28,84 +64,81 @@
+ 
+       kColors = @get("colors")
+       kLabels = @get('labels')
+-      dElement = @get("cubist.delegateElement")
++      kElements = @get("elements")
++      dElement = @get("delegateElement")
++      kSelection = @get("selection")
++      return unless dElement?
++      return unless kElements? && kElements.length > 0
+ 
+ 
+-      selection = dElement.selectAll(".graph")
+-      selection.data([selection], (d) -> return kWidth )
++      selection = kSelection.select(".graph")
++      selection.data(selection)
+ 
+-      element.enter().append("div").attr('class','graph')
++      graphs = element.enter().append("div").attr('class', 'graph')
++
+       element.exit().remove()
+-      element = d3.select(kElementID).select(".graph")
+-      kMetrics = @get('cubismMetrics')
++      #      element = d3.select(kElementID).select(".graph")
++      kRenderables = @get('renderables')
+ 
+-      #    kMetrics ?= (@metric(o, kContext) for o in groupsOfValues )
++      #    kRenderables ?= (@metric(o, kContext) for o in groupsOfValues )
+ 
+       #    return unless kContext.rule?
+       # Add a vertical dateline (rule) to the graph
+-      element.selectAll(".rule").call(kContext.rule())
++      #      element.selectAll(".rule").call(kContext.rule())
+ 
+-      kElementID = "#" + @get("elementId")
++      #      kElementID = "#" + @get("elementId")
+       #top, bottom axises
+-      element = element.select(kElementID)
++      #      element = element.select(kElementID)
+ 
+-      element.selectAll(".axis")
+-      .data(["top"])
+-      .enter()
+-      .append("div")
+-      .attr("class", (d) -> # For each of these axes, draw the axes with 4
+-        d + " axis"
+-      ).each((d) ->
+-        d3.select(this).call(kContext.axis().ticks(kTicks).orient(d))
+-      )
++      #      element.selectAll(".axis")
++      #      .data(["top"])
++      #      .enter()
++      #      .append("div")
++      #      .attr("class", (d) -> # For each of these axes, draw the axes with 4
++      #        d + " axis"
++      #      ).each((d) ->
++      #        d3.select(this).call(kContext.axis().ticks(kTicks).orient(d))
++      #      )
+ 
+       # add a horizon graph and format as percentage
+-      element.selectAll(".user .horizon, .user .horizon")
+-      .data(kMetrics)
+-      .enter().call(->
++      dElement.selectAll(@get("elements"))
++      .data(kRenderables)
++      .enter().each((e)->
++        e.drawableHorizon(e.element)
++      ).exit()
+ 
+ 
+-
+-
+-      )
+-#      .insert("div", ".bottom")
+-      .attr("class", "horizon")
+-      .call(
+-        kContext.horizon()
+-        .height(kHeight)
+-        .title((object, i) ->
+-          kLabels?.objectAt(i) || ""
+-        )
+-        .format(d3.format("%"))
+-        .metric((d, i) ->
+-          kMetrics[i]
+-        ).extent([0, 1])
+-        .colors (ctxt, index)->
+-          [kColors(index), kColors(index)]
+-      )
+-
+       #Make the labels move with the dateline
+       kContext.on "focus", (i) ->
+-        d3.selectAll(".value").style "right", (if not i? then null else kContext.size() - i + "px")
++        d3.selectAll(@get("elements")).selectAll(".value").style "right", (if not i? then null else kContext.size() - i + "px")
++  ).observes("renderables.[]", "delegateElement")
+ 
++  addRenderable: (r)->
++    @get("renderables").addObject(r)
+ 
++  removeRenderable: (element)->
++    @set("renderables", @get("renderables").rejectBy("element", element))
+ 
+-  stepDidChange:(-> @get('context').step(@get("step"))).observes('step').on('init')
+-  sizeDidChange:(-> @get('context').size(@get("size"))).observes('size').on('init')
+-  fromDidChange:(-> @get('context').serverDelay(@get("size"))).observes('from').on('init')
++
++
++  stepDidChange: (->
++    @get('context').step(@get("step"))).observes('step').on('init')
++  sizeDidChange: (->
++    @get('context').size(@get("size"))).observes('size').on('init')
++  fromDidChange: (->
++    @get('context').serverDelay(@get("size"))).observes('from').on('init')
+   stop: ->
+     @get('context').stop()
+ 
+-  init:->
++  init: ->
+     @_super()
+-#    emberified
++    #    emberified
+     @set("context", cubism.context().step(4 * 24 * 60 * 60 * 1000).size(400).stop())
+     @set("to_date", moment().subtract('days', 10).toDate())
+     @set("from_date", moment().subtract('days', 10).toDate())
+     @set("step", 4 * 24 * 60 * 60 * 1000)
+     @set("size", 360)
+     @stop()
+-
+ )
+ 
+ 
+Index: frontend/app/components/j-timeline.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/components/j-timeline.coffee	(date 1410147514000)
++++ frontend/app/components/j-timeline.coffee	(revision )
+@@ -25,80 +25,99 @@
+     d3.scale.linear().domain([0, g]).range(colorRange);
+   ).property("colorRange")
+ 
+-  givenWidth:null
++  givenWidth: null
+ 
++  renderable: (->
++    kContext.horizon()
++    .height(kHeight)
++    .title((object, i) ->
++      kLabels?.objectAt(i) || ""
++    )
++    .format(d3.format("%"))
++    .metric((d, i) ->
++      kMetrics[i]
++    ).extent([0, 1])
++    .colors (ctxt, index) ->
++      [kColors(index), kColors(index)]
++  )
+ 
+-
+   chart: () ->
+-    @get("cubist").add()
++#    kElementID = "#" + @get("elementId")
++    #top, bottom axises
++    element = @get("element")
++    d3_element = d3.select(element)
++    if !d3_element.length > 0
++      throw new EmberError("len mosut be reater then zero")
++
++    d3_element.append("div").attr("class", "cubist-context")
+     kWidth = @get("givenWidth")
+     kWidth ?= 400
+     kContext = @get("cubismContext") #cubism.context().step(4 * 24 * 60 * 60 * 1000).size(kWidth).stop();
+     return unless kContext?
+-#    groupsOfValues = @get("groupedValues")
+-#    groupsOfValues ||= []
++    #    groupsOfValues = @get("groupedValues")
++    #    groupsOfValues ||= []
+     kContext.size(kWidth)
+     kTicks = @get("ticks")
+     kHeight = @get("rowHeight")
+ 
+     kColors = @get("colors")
+-    kLabels = @get('labels')
+-    dElement = @get("cubist.delegateElement")
++    kLabel = @get('label')
+ 
+-    selection = dElement.selectAll(".graph")
+-    selection.data([selection], (d) -> return kWidth )
+ 
+-    element.enter().append("div").attr('class','graph')
+-    element.exit().remove()
+-    element = d3.select(kElementID).select(".graph")
+     kMetrics = @get('cubismMetrics')
+ 
+-#    kMetrics ?= (@metric(o, kContext) for o in groupsOfValues )
++    #    kMetrics ?= (@metric(o, kContext) for o in groupsOfValues )
+ 
+-#    return unless kContext.rule?
++    #    return unless kContext.rule?
+     # Add a vertical dateline (rule) to the graph
+-    element.selectAll(".rule").call(kContext.rule())
++    d3_element.selectAll(".rule").call(kContext.rule())
+ 
+-    kElementID = "#" + @get("elementId")
+-    #top, bottom axises
+-    element = element.select(kElementID)
+-
+-    element.selectAll(".axis")
++    drawableAxis = (d3e)->
++      d3e.selectAll(".axis")
+-    .data(["top"])
+-    .enter()
+-    .append("div")
+-    .attr("class", (d) -> # For each of these axes, draw the axes with 4
+-      d + " axis"
+-    ).each((d) ->
+-      d3.select(this).call(kContext.axis().ticks(kTicks).orient(d))
+-    )
++      .data(["top"])
++      .enter()
++      .append("div")
++      .attr("class", (d) -> # For each of these axes, draw the axes with 4
++        d + " axis"
++      ).each((d) ->
++        d3.select(this).call(kContext.axis().ticks(kTicks).orient(d))
++      )
+ 
+     # add a horizon graph and format as percentage
+-    element.selectAll(".horizon")
+-    .data(kMetrics)
++    drawableHorizon = (d3e) ->
++      d3e.select("horizon")
++      .datum(metric)
+-    .enter()
+-    .insert("div", ".bottom")
+-    .attr("class", "horizon")
+-    .call(
+-      kContext.horizon()
+-      .height(kHeight)
+-      .title((object, i) ->
+-        kLabels?.objectAt(i) || ""
+-      )
+-      .format(d3.format("%"))
+-      .metric((d, i) ->
+-        kMetrics[i]
+-      ).extent([0, 1])
+-      .colors (ctxt, index)->
+-        [kColors(index), kColors(index)]
+-    )
++      .enter()
++      .insert("div", ".bottom")
++      .attr("class", "horizon")
++      .call(
++        kContext.horizon()
++        .height(kHeight)
++        .title((object, i) ->
++          kLabels?.objectAt(i) || ""
++        )
++        .format(d3.format("%"))
++        .metric((d, i) ->
++          kMetrics[i]
++        ).extent([0, 1])
++        .colors (ctxt, index)->
++          [kColors(index), kColors(index)]
++      )
+ 
++
++    @get("cubist").addRenderable(
++      {
++        element: element
++        drawableHorizon: drawableHorizon
++      }
++    )
++
++
+-    #Make the labels move with the dateline
++#Make the labels move with the dateline
+-    kContext.on "focus", (i) ->
+-      d3.selectAll(".value").style "right", (if not i? then null else kContext.size() - i + "px")
+ 
+ 
+ 
++
+   rowCountDidChange: (->
+     @updateHeight()
+   ).observes('rowCount')
+@@ -121,7 +140,7 @@
+     @set("height", height)
+ 
+ 
+-  shouldRedrawForPropertyChange:(->
++  shouldRedrawForPropertyChange: (->
+     Ember.run.scheduleOnce("render", this, @chart)
+ #    @chart()
+   ).observes('givenWidth', 'cubismMetrics.[]', "cubist")
+@@ -129,6 +148,8 @@
+   didInsertElement: ->
+     @updateHeight()
+     Ember.run.scheduleOnce("render", this, @chart)
++  willDestroyElement: ->
++    @get("cubist").removeRenderable(@get("element"))
+ )
+ 
+ `export default JTimelineComponent`
+Index: frontend/tests/unit/mixins/cubist-context-creator-test.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/unit/mixins/cubist-context-creator-test.coffee	(revision )
++++ frontend/tests/unit/mixins/cubist-context-creator-test.coffee	(revision )
+@@ -0,0 +1,10 @@
++`import Ember from 'ember'`
++`import CubistContextCreatorMixin from 'frontend/mixins/cubist-context-creator'`
++
++module 'CubistContextCreatorMixin'
++
++# Replace this with your real tests.
++test 'it works', ->
++  CubistContextCreatorObject = Ember.Object.extend CubistContextCreatorMixin
++  subject = CubistContextCreatorObject.create()
++  ok subject
+Index: frontend/app/controllers/users.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/controllers/users.coffee	(date 1410147514000)
++++ frontend/app/controllers/users.coffee	(revision )
+@@ -1,6 +1,7 @@
+ `import Ember from 'ember'`
++`import CubistMixin from 'frontend/mixins/cubist'`
+ 
+-UsersController = Ember.ArrayController.extend(
++UsersController = Ember.ArrayController.extend(CubistMixin,
+   needs: ['user', 'cohort',"filters"]
+   itemController: "user"
+   self: Ember.computed(-> this)
+Index: frontend/app/controllers/user.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/controllers/user.coffee	(date 1410147514000)
++++ frontend/app/controllers/user.coffee	(revision )
+@@ -1,6 +1,7 @@
+ `import Ember from 'ember'`
++`import CubistDelegate from 'frontend/mixins/cubist-delegate'`
+ 
+-UserController = Ember.Controller.extend(
++UserController = Ember.Controller.extend(CubistDelegate,
+   orders: null,
+   ordersets: null,
+   currentUser: null,
+Index: frontend/app/mixins/cubist-context-creator.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/mixins/cubist-context-creator.coffee	(revision )
++++ frontend/app/mixins/cubist-context-creator.coffee	(revision )
+@@ -0,0 +1,13 @@
++`import Ember from 'ember'`
++
++CubistContextCreatorMixin = Ember.Mixin.create({
++
++    didInsertElement: ->
++#      @get("controller").send("updateContext", @get("element"))
++    willDestroyElement: ->
++#      @get("controller").send("updateContext", null)
++
++  }
++)
++
++`export default CubistContextCreatorMixin`
+Index: frontend/tests/unit/mixins/cubist-delegate-test.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/unit/mixins/cubist-delegate-test.coffee	(revision )
++++ frontend/tests/unit/mixins/cubist-delegate-test.coffee	(revision )
+@@ -0,0 +1,10 @@
++`import Ember from 'ember'`
++`import CubistDelegateMixin from 'frontend/mixins/cubist-delegate'`
++
++module 'CubistDelegateMixin'
++
++# Replace this with your real tests.
++test 'it works', ->
++  CubistDelegateObject = Ember.Object.extend CubistDelegateMixin
++  subject = CubistDelegateObject.create()
++  ok subject
+Index: frontend/app/mixins/cubist-delegate.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/mixins/cubist-delegate.coffee	(revision )
++++ frontend/app/mixins/cubist-delegate.coffee	(revision )
+@@ -0,0 +1,16 @@
++`import Ember from 'ember'`
++
++CubistDelegateMixin = Ember.Mixin.create({
++    init:(->
++      this._super()
++
++    )
++    cubist:Ember.computed.alias("parentController.cubist")
++
++
++  }
++
++
++)
++
++`export default CubistDelegateMixin`
+Index: frontend/app/initializers/cubism.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/initializers/cubism.coffee	(date 1410147514000)
++++ frontend/app/initializers/cubism.coffee	(revision )
+@@ -4,10 +4,10 @@
+ 
+   # container, app is passed to initialize - add if you need them (you probably do)
+   initialize: (container,app) ->
+-    container.register('cubist:main', cubist, { singleton: true });
+-    app.inject('controller', 'cubist', 'cubist:main');
+-    app.inject('view', 'cubist', 'cubist:main');
+-    app.inject('component', 'cubist', 'cubist:main');
++#    container.register('cubist:main', cubist, { singleton: true });
++#    app.inject('controller', 'cubist', 'cubist:main');
++#    app.inject('view', 'cubist', 'cubist:main');
++#    app.inject('component', 'cubist', 'cubist:main');
+ 
+ 
+ `export default CubismInitializer`

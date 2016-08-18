@@ -1,0 +1,21 @@
+<application>
+  <component name="AppserversManager">
+    <ServerDK NAME="GlassFish 4.0.0">
+      <option name="SOURCE_INTEGRATION_NAME" value="Glassfish Server" />
+      <DATA>
+        <option name="HOME" value="$USER_HOME$/Projects/Work/glassfish4" />
+      </DATA>
+    </ServerDK>
+    <LibraryTable>
+      <library name="GlassFish 4.0.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Projects/Work/glassfish4/glassfish/modules/javax.ejb-api.jar!/" />
+          <root url="jar://$USER_HOME$/Projects/Work/glassfish4/glassfish/modules/javax.servlet-api.jar!/" />
+          <root url="jar://$USER_HOME$/Projects/Work/glassfish4/glassfish/modules/javax.servlet.jsp-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </LibraryTable>
+  </component>
+</application>

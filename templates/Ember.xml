@@ -1,0 +1,138 @@
+<templateSet group="Ember">
+  <template name="ecc" value="Ember.computed.$NAME$($END$)," description="Ember.computed" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="pecp" value="$property$:Ember.computed($deps$, function(){&#10;    $END$&#10;})," description="computed Property" toReformat="false" toShortenFQNames="true">
+    <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="deps" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ohai" value="alert(&quot;hai Gurl&quot;); " description="Hai Gurl" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="eca" value="Ember.computed.alias(&quot;$END$&quot;)," description="computed alias" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impE" value="import Ember from 'ember'&#10;&#10;" description="Import ember" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="impED" value="import DS from 'ember-data'&#10;&#10;" description="Import Ember Data" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="ecp" value="Ember.computed($deps$, function(){&#10;    $END$&#10;})," description="computed Property" toReformat="false" toShortenFQNames="true">
+    <variable name="deps" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="eis" value="Ember.inject.service($NAME$),&#10;$END$" description="Inject Ember service" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="eeach" value="{{#each $MODEL$ as |element|}}&#10;    $END$&#10;{{/each}}" shortcut="TAB" description="Ember each loop" toReformat="false" toShortenFQNames="true">
+    <variable name="MODEL" expression="" defaultValue="&quot;model&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="yyield" value="{{yield}}" shortcut="TAB" description="Ember yield" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="iif" value="{{#if $MODEL$ }}&#10;    $END$&#10;{{else}}&#10;{{/if}}" shortcut="TAB" description="Ember each loop" toReformat="false" toShortenFQNames="true">
+    <variable name="MODEL" expression="" defaultValue="&quot;model&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="tg" value="this.get(&quot;$NAME$&quot;)$END$" description="this.get" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="ts" value="this.set(&quot;$NAME$&quot;, $VAL$)$END$" description="this.set" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="val" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="ssup" value="this._super(...arguments)" description="call super" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="llt" value="{{link-to &quot;$PATH$&quot; $END$ }}" shortcut="TAB" description="link-to" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name=",llt" value="{{#link-to &quot;$PATH$&quot;}} $END$ {{/link-to}}" shortcut="TAB" description="link-to" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="oout" value="{{outlet}}" shortcut="TAB" description="Ember outlet" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="mmodel" value="model(params){&#10;    this.get(&quot;store&quot;).find$END$;&#10;}&#10;" description="generate model" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name=",btn" value="&lt;button {{action &quot;$ACTION$&quot; $NEXT$}}&gt; $TITLE$ &lt;/button&gt;$END$" shortcut="TAB" description="Button" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name=",iinput" value="&lt;label for=&quot;$ID$&quot;&gt; $CONTENT$&lt;/label&gt;&#10;{{input id=&quot;$ID$&quot; type=&quot;$TYPE$&quot; value=$BINDING$}}$END$" shortcut="TAB" description="Ember input" toReformat="false" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="ID" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="text" alwaysStopAt="true" />
+    <variable name="BINDING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name=".g" value=".get(&quot;$NAME$&quot;)$END$" description=".get" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name=".s" value=".set(&quot;$NAME$&quot;, $VAL$)$END$" description=".set" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="val" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name=".then" value=".then(($MODEL$)=&gt;{&#10;    return $END$&#10; })" description=".then" toReformat="false" toShortenFQNames="true">
+    <variable name="MODEL" expression="" defaultValue="&quot;m&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name=",fa" value="{{fa-icon &quot;$LABEL$&quot; size=1}}$END$  " shortcut="TAB" description="Font awesome" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

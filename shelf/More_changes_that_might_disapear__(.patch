@@ -1,0 +1,357 @@
+Index: frontend/app/components/a-tooltip.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/components/a-tooltip.js	(revision )
++++ frontend/app/components/a-tooltip.js	(revision )
+@@ -0,0 +1,6 @@
++import Ember from 'ember';
++
++export default Ember.Component.extend({
++    tagName:'aside',
++    classNames:['tooltip']
++});
+Index: frontend/app/styles/tooltip.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/tooltip.scss	(revision )
++++ frontend/app/styles/tooltip.scss	(revision )
+@@ -0,0 +1,50 @@
++li {
++  $tooltip-background: transparentize($dark-gray, 0.1);
++  $tooltip-color: white;
++  $tooltip-width: 16em;
++  $tooltip-arrow-width: 8px;
++
++  border: 1px solid $base-border-color;
++  padding: .5em 1em;
++  border-radius: $base-border-radius;
++  position: relative;
++  margin-bottom: $base-line-height;
++
++  &:hover .tooltip {
++    opacity: 1;
++    visibility: visible;
++  }
++
++  .tooltip {
++    @include position(absolute, 0 0 0 50%);
++    @include box-sizing(border-box);
++    @include transition (all 0.2s ease-in-out);
++    top: 130%;
++    background-color: $tooltip-background;
++    border-radius: $base-border-radius;
++    color: $tooltip-color;
++    font-size: .9em; // Make sure you use -webkit-backface-visibility: hidden; on the body element to prevent 1px nudging bugs.
++    line-height: 1.5em;
++    margin-left: -($tooltip-width/2);
++    opacity: 0;
++    padding: 1em;
++    text-align: center;
++    visibility: hidden;
++    min-width: $tooltip-width;
++    z-index: 10;
++
++    p {
++      margin-bottom: 0;
++    }
++
++    &:after {
++      @include position(absolute, 0 0 0 50%);
++      margin-left: -$tooltip-arrow-width;
++      border: $tooltip-arrow-width solid transparent;
++      border-top-color: $tooltip-background;
++      content: '';
++      pointer-events: none;
++      top: -$tooltip-arrow-width*2;
++    }
++  }
++}
+Index: frontend/app/styles/header.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/header.scss	(revision )
++++ frontend/app/styles/header.scss	(revision )
+@@ -0,0 +1,10 @@
++#container{
++  @include outer-container;
++  header{
++    @include span-columns(3);
++  }
++  main{
++    @include span-columns(9);
++  }
++
++}
+\ No newline at end of file
+Index: frontend/app/templates/components/a-tooltip.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/components/a-tooltip.hbs	(revision )
++++ frontend/app/templates/components/a-tooltip.hbs	(revision )
+@@ -0,0 +1,1 @@
++{{yield}}
+Index: frontend/tests/unit/components/tooltip-test.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/unit/components/tooltip-test.js	(revision )
++++ frontend/tests/unit/components/tooltip-test.js	(revision )
+@@ -0,0 +1,18 @@
++import { test, moduleForComponent } from 'ember-qunit';
++
++moduleForComponent('tooltip', 'TooltipComponent', {
++  // specify the other units that are required for this test
++  // needs: ['component:foo', 'helper:bar']
++});
++
++test('it renders', function() {
++  expect(2);
++
++  // creates the component instance
++  var component = this.subject();
++  equal(component.state, 'preRender');
++
++  // appends the component to the page
++  this.append();
++  equal(component.state, 'inDOM');
++});
+Index: frontend/app/templates/application.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/application.hbs	(date 1403677862000)
++++ frontend/app/templates/application.hbs	(revision )
+@@ -1,16 +1,15 @@
++<div id="container">
+-<header class = 'global'>
++    <header class='global'>
+-    {{render 'welcome-splash'}}
++        {{render 'welcome-splash'}}
+ 
+-    {{render 'navigation'}}
+-</header>
+-<main>
++        {{render 'navigation'}}
++    </header>
++    <main>
+-
+-    {{outlet}}
++        {{outlet}}
++
+-    <div class="push"></div>
+-</main>
++        <div class="push"></div>
++    </main>
+-<!--<div class="wrapper-for-content-outside-of-footer">
+-   Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer
+-</div>-->
++</div>
+ 
+ 
+ {{render 'footer'}}
+\ No newline at end of file
+Index: frontend/app/styles/user-stats-glance.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/user-stats-glance.scss	(date 1403677862000)
++++ frontend/app/styles/user-stats-glance.scss	(revision )
+@@ -10,18 +10,22 @@
+ 
+ .user-stats-glance {
+   padding: $base-line-height/2 $gutter/2;
+-  overflow: auto;
+-
++//  overflow: auto;
++  @include clearfix();
+   ul li {
+-    display: inline;
+     color: $card-stats-color;
+     font-weight: 800;
+     font-size: 1.2em;
+-    float: left;
+-    border-right: 1px solid transparentize($base-font-color, .8);
+     line-height: 1.1em;
++    @include media( $medium-screen) {
++//      float: left;
++      border-right: 1px solid transparentize($base-font-color, .8);
++//      display: inline;
+-    padding: 0 .7em 0 .7em;
++      padding: 0 .7em 0 .7em;
+-
++      span{
++//        display: block;
++      }
++    }
+     &:first-child {
+       padding-left: 0;
+     }
+@@ -29,11 +33,11 @@
+     &:last-child {
+       border-right: 0;
+     }
+-
+     span {
+       color: $base-font-color;
+       font-size: .7em;
+-      display: block;
++      text-align: left;
++      
+       font-weight: normal;
+     }
+   }
+Index: frontend/app/templates/components/user-stats-glance.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/components/user-stats-glance.hbs	(date 1403677862000)
++++ frontend/app/templates/components/user-stats-glance.hbs	(revision )
+@@ -1,5 +1,8 @@
+ <ul>
+-    <li>98<span>Read Today</span></li>
+-    <li>298<span>Reviewed Today</span></li>
+-    <li>923<span>Available</span></li>
++    <li>24 <span>Read</span>
++        {{#a-tooltip}}This is the total number of cases you have read today{{/a-tooltip}}
++    </li>
++    <li>2 <span>Reviewed</span>{{#a-tooltip}}The number of cases that you have peer reviewed today. Try to review at
++        least 2.{{/a-tooltip}}</li>
++    <li>4 <span>Available</span>{{#a-tooltip}}This is the total number of cases you have read today{{/a-tooltip}}</li>
+ </ul>
+Index: frontend/app/styles/includes-and-overrides.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/includes-and-overrides.scss	(date 1403677862000)
++++ frontend/app/styles/includes-and-overrides.scss	(revision )
+@@ -84,3 +84,4 @@
+ 
+ $tooltip-wait: 1.6s;
+ 
++$max-width: em(1088);
+\ No newline at end of file
+Index: frontend/app/styles/app.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/app.scss	(date 1403677862000)
++++ frontend/app/styles/app.scss	(revision )
+@@ -1,6 +1,8 @@
+ 
+ @import "includes-and-overrides";
+ @import "splash";
++@import "tooltip";
++@import "header";
+ @import "navigation";
+ @import "user-stats-glance";
+ @import 'footer';
+\ No newline at end of file
+Index: frontend/app/styles/splash.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/splash.scss	(date 1403677862000)
++++ frontend/app/styles/splash.scss	(revision )
+@@ -1,14 +1,14 @@
+ .welcome-splash {
+-  $image-gradient-color-top: orange;
+-  $transparency-top: .95;
+-  $image-gradient-color-bottom: teal;
+-  $transparency-bottom: 1;
+-  $vertical-angle: 10deg;
++//  $image-gradient-color-top: orange;
++//  $transparency-top: .95;
++//  $image-gradient-color-bottom: teal;
++//  $transparency-bottom: 1;
++//  $vertical-angle: 10deg;
+ 
+-  $image-gradient-color-left: teal;
+-  $transparency-left: .8;
+-  $image-gradient-color-right: yellow;
+-  $transparency-right: .8;
++//  $image-gradient-color-left: teal;
++//  $transparency-left: .8;
++//  $image-gradient-color-right: yellow;
++//  $transparency-right: .8;
+ //  $horizontal-angle: 90deg;
+ 
+   position: relative;
+Index: frontend/app/styles/navigation.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/navigation.scss	(date 1403677862000)
++++ frontend/app/styles/navigation.scss	(revision )
+@@ -18,12 +18,7 @@
+ 
+ 
+     }
+-    &:after {
+-      content: '';
+-      
++
+-//      display: block;
+-      @include position(absolute, 0px 0px 0px 0px);
+-    }
+     &:hover {
+       @include transition (all .8s ease-in-out);
+       @include linear-gradient($base01, $base02);
+Index: frontend/app/templates/navigation.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/navigation.hbs	(date 1403677862000)
++++ frontend/app/templates/navigation.hbs	(revision )
+@@ -1,25 +1,26 @@
+ <ul>
+     <li>{{#link-to 'index'}}Random Exams{{/link-to}}
+-        <aside class="tooltip">
++        {{#a-tooltip}}
+             <p>Reports written recently from people who have as a specialty, your primary specialty.</p>
+-        </aside>
++        {{/a-tooltip}}
++
+     </li>
+ 
+     <li>{{#link-to 'index'}}Group Review{{/link-to}}
+-        <aside class="tooltip">
++        {{#a-tooltip}}
+             <p> These cases have been marked as particularly useful for group review.</p>
+-        </aside>
++        {{/a-tooltip}}
+     </li>
+ 
+     <li>{{#link-to 'index'}}My Stats{{/link-to}}
+-        <aside class="tooltip">
++        {{#a-tooltip}}
+             <p>View your total participation in peer review. </p>
+-        </aside>
++        {{/a-tooltip}}
+     </li>
+ 
+     <li>{{#link-to 'index'}}Reporting{{/link-to}}
+-        <aside class="tooltip">
++        {{#a-tooltip}}
+             <p>View Department Statistics</p>
+-        </aside>
++        {{/a-tooltip}}
+     </li>
+ </ul>
+\ No newline at end of file

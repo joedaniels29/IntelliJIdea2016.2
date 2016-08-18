@@ -1,0 +1,395 @@
+Index: frontend/app/views/welcome-splash.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/views/welcome-splash.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/app/views/welcome-splash.js	(revision )
+@@ -1,3 +1,4 @@
++import Ember from 'ember';
+ var WelcomeSplashView = Ember.View.extend({
+     tagName: 'aside',
+     classNames:['welcome-splash']
+Index: frontend/app/components/user-stats-glance.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/components/user-stats-glance.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/app/components/user-stats-glance.js	(revision )
+@@ -1,3 +1,4 @@
++import Ember from 'ember';
+ var UserStatsGlanceComponent = Ember.Component.extend({
+     tagName:'section',
+     classNames:['user-stats-glance']
+Index: frontend/app/router.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/router.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/app/router.js	(revision )
+@@ -1,5 +1,7 @@
++import Ember from 'ember';
++
+ var Router = Ember.Router.extend({
+-  location: ENV.locationType
++  location: FrontendENV.locationType
+ });
+ 
+ Router.map(function() {
+Index: frontend/app/views/footer.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/views/footer.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/app/views/footer.js	(revision )
+@@ -1,3 +1,5 @@
++import Ember from 'ember';
++
+ var FooterView = Ember.View.extend({
+     tagName: 'footer'
+ });
+Index: frontend/config/environment.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/config/environment.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/config/environment.js	(revision )
+@@ -1,10 +1,15 @@
++/* jshint node: true */
++
+ module.exports = function(environment) {
+   var ENV = {
++    environment: environment,
+     baseURL: '/',
+     locationType: 'auto',
++    EmberENV: {
+-    FEATURES: {
+-      // Here you can enable experimental features on an ember canary build
+-      // e.g. 'with-controller': true
++      FEATURES: {
++        // Here you can enable experimental features on an ember canary build
++        // e.g. 'with-controller': true
++      }
+     },
+ 
+     APP: {
+Index: frontend/Brocfile.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/Brocfile.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/Brocfile.js	(revision )
+@@ -2,33 +2,19 @@
+ 
+ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+ 
+-var app = new EmberApp({
+-  name: require('./package.json').name,
++var app = new EmberApp();
+ 
+-  minifyCSS: {
+-    enabled: true,
+-    options: {}
+-  },
+-
+-  getEnvJSON: require('./config/environment')
+-});
+-
+-// Use this to add additional libraries to the generated output files.
+-app.import('vendor/ember-data/ember-data.js');
+-
+-// If the library that you are including contains AMD or ES6 modules that
+-// you would like to import into your application please specify an
+-// object with the list of modules as keys along with the exports of each
+-// module as its value.
+-app.import('vendor/ic-ajax/dist/named-amd/main.js', {
+-  'ic-ajax': [
+-    'default',
+-    'defineFixture',
+-    'lookupFixture',
+-    'raw',
+-    'request',
+-  ]
+-});
+-
++// Use `app.import` to add additional libraries to the generated
++// output files.
++//
++// If you need to use different assets in different
++// environments, specify an object as the first parameter. That
++// object's keys should be the environment name and the values
++// should be the asset to use in that environment.
++//
++// If the library that you are including contains AMD or ES6
++// modules that you would like to import into your application
++// please specify an object with the list of modules as keys
++// along with the exports of each module as its value.
+ 
+ module.exports = app.toTree();
+Index: frontend/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/.gitignore	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/.gitignore	(revision )
+@@ -7,14 +7,11 @@
+ # dependencies
+ /node_modules
+ /vendor/*
+-!/vendor/_loader.js
+ 
+ # misc
+ /.sass-cache
+ /connect.lock
+-/libpeerconnection.log
+-.DS_Store
+-Thumbs.db
+ /coverage/*
++/libpeerconnection.log
+ npm-debug.log
+ testem.log
+Index: frontend/testem.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/testem.json	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/testem.json	(revision )
+@@ -1,7 +1,6 @@
+ {
+   "framework": "qunit",
+   "test_page": "tests/index.html",
+-  "cwd": "tmp/output",
+   "launch_in_ci": ["PhantomJS"],
+   "launch_in_dev": ["PhantomJS", "Chrome"]
+ }
+Index: frontend/app/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/index.html	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/app/index.html	(revision )
+@@ -9,15 +9,18 @@
+ 
+     {{BASE_TAG}}
+ 
++    <link rel="stylesheet" href="assets/vendor.css">
+     <link rel="stylesheet" href="assets/frontend.css">
+   </head>
+   <body>
+     <script>
+-      window.ENV = {{ENV}};
++      window.FrontendENV = {{ENV}};
++      window.EmberENV = window.FrontendENV.EmberENV;
+     </script>
++    <script src="assets/vendor.js"></script>
+     <script src="assets/frontend.js"></script>
+     <script>
+-      window.Frontend = require('frontend/app')['default'].create(ENV.APP);
++      window.Frontend = require('frontend/app')['default'].create(FrontendENV.APP);
+     </script>
+   </body>
+ </html>
+Index: frontend/app/routes/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/routes/index.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/app/routes/index.js	(revision )
+@@ -1,1 +1,2 @@
++import Ember from 'ember';
+ export default Ember.Route.extend({});
+Index: frontend/app/app.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/app.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/app/app.js	(revision )
+@@ -1,3 +1,4 @@
++import Ember from 'ember';
+ import Resolver from 'ember/resolver';
+ import loadInitializers from 'ember/load-initializers';
+ 
+Index: frontend/vendor/_loader.js
+===================================================================
+--- frontend/vendor/_loader.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/vendor/_loader.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
+@@ -1,1 +0,0 @@
+-// Hack for  https://github.com/joliss/broccoli-es6-concatenator/issues/9
+Index: frontend/app/views/navigation.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/views/navigation.js	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/app/views/navigation.js	(revision )
+@@ -1,3 +1,4 @@
++import Ember from 'ember';
+ var NavigationView = Ember.View.extend({
+ tagName:'nav'
+ });
+Index: frontend/bower.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/bower.json	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/bower.json	(revision )
+@@ -6,14 +6,15 @@
+     "qunit": "~1.12.0",
+     "ember-qunit": "~0.1.5",
+     "ember": "1.5.1",
+-    "ember-data": "1.0.0-beta.7",
+-    "ember-resolver": "stefanpenner/ember-jj-abrams-resolver#master",
+-    "ic-ajax": "~1.x",
++    "ember-resolver": "~0.1.1",
+     "loader": "stefanpenner/loader.js#1.0.0",
+-    "ember-cli-shims": "stefanpenner/ember-cli-shims#0.0.1",
+-    "ember-load-initializers": "stefanpenner/ember-load-initializers#0.0.1",
++    "ember-cli-shims": "stefanpenner/ember-cli-shims#0.0.2",
++    "ember-load-initializers": "stefanpenner/ember-load-initializers#0.0.2",
++    "ember-qunit-notifications": "^0.0.1",
++    "ember-cli-test-loader": "rjackson/ember-cli-test-loader#0.0.2",
++
+-    "bower-bourbon": "latest",
+-    "bower-neat": "latest",
+-    "bower-bitters": "latest"
++      "bower-bourbon": "latest",
++      "bower-neat": "latest",
++      "bower-bitters": "latest"
+   }
+ }
+Index: frontend/tests/.jshintrc
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/.jshintrc	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/tests/.jshintrc	(revision )
+@@ -25,6 +25,9 @@
+     "ok",
+     "strictEqual",
+     "module",
++    "moduleFor",
++    "moduleForComponent",
++    "moduleForModel",
+     "process",
+     "expect",
+     "visit",
+Index: frontend/tests/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/tests/index.html	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/tests/index.html	(revision )
+@@ -9,6 +9,7 @@
+ 
+     {{BASE_TAG}}
+ 
++    <link rel="stylesheet" href="assets/vendor.css">
+     <link rel="stylesheet" href="assets/frontend.css">
+     <link rel="stylesheet" href="assets/qunit.css">
+     <style>
+@@ -33,14 +34,17 @@
+     <div id="qunit-fixture"></div>
+ 
+     <script>
+-      window.ENV = {{ENV}};
++      window.FrontendENV = {{ENV}};
++      window.EmberENV = window.FrontendENV.EmberENV;
+     </script>
+     <script src="assets/qunit.js"></script>
++    <script src="assets/qunit-notifications.js"></script>
++    <script src="assets/vendor.js"></script>
+     <script src="assets/frontend.js"></script>
+     <script src="testem.js"></script>
+     <script>
+       require('frontend/tests/test-helper');
+-      require('frontend/tests/test-loader');
+     </script>
++    <script src="assets/test-loader.js"></script>
+   </body>
+ </html>
+Index: frontend/app/models/session.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/models/session.coffee	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/app/models/session.coffee	(revision )
+@@ -1,3 +1,4 @@
++`import Ember from 'ember';`
+ #`import User from 'frontend/models/user'`
+ #
+ Session = Em.Object.extend
+\ No newline at end of file
+Index: frontend/package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/package.json	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/package.json	(revision )
+@@ -18,14 +18,13 @@
+   "author": "",
+   "license": "MIT",
+   "devDependencies": {
+-    "body-parser": "^1.2.0",
+-    "broccoli-coffee": "^0.1.0",
++    "ember-cli": "0.0.36",
++    "originate": "0.1.5",
+     "broccoli-ember-hbs-template-compiler": "^1.5.0",
+-    "broccoli-sass": "^0.1.4",
+-    "ember-cli": "0.0.28",
+     "express": "^4.1.1",
++    "body-parser": "^1.2.0",
+     "glob": "^3.2.9",
+-    "loom-generators-ember-appkit": "^1.1.1",
+-    "originate": "0.1.5"
++    "ember-cli-ic-ajax": "0.0.3",
++    "ember-cli-ember-data": "0.0.4"
+   }
+ }
+Index: frontend/.jshintrc
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/.jshintrc	(revision b7ae61db020c54d4ad4dedd5170feb32409d1109)
++++ frontend/.jshintrc	(revision )
+@@ -2,21 +2,13 @@
+   "predef": {
+     "document": true,
+     "window": true,
+-    "location": true,
+-    "setTimeout": true,
+-    "Ember": true,
+-    "Em": true,
+-    "DS": true,
+-    "$": true,
+-    "ENV": true,
+-    "module": true
++    "FrontendENV": true
+   },
+-  "node" : false,
+-  "browser" : false,
++  "browser" : true,
+   "boss" : true,
+-  "curly": false,
++  "curly": true,
+   "debug": false,
+-  "devel": false,
++  "devel": true,
+   "eqeqeq": true,
+   "evil": true,
+   "forin": false,

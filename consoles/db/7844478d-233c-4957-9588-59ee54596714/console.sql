@@ -1,0 +1,1 @@
+select name, course_id from instructor, teaches where instructor.ID = teaches.ID order by NAME;

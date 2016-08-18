@@ -1,0 +1,28 @@
+Index: frontend/app/views/users.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/views/users.coffee	(date 1410147514000)
++++ frontend/app/views/users.coffee	(revision )
+@@ -1,10 +1,18 @@
+ `import Ember from 'ember'`
++`import CubistContextCreatorMixin from 'frontend/mixins/cubist-context-creator'`
+ 
+-UsersView = Ember.View.extend(
++UsersView = Ember.View.extend(CubistContextCreatorMixin,
+   classNames:["users"]
+   didInsertElement:->
++    @._super()
++#    kElementID = "#" + @get("elementId")
++    this.set("controller.cubist.delegateElement", d3.select(@get("element")))
++  willDestroyElement: ->
++    @._super()
++    currentDelegateElement = this.get("controller.cubist.delegateElement")
+     kElementID = "#" + @get("elementId")
+-    this.set("cubist.delegateElement", d3.select(kElementID))
++    this.set("controller.cubist.delegateElement", null) if  currentDelegateElement.id == kElementID
++
+ )
+ 
+ `export default UsersView`

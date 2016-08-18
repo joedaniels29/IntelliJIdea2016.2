@@ -1,0 +1,40 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping ext="hjs" type="HTML" />
+      <mapping ext="scpt" type="JavaScript" />
+      <mapping ext="mp3" type="Native" />
+      <mapping pattern="scratch" type="PLAIN_TEXT" />
+      <mapping pattern="temp" type="PLAIN_TEXT" />
+      <mapping pattern="working" type="PLAIN_TEXT" />
+      <mapping pattern="asdf" type="PLAIN_TEXT" />
+      <mapping pattern="rvmrc" type="PLAIN_TEXT" />
+      <mapping pattern="MMHSampleOutput" type="PLAIN_TEXT" />
+      <mapping pattern="conversation" type="PLAIN_TEXT" />
+      <mapping pattern="insert" type="PLAIN_TEXT" />
+      <mapping pattern="session" type="PLAIN_TEXT" />
+      <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern="expectedGroceries" type="PLAIN_TEXT" />
+      <mapping pattern="outputs" type="PLAIN_TEXT" />
+      <mapping pattern=".pryrc" type="PLAIN_TEXT" />
+      <mapping pattern="launch issue" type="PLAIN_TEXT" />
+      <mapping pattern="hw7expectedOut" type="PLAIN_TEXT" />
+      <mapping pattern="input" type="PLAIN_TEXT" />
+      <mapping pattern=".rubyversion" type="PLAIN_TEXT" />
+      <mapping pattern="expectedGrocer" type="PLAIN_TEXT" />
+      <mapping pattern="delete" type="PLAIN_TEXT" />
+      <mapping pattern="notworking" type="PLAIN_TEXT" />
+      <mapping pattern="PHP migration" type="PLAIN_TEXT" />
+      <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
+      <mapping pattern=".rspec" type="PLAIN_TEXT" />
+      <mapping pattern="abc" type="PLAIN_TEXT" />
+      <mapping pattern="theirFamily" type="PLAIN_TEXT" />
+      <mapping pattern="modal_report_by_accession" type="PLAIN_TEXT" />
+      <mapping pattern="sampleOutput" type="PLAIN_TEXT" />
+      <mapping pattern="launch_debugger" type="PLAIN_TEXT" />
+      <removed_mapping ext="erb" type="RHTML" />
+      <mapping pattern="*.scss.erb" type="SCSS" />
+    </extensionMap>
+  </component>
+</application>

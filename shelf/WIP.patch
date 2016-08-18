@@ -1,0 +1,579 @@
+Index: frontend/app/styles/base/_variables.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/_variables.scss	(revision )
++++ frontend/app/styles/base/_variables.scss	(revision )
+@@ -0,0 +1,53 @@
++// Typography
++$sans-serif: $helvetica;
++$serif: $georgia;
++$base-font-family: $sans-serif;
++$header-font-family: $base-font-family;
++
++// Sizes
++$base-font-size: 1em;
++$base-line-height: $base-font-size * 1.5;
++$unitless-line-height: $base-line-height / ($base-line-height * 0 + 1); // Strip units from line-height: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values
++$header-line-height: $base-font-size * 1.25;
++$base-border-radius: em(3);
++
++// Colors
++$blue: #477DCA;
++$dark-gray: #333;
++$medium-gray: #999;
++$light-gray: #DDD;
++$light-red: #FBE3E4;
++$light-yellow: #FFF6BF;
++$light-green: #E6EFC2;
++
++// Background Color
++$base-background-color: white;
++
++// Font Colors
++$base-font-color: $dark-gray;
++$base-accent-color: $blue;
++
++// Link Colors
++$base-link-color: $base-accent-color;
++$hover-link-color: darken($base-accent-color, 15);
++$base-button-color: $base-link-color;
++$hover-button-color: $hover-link-color;
++
++// Border color
++$base-border-color: $light-gray;
++
++// Flash Colors
++$alert-color: $light-yellow;
++$error-color: $light-red;
++$notice-color: $light-yellow;
++$success-color: $light-green;
++
++// Forms
++$form-border-color: $base-border-color;
++$form-border-color-hover: darken($base-border-color, 10);
++$form-border-color-focus: $base-accent-color;
++$form-border-radius: $base-border-radius;
++$form-box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
++$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
++$form-font-size: $base-font-size;
++$form-font-family: $base-font-family;
+Index: frontend/app/styles/app.css
+===================================================================
+--- frontend/app/styles/app.css	(revision eb4f51194ed4777bf39f0c767d21686313ee019f)
++++ frontend/app/styles/app.scss	(revision )
+@@ -1,3 +1,8 @@
++@import 'bourbon';
++@import 'base/base';
+ html, body {
+   margin: 20px;
++}
++h2{
++  color: blue;
+-}
++}
+\ No newline at end of file
+Index: frontend/app/styles/base/_forms.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/_forms.scss	(revision )
++++ frontend/app/styles/base/_forms.scss	(revision )
+@@ -0,0 +1,78 @@
++fieldset {
++  background: lighten($base-border-color, 10);
++  border: 1px solid $base-border-color;
++  margin: 0 0 ($base-line-height / 2) 0;
++  padding: $base-line-height;
++}
++
++input,
++label,
++select {
++  display: block;
++  font-family: $form-font-family;
++  font-size: $form-font-size;
++}
++
++label {
++  font-weight: bold;
++  margin-bottom: $base-line-height / 4;
++
++  &.required:after {
++    content: "*";
++  }
++
++  abbr {
++    display: none;
++  }
++}
++
++textarea,
++#{$all-text-inputs},
++select[multiple=multiple] {
++  @include box-sizing(border-box);
++  @include transition(border-color);
++  background-color: white;
++  border-radius: $form-border-radius;
++  border: 1px solid $form-border-color;
++  box-shadow: $form-box-shadow;
++  font-family: $form-font-family;
++  font-size: $form-font-size;
++  margin-bottom: $base-line-height / 2;
++  padding: ($base-line-height / 3) ($base-line-height / 3);
++  width: 100%;
++
++  &:hover {
++    border-color: $form-border-color-hover;
++  }
++
++  &:focus {
++    border-color: $form-border-color-focus;
++    box-shadow: $form-box-shadow-focus;
++    outline: none;
++  }
++}
++
++textarea {
++  resize: vertical;
++}
++
++input[type="search"] {
++  @include appearance(none);
++}
++
++input[type="checkbox"], input[type="radio"] {
++  display: inline;
++  margin-right: $base-line-height / 4;
++}
++
++input[type="file"] {
++  margin-bottom: $base-line-height / 2;
++  padding-bottom: ($base-line-height / 3);
++  width: 100%;
++}
++
++select {
++  width: auto;
++  max-width: 100%;
++  margin-bottom: $base-line-height;
++}
+Index: frontend/app/styles/base/extends/_button.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/extends/_button.scss	(revision )
++++ frontend/app/styles/base/extends/_button.scss	(revision )
+@@ -0,0 +1,17 @@
++%button {
++  -webkit-font-smoothing: antialiased;
++  background-color: $base-button-color;
++  border-radius: $base-border-radius;
++  color: white;
++  display: inline-block;
++  font-size: $base-font-size;
++  font-weight: bold;
++  line-height: 1;
++  padding: .75em 1em;
++  text-decoration: none;
++
++  &:hover {
++    background-color: $hover-button-color;
++    color: white;
++  }
++}
+Index: frontend/app/templates/application.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/application.hbs	(revision eb4f51194ed4777bf39f0c767d21686313ee019f)
++++ frontend/app/templates/application.hbs	(revision )
+@@ -1,3 +1,4 @@
+-<h2 id='title'>Welcome to Ember.js</h2>
++<h2>Peer Review</h2>
++
+ 
+ {{outlet}}
+Index: frontend/app/styles/base/extends/_hide-text.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/extends/_hide-text.scss	(revision )
++++ frontend/app/styles/base/extends/_hide-text.scss	(revision )
+@@ -0,0 +1,3 @@
++%hide-text {
++  @include hide-text;
++}
+Index: frontend/app/styles/base/_lists.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/_lists.scss	(revision )
++++ frontend/app/styles/base/_lists.scss	(revision )
+@@ -0,0 +1,30 @@
++ul, ol {
++  margin: 0;
++  padding: 0;
++  list-style-type: none;
++
++  &%default-ul {
++    list-style-type: disc;
++    margin-bottom: $base-line-height / 2;
++    padding-left: $base-line-height;
++  }
++
++  &%default-ol {
++    list-style-type: decimal;
++    margin-bottom: $base-line-height / 2;
++    padding-left: $base-line-height;
++  }
++}
++
++dl {
++  margin-bottom: $base-line-height / 2;
++
++  dt {
++    font-weight: bold;
++    margin-top: $base-line-height / 2;
++  }
++
++  dd {
++    margin: 0;
++  }
++}
+Index: frontend/app/styles/base/_base.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/_base.scss	(revision )
++++ frontend/app/styles/base/_base.scss	(revision )
+@@ -0,0 +1,24 @@
++// Bitters v0.10.0
++// http://bitters.bourbon.io
++
++// Variables
++@import 'variables';
++
++// Neat Settings -- uncomment if using Neat -- must be imported before Neat
++// @import 'grid-settings';
++
++// Mixins
++@import 'mixins/flash';
++
++// Extends
++@import 'extends/button';
++@import 'extends/clearfix';
++@import 'extends/hide-text';
++
++// Typography and Elements
++@import 'typography';
++@import 'forms';
++@import 'tables';
++@import 'lists';
++@import 'flashes';
++@import 'buttons';
+Index: frontend/app/templates/navigation.hbs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/templates/navigation.hbs	(revision )
++++ frontend/app/templates/navigation.hbs	(revision )
+@@ -0,0 +1,2 @@
++<h2>Navigation</h2>
++
+Index: frontend/app/styles/base/_grid-settings.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/_grid-settings.scss	(revision )
++++ frontend/app/styles/base/_grid-settings.scss	(revision )
+@@ -0,0 +1,14 @@
++@import 'neat-helpers'; // or '../neat/neat-helpers' when not in Rails
++
++// Neat Overrides
++// $column: 90px;
++// $gutter: 30px;
++// $grid-columns: 12;
++// $max-width: em(1088);
++
++// Neat Breakpoints
++$medium-screen: em(640);
++$large-screen: em(860);
++
++$medium-screen-up: new-breakpoint(min-width $medium-screen 4);
++$large-screen-up: new-breakpoint(min-width $large-screen 8);
+Index: app/models/ai_exam.rb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/models/ai_exam.rb	(revision eb4f51194ed4777bf39f0c767d21686313ee019f)
++++ app/models/ai_exam.rb	(revision )
+@@ -88,7 +88,11 @@
+     elsif acc
+       crit.add(OHR.eq("accession", acc.to_s))
+       if mrn or site
++        if site == "JHH"
+-        crit.add(OHR.eq("site.site", site.to_s)) if site
++          crit.add(OHR.eq("site.site", site.to_s)) if site
++        else
++          crit.add(OHR.eq("site.site", site.to_s)) if site
++        end
+         crit.add(OHR.eq("pmrn.mrn", mrn.to_s)) if mrn
+       else
+         Rails.logger.warn "You should be using the site and the mrn for searches"
+Index: frontend/bower.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/bower.json	(revision eb4f51194ed4777bf39f0c767d21686313ee019f)
++++ frontend/bower.json	(revision )
+@@ -11,6 +11,10 @@
+     "ic-ajax": "~1.x",
+     "loader": "stefanpenner/loader.js#1.0.0",
+     "ember-cli-shims": "stefanpenner/ember-cli-shims#0.0.1",
+-    "ember-load-initializers": "stefanpenner/ember-load-initializers#0.0.1"
++    "ember-load-initializers": "stefanpenner/ember-load-initializers#0.0.1",
++    "bourbon" : "latest",
++    "d3" : "latest",
++    "bitters" : "latest",
++    "neat" : "latest"
+   }
+ }
+Index: frontend/app/styles/base/extends/_clearfix.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/extends/_clearfix.scss	(revision )
++++ frontend/app/styles/base/extends/_clearfix.scss	(revision )
+@@ -0,0 +1,3 @@
++%clearfix {
++  @include clearfix;
++}
+Index: frontend/app/styles/base/_buttons.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/_buttons.scss	(revision )
++++ frontend/app/styles/base/_buttons.scss	(revision )
+@@ -0,0 +1,10 @@
++button,
++input[type="submit"] {
++  @extend %button;
++  @include appearance(none);
++  border: none;
++  cursor: pointer;
++  user-select: none;
++  vertical-align: middle;
++  white-space: nowrap;
++}
+Index: frontend/app/styles/base/_flashes.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/_flashes.scss	(revision )
++++ frontend/app/styles/base/_flashes.scss	(revision )
+@@ -0,0 +1,15 @@
++%flash-alert {
++  @include flash($alert-color);
++}
++
++%flash-error {
++  @include flash($error-color);
++}
++
++%flash-notice {
++  @include flash($notice-color);
++}
++
++%flash-success {
++  @include flash($success-color);
++}
+Index: frontend/app/styles/base/_typography.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/_typography.scss	(revision )
++++ frontend/app/styles/base/_typography.scss	(revision )
+@@ -0,0 +1,87 @@
++body {
++  -webkit-font-smoothing: antialiased;
++  background-color: $base-background-color;
++  color: $base-font-color;
++  font-family: $base-font-family;
++  font-size: $base-font-size;
++  line-height: $unitless-line-height;
++}
++
++h1, h2, h3, h4, h5, h6 {
++  font-family: $header-font-family;
++  line-height: $header-line-height;
++  margin: 0;
++  text-rendering: optimizeLegibility; // Fix the character spacing for headings
++}
++
++h1 {
++  font-size: $base-font-size * 2.25; // 16 * 2.25 = 36px
++}
++
++h2 {
++  font-size: $base-font-size * 2; // 16 * 2 = 32px
++}
++
++h3 {
++  font-size: $base-font-size * 1.75; // 16 * 1.75 = 28px
++}
++
++h4 {
++  font-size: $base-font-size * 1.5; // 16 * 1.5 = 24px
++}
++
++h5 {
++  font-size: $base-font-size * 1.25; // 16 * 1.25 = 20px
++}
++
++h6 {
++  font-size: $base-font-size;
++}
++
++p {
++  margin: 0 0 ($base-line-height * .5);
++}
++
++a {
++  @include transition(color 0.1s linear);
++  color: $base-link-color;
++  text-decoration: none;
++
++  &:hover {
++    color: $hover-link-color;
++  }
++
++  &:active, &:focus {
++    color: $hover-link-color;
++    outline: none;
++  }
++}
++
++hr {
++  border-bottom: 1px solid $base-border-color;
++  border-left: none;
++  border-right: none;
++  border-top: none;
++  margin: $base-line-height 0;
++}
++
++img {
++  margin: 0;
++  max-width: 100%;
++}
++
++blockquote {
++  border-left: 2px solid $base-border-color;
++  color: lighten($base-font-color, 15);
++  margin: $base-line-height 0;
++  padding-left: $base-line-height / 2;
++}
++
++cite {
++  color: lighten($base-font-color, 25);
++  font-style: italic;
++
++  &:before {
++    content: '\2014 \00A0';
++  }
++}
+Index: frontend/package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/package.json	(revision eb4f51194ed4777bf39f0c767d21686313ee019f)
++++ frontend/package.json	(revision )
+@@ -18,12 +18,14 @@
+   "author": "",
+   "license": "MIT",
+   "devDependencies": {
+-    "ember-cli": "0.0.28",
+-    "originate": "0.1.5",
++    "body-parser": "^1.2.0",
++    "broccoli-coffee": "^0.1.0",
+     "broccoli-ember-hbs-template-compiler": "^1.5.0",
+-    "loom-generators-ember-appkit": "^1.1.1",
++    "broccoli-sass": "^0.1.4",
++    "ember-cli": "0.0.28",
+     "express": "^4.1.1",
+-    "body-parser": "^1.2.0",
+-    "glob": "^3.2.9"
++    "glob": "^3.2.9",
++    "loom-generators-ember-appkit": "^1.1.1",
++    "originate": "0.1.5"
+   }
+ }
+Index: frontend/app/styles/base/_tables.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/_tables.scss	(revision )
++++ frontend/app/styles/base/_tables.scss	(revision )
+@@ -0,0 +1,22 @@
++table {
++  border-collapse: collapse;
++  margin: ($base-line-height / 2) 0;
++  table-layout: fixed;
++  width: 100%;
++}
++
++th {
++  border-bottom: 1px solid darken($base-border-color, 15%);
++  font-weight: bold;
++  padding: ($base-line-height / 2) 0;
++  text-align: left;
++}
++
++td {
++  border-bottom: 1px solid $base-border-color;
++  padding: ($base-line-height / 2) 0;
++}
++
++tr, td, th {
++  vertical-align: middle;
++}
+Index: frontend/app/styles/base/mixins/_flash.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/app/styles/base/mixins/_flash.scss	(revision )
++++ frontend/app/styles/base/mixins/_flash.scss	(revision )
+@@ -0,0 +1,15 @@
++@mixin flash($color) {
++  background: $color;
++  color: darken($color, 60);
++  font-weight: bold;
++  margin-bottom: $base-line-height / 2;
++  padding: $base-line-height / 2;
++
++  a {
++    color: darken($color, 70);
++
++    &:hover {
++      color: darken($color, 90);
++    }
++  }
++}

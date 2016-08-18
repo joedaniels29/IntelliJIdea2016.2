@@ -1,0 +1,1597 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="file-type">
+      <project id="MRIProject" values="Ruby,JSON,JavaScript,YAML,RDOC,Handlebars/Mustache,CoffeeScript,ARCHIVE,HTML,SQL,IDEA_MODULE,PLAIN_TEXT,SCSS,DATASOURCE_STORAGE,CSS,XML,UNKNOWN,JSHint" collectionTime="1445379050412" />
+      <project id="service_app" values="IDEA_MODULE,RHTML,SCSS,PLAIN_TEXT,HTML,ARCHIVE,YAML,Images,UNKNOWN,Ruby,CSS,Markdown,RDOC,XML,JavaScript,JSON,CoffeeScript" collectionTime="0" />
+      <project id="Soundless" values="PLAIN_TEXT,Groovy,ProGuard File,Images,JAVA,UNKNOWN,ARCHIVE,XML,Properties,AIDL" collectionTime="1463430725201" />
+      <project id="alfred2-ruby-template" values="XML,RDOC,Ruby,Markdown,YAML,UNKNOWN,Images,PLAIN_TEXT" collectionTime="1454643892374" />
+      <project id=".zsh_scripts" values="PLAIN_TEXT,Markdown,JavaScript,Ruby" collectionTime="1466514752485" />
+      <project id="untitled folder" values="IDEA_MODULE,HTML,JavaScript,CSS,XML,UNKNOWN" collectionTime="0" />
+      <project id="rails4" values="PLAIN_TEXT,CSS,ARCHIVE,JavaScript,YAML,HTML,Ruby,Images,IDEA_MODULE,XML,RHTML,RDOC,UNKNOWN" collectionTime="0" />
+      <project id="myapp" values="IDEA_MODULE,JAVA,XML,Properties,Images,ProGuard File" collectionTime="1455043860447" />
+      <project id="peer-doc-review" values="DATASOURCE_STORAGE,Images,UNKNOWN,RHTML,YAML,PLAIN_TEXT,SCSS,XML,JavaScript,RDOC,IDEA_MODULE,CoffeeScript,HTML,LESS,Ruby,Handlebars/Mustache,Native" collectionTime="0" />
+      <project id="bluetooth" values="UNKNOWN,ARCHIVE,Images,Groovy,Properties,XML,ProGuard File,AIDL,PLAIN_TEXT,JAVA" collectionTime="1462733688126" />
+      <project id="resident-worklist" values="JavaScript,Images,JSON,UNKNOWN,Ruby,Markdown,YAML,SCSS,CoffeeScript,Native,Handlebars/Mustache,IDEA_MODULE,RDOC,CSS,ARCHIVE,HTML,SQL,JSON Schema,XML,PLAIN_TEXT,JSHint" collectionTime="1470855739566" />
+      <project id="compa" values="XML,UNKNOWN,IDEA_MODULE,PLAIN_TEXT,Ruby" collectionTime="1428940302318" />
+      <project id="untitled" values="IDEA_MODULE,JAVA" collectionTime="1456450945069" />
+      <project id="calc" values="UNKNOWN" collectionTime="0" />
+      <project id="byozfwv" values="HTML,JSON,IDEA_MODULE,PLAIN_TEXT,UNKNOWN" collectionTime="1432872816082" />
+      <project id="CMSC483-Optimization" values="IDEA_MODULE,Markdown,PLAIN_TEXT,Python" collectionTime="1462379396501" />
+      <project id="trelawney" values="RDOC,SCSS,Scratch,YAML,IDEA_MODULE,Images,Ruby,JavaScript,HTML,PLAIN_TEXT,CSS,UNKNOWN,SQL" collectionTime="1471448625933" />
+      <project id="website" values="Markdown,YAML,JSON,JSHint,JavaScript,HTML,XML,PLAIN_TEXT,Handlebars/Mustache,CSS,JSON Schema,UNKNOWN" collectionTime="1469498678550" />
+      <project id="OfficeHours" values="SCSS,Images,HTML,XML,RDOC,YAML,CoffeeScript,UNKNOWN,RHTML,Ruby,JavaScript,PLAIN_TEXT,IDEA_MODULE,CSS" collectionTime="0" />
+      <project id="service-app" values="RDOC,XML,YAML,LESS,SCSS,ARCHIVE,HTML,Images,JSON,CSS,JavaScript,IDEA_MODULE,DATASOURCE_STORAGE,Ruby,UNKNOWN,CoffeeScript,PLAIN_TEXT,RHTML" collectionTime="0" />
+      <project id="ScopeCreep" values="PHP,Images,YAML,XHTML,JSON,HTML,IDEA_MODULE,PLAIN_TEXT,JAVA,PATCH,Ruby,SCSS,DATASOURCE_STORAGE,JavaScript,SQL,SmartyConfig,CSS,SASS,LESS,CoffeeScript,XML,RDOC,Bash,RHTML,Markdown,C++,UNKNOWN" collectionTime="0" />
+      <project id="ember-inspector" values="IDEA_MODULE,JSON,JSHint,DTD,XML,Perl5 script,CSS,PATCH,PLAIN_TEXT,Ruby,Markdown,YAML,Scratch,HTML,ECMAScript 6,C++,TypeScript,Python,CoffeeScript,SourceMap,Images,SCSS,ARCHIVE,JSCS,JavaScript,Handlebars/Mustache,ESLint,UNKNOWN" collectionTime="1457652786608" />
+      <project id="DemoRailsApp" values="YAML,HTML,SCSS,Markdown,CoffeeScript,JavaScript,UNKNOWN,DATASOURCE_STORAGE,IDEA_MODULE,C++,Bash,JSON,PHP,LESS,ARCHIVE,CSS,SASS,XHTML,PLAIN_TEXT,RHTML,RDOC,Images,Ruby,SmartyConfig,XML,JAVA" collectionTime="0" />
+      <project id="readahead_hybrid" values="Native,UNKNOWN,PLAIN_TEXT,JSON Schema,HTML,CoffeeScript,Images,CSS,Markdown,JavaScript,ARCHIVE,XML,Less" collectionTime="1469806345695" />
+      <project id="Assignment1" values="JAVA,PLAIN_TEXT,Images,Groovy,Properties,AIDL,XML,ARCHIVE,ProGuard File" collectionTime="1459888713717" />
+      <project id="idea-assemblysupport-read-only" values="UNKNOWN,Properties,JAVA,XML,Images,IDEA_MODULE" collectionTime="0" />
+      <project id="findings-notification" values="UNKNOWN,Images,SCSS,JavaScript,ARCHIVE,Ruby,Less,Markdown,XML,JSON,SQL,YAML,CSS,PLAIN_TEXT,Handlebars/Mustache,CoffeeScript,HTML,RDOC,JSHint,IDEA_MODULE" collectionTime="1465570568623" />
+      <project id="readahead_tablet" values="JSON Schema,CSS,UNKNOWN,Native,XML,Images,CoffeeScript,Less,ARCHIVE,HTML,JavaScript,PLAIN_TEXT" collectionTime="1471485575936" />
+      <project id="clinical-corrections" values="ARCHIVE,HTML,Ruby,LESS,IDEA_MODULE,RHTML,YAML,Images,RDOC,DATASOURCE_STORAGE,SmartyConfig,C++,PHP,XHTML,XML,UNKNOWN,JSON,SQL,CoffeeScript,Markdown,PLAIN_TEXT,JavaScript,JAVA,SASS,SCSS,Bash,CSS" collectionTime="0" />
+      <project id="websiteTest" values="XML,PLAIN_TEXT,Images,Ruby,Eclipse,CSS,IDEA_MODULE,HTML,JavaScript,UNKNOWN,RDOC,CoffeeScript,YAML,SCSS,DATASOURCE_STORAGE,RHTML" collectionTime="0" />
+      <project id="ServiceExample" values="Images,UNKNOWN,JAVA,JSON,ARCHIVE,Groovy,Properties,ProGuard File,AIDL,PLAIN_TEXT,XML,CLASS" collectionTime="1458622095486" />
+      <project id="Script Libraries" values="JavaScript" collectionTime="1463421527822" />
+      <project id="VitalViewerMobile" values="UNKNOWN,DATASOURCE_STORAGE,Images,ARCHIVE,CSS,Ruby,RDOC,IDEA_MODULE,PLAIN_TEXT,XML,HTML,Bash,RHTML,YAML,JavaScript,Markdown,LESS,SCSS,CoffeeScript" collectionTime="0" />
+      <project id="lab2" values="ARCHIVE,UNKNOWN,PLAIN_TEXT,Python,IDEA_MODULE,XML" collectionTime="0" />
+      <project id="ember-cli-trelawney" values="XML,UNKNOWN,JSON Schema,JSHint,JavaScript,Markdown,Handlebars/Mustache,PLAIN_TEXT,YAML,JSON,HTML,CSS" collectionTime="1470186208364" />
+      <project id="DeeIdentifier" values="XML,UNKNOWN,IDEA_MODULE,PLAIN_TEXT" collectionTime="0" />
+      <project id="ember-cli-open-web-analytics" values="XML,UNKNOWN,JavaScript,JSON,PLAIN_TEXT,IDEA_MODULE" collectionTime="0" />
+      <project id="SensorApp" values="Groovy,PLAIN_TEXT,Images,Properties,IDEA_MODULE,ARCHIVE,XML,ProGuard File,JAVA" collectionTime="1459447374832" />
+      <project id="CurencyCalculator" values="XML,Images,PLAIN_TEXT,Groovy,ARCHIVE,Properties,AIDL,ProGuard File,JAVA" collectionTime="1455043609417" />
+      <project id="ember-cli-lettering-js" values="PLAIN_TEXT,CSS,JSON,Handlebars/Mustache,JSHint,Markdown,JavaScript,HTML,XML,UNKNOWN,YAML" collectionTime="1458774207213" />
+      <project id="exam2" values="Python,UNKNOWN,PLAIN_TEXT" collectionTime="1461764105242" />
+      <project id="machforms" values="SQL,XML,ARCHIVE,Markdown,Images,PHP,HTML,IDEA_MODULE,JavaScript,PLAIN_TEXT,Enforced Plain Text,UNKNOWN,CSS" collectionTime="0" />
+      <project id="peer-review" values="IDEA_MODULE,JSHint,HTML,JavaScript,PLAIN_TEXT,Less,SQL,Markdown,Ruby,CSS,UNKNOWN,JSON,ARCHIVE,Images,SCSS,YAML,RDOC,SourceMap" collectionTime="1464802183029" />
+      <project id="jsx" values="CoffeeScript,JSHint,YAML,Markdown,Literate CoffeeScript,SourceMap,PATCH,JSON,JavaScript,CSS,PLAIN_TEXT" collectionTime="1454651775328" />
+      <project id="BetterProjectSwitch" values="PLAIN_TEXT,UNKNOWN,XML,JAVA,IDEA_MODULE" collectionTime="1434974624784" />
+      <project id="critical-findings" values="ARCHIVE,RDOC,Ruby,HTML,SQL,RHTML,SCSS,DATASOURCE_STORAGE,JavaScript,PLAIN_TEXT,XML,Images,CSS,IDEA_MODULE,UNKNOWN,CoffeeScript,SourceMap,YAML" collectionTime="1434111547194" />
+      <project id="ember-cli-ai-js" values="IDEA_MODULE,XML,PLAIN_TEXT,JavaScript,JSON,UNKNOWN" collectionTime="0" />
+      <project id="ember-cli-ipa" values="Images,Ruby,ECMAScript 6,Perl5 script,CoffeeScript,JSCS,XML,JSHint,Handlebars/Mustache,Python,SourceMap,CSS,C++,JavaScript,IDEA_MODULE,PATCH,HTML,TypeScript,PLAIN_TEXT,ESLint,YAML,UNKNOWN,JSON,Markdown" collectionTime="1458856862614" />
+      <project id="sample" values="YAML,JSHint,SourceMap,JSON,Images,PLAIN_TEXT,XML,DTD,CSS,JavaScript,Markdown,UNKNOWN,HTML,Ruby,Native,CoffeeScript,PATCH" collectionTime="1456960198347" />
+      <project id="rrt" values="Ruby,JavaScript,SCSS,DATASOURCE_STORAGE,RHTML,UNKNOWN,RDOC,XML,HTML,Images,SQL,CSS,YAML,PLAIN_TEXT,IDEA_MODULE,ARCHIVE" collectionTime="1436024339102" />
+      <project id="homework7" values="PLAIN_TEXT,UNKNOWN,IDEA_MODULE,Python,XML" collectionTime="1446424720545" />
+      <project id="homework6" values="IDEA_MODULE,UNKNOWN,PLAIN_TEXT,Python,XML" collectionTime="1446239679537" />
+      <project id="homework5" values="PLAIN_TEXT,IDEA_MODULE,Perl5 script,XML,UNKNOWN" collectionTime="1444007214817" />
+      <project id="homework4" values="Perl5 script,PLAIN_TEXT,UNKNOWN,XML,IDEA_MODULE" collectionTime="1443153137330" />
+      <project id="homework3" values="UNKNOWN" collectionTime="1442622164077" />
+      <project id="homework2" values="IDEA_MODULE,Perl5 script,PLAIN_TEXT,XML,UNKNOWN" collectionTime="1441941086740" />
+      <project id="ember-so-fresh" values="Python,JavaScript,UNKNOWN,Images,PATCH,XML,PLAIN_TEXT,JSHint,JSCS,JSON Schema,C++,CSS,CoffeeScript,HTML,Markdown,YAML,JSON" collectionTime="1469291315427" />
+      <project id="NLPDataExport" values="HTML,JSHint,Ruby,RHTML,ActionScript,JSON,CSS,RDOC,XML,Images,Handlebars/Mustache,CoffeeScript,Prolog,SourceMap,TypeScript,ARCHIVE,IDEA_MODULE,YAML,JavaScript,PATCH,SCSS,UNKNOWN,ESLint,PLAIN_TEXT,JSCS,Python" collectionTime="0" />
+      <project id="Desktop" values="C++,Ruby,Images,PLAIN_TEXT,Native,UNKNOWN" collectionTime="1452090285975" />
+      <project id="liquid-fire" values="JSHint,Images,CSS,JSON,UNKNOWN,JavaScript,XML,SCSS,PLAIN_TEXT,Handlebars/Mustache,IDEA_MODULE,YAML,HTML" collectionTime="1445137366830" />
+      <project id="VTE" values="HTML,SourceMap,SCSS,Less,Native,Bash,YAML,UNKNOWN,JSON,CSS,Prolog,JavaScript,IDEA_MODULE,DATASOURCE_STORAGE,JSHint,CoffeeScript,Images,PLAIN_TEXT,XML" collectionTime="0" />
+      <project id="powerline" values="JSON,Python" collectionTime="1466443724468" />
+      <project id=".zprezto" values="CSS,PLAIN_TEXT,HTML,Perl5 script,Markdown,Python,JSON,Images" collectionTime="1465040657021" />
+      <project id="CSMC 341 Data Structures" values="ARCHIVE,Ruby,C++,UNKNOWN,PLAIN_TEXT,XML,Native,IDEA_MODULE,Prolog,Images,JAVA" collectionTime="0" />
+      <project id="GmapDemo" values="JSON,AIDL,PLAIN_TEXT,Groovy,ARCHIVE,Properties,JAVA,XML,Images,ProGuard File" collectionTime="1461092690279" />
+      <project id="GSSRegistration" values="XML,UNKNOWN,SCSS,JSHint,CSS,CoffeeScript,Handlebars/Mustache,RHTML,Images,JSON,YAML,RDOC,IDEA_MODULE,PLAIN_TEXT,JavaScript,HTML,Ruby" collectionTime="0" />
+      <project id="FragmentExample" values="AIDL,XML,Properties,ARCHIVE,Images,PLAIN_TEXT,Groovy,IDEA_MODULE,ProGuard File,JAVA" collectionTime="1457100293867" />
+      <project id="workshop-jb" values="PLAIN_TEXT,Kotlin,UNKNOWN,IDEA_MODULE,JAVA,XML,ARCHIVE" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="PHP,IDEA_MODULE,XML,HTML,CSS,Eclipse,UNKNOWN,Images,PLAIN_TEXT,Markdown,JavaScript" collectionTime="0" />
+      <project id="koans" values="Ruby,RDOC,PLAIN_TEXT" collectionTime="1468848059013" />
+      <project id="ember-cli-powerbars" values="Images,Markdown,Perl5 script,JavaScript,TypeScript,HTML,Python,CoffeeScript,Handlebars/Mustache,Ruby,C++,ESLint,SCSS,JSON,ARCHIVE,XML,CSS,JSHint,PATCH,YAML,UNKNOWN,ECMAScript 6,PLAIN_TEXT,SourceMap,JSCS" collectionTime="1453233600781" />
+      <project id="db_scripts" values="SQL,PLAIN_TEXT" collectionTime="1458652057464" />
+      <project id="ember-cli-bourbon" values="Markdown,YAML,Handlebars/Mustache,SCSS,JSON,PLAIN_TEXT,JSHint,SourceMap,CSS,HTML,JavaScript,Images,XML" collectionTime="1451408811703" />
+      <project id="PersonalSite" values="HTML,PLAIN_TEXT,UNKNOWN,JSHint,Ruby,Markdown,JavaScript,XML,Images,Handlebars/Mustache,SCSS,JSON Schema,JSON,YAML" collectionTime="1471188182448" />
+      <project id="untitled1" values="XML,JAVA,PLAIN_TEXT" collectionTime="1456960197776" />
+      <project id="FlexGrid" values="UNKNOWN,YAML,JSON,HTML,JSHint,JavaScript,PLAIN_TEXT,CoffeeScript,Handlebars/Mustache,XML,CSS" collectionTime="0" />
+      <project id=".tmuxinator" values="YAML" collectionTime="1470347236532" />
+      <project id="frontend" values="Handlebars/Mustache,ECMAScript 6,Ruby,TypeScript,CSS,IDEA_MODULE,Markdown,UNKNOWN,Perl5 script,JavaScript,JSCS,PATCH,Images,Python,ARCHIVE,CoffeeScript,ESLint,XML,SCSS,JSON,YAML,SourceMap,C++,PLAIN_TEXT,HTML,JSHint" collectionTime="1450713863175" />
+      <project id="CompletelyFairScheduler" values="Ruby,CoffeeScript,RHTML,CSS,YAML,DATASOURCE_STORAGE,RDOC,SCSS,IDEA_MODULE,JavaScript,Images,XML,UNKNOWN,PLAIN_TEXT,HTML,Handlebars/Mustache" collectionTime="0" />
+      <project id="ember-cli-neat" values="CSS,ARCHIVE,Python,PLAIN_TEXT,ESLint,YAML,HTML,Ruby,Sass,UNKNOWN,XML,JSON,Images,TypeScript,JSHint,C++,JavaScript,IDEA_MODULE,CoffeeScript,ActionScript,Handlebars/Mustache,SourceMap,Perl5 script,SCSS,PATCH" collectionTime="1446482459801" />
+      <project id="extra_credit" values="IDEA_MODULE,Python,PLAIN_TEXT,UNKNOWN,XML" collectionTime="1449840010472" />
+      <project id="ember-cli-animatecss" values="UNKNOWN,Images,PLAIN_TEXT,Ruby,TypeScript,Markdown,XML,ARCHIVE,Python,Handlebars/Mustache,JSCS,Perl5 script,ECMAScript 6,C++,JSON,YAML,SCSS,JSHint,HTML,ESLint,CoffeeScript,IDEA_MODULE,SourceMap,JavaScript,CSS,PATCH" collectionTime="1447184668273" />
+      <project id="procheckt" values="UNKNOWN,PLAIN_TEXT,IDEA_MODULE,XML,Ruby" collectionTime="1426882762809" />
+      <project id="sprockets-rails" values="RHTML,CSS,PLAIN_TEXT,IDEA_MODULE,JavaScript,UNKNOWN,YAML,Images,Ruby,XML" collectionTime="0" />
+      <project id="crusty_model" values="PLAIN_TEXT,Ruby" collectionTime="1457282582501" />
+      <project id="Project5" values="UNKNOWN,IDEA_MODULE,JAVA,XML" collectionTime="0" />
+      <project id="Project4" values="UNKNOWN" collectionTime="0" />
+      <project id="ember-cli-textillate" values="Handlebars/Mustache,HTML,Perl5 script,XML,ESLint,ARCHIVE,Images,YAML,SCSS,PATCH,TypeScript,Python,Ruby,JSON,C++,JSHint,PLAIN_TEXT,IDEA_MODULE,SourceMap,JavaScript,ECMAScript 6,JSCS,CoffeeScript,UNKNOWN,CSS" collectionTime="1446497998457" />
+      <project id="MyApplication2" values="Images,AIDL,JAVA,XML,ARCHIVE,UNKNOWN,Groovy,Properties,IDEA_MODULE,PLAIN_TEXT,ProGuard File" collectionTime="1455057452426" />
+      <project id="Python" values="UNKNOWN" collectionTime="0" />
+      <project id="EmergeData" values="IDEA_MODULE,Handlebars/Mustache,SmartyConfig,XML,PATCH,PHP,JSHint,HTML,Bash,JavaScript,CSS,Ruby,UNKNOWN,PLAIN_TEXT,CoffeeScript,YAML,Images,LESS,JSON,Markdown" collectionTime="0" />
+      <project id="ember-cli-diff" values="XML,PLAIN_TEXT,JSHint,Markdown,UNKNOWN,HTML,Handlebars/Mustache,CSS,JSON,JavaScript,YAML" collectionTime="1465238371257" />
+      <project id="dumbaddon" values="YAML,HTML,Images,Handlebars/Mustache,ECMAScript 6,SourceMap,PATCH,Ruby,PLAIN_TEXT,Perl5 script,JSCS,SCSS,JSHint,JSON,XML,CSS,IDEA_MODULE,C++,JavaScript,ESLint,ARCHIVE,CoffeeScript,TypeScript,UNKNOWN,Python" collectionTime="1445805564261" />
+      <project id="Oasis" values="JSON Schema,SQL,PLAIN_TEXT,XML,ARCHIVE,JSON,IDEA_MODULE,Images,YAML,SCSS,Markdown,RDOC,UNKNOWN,CSS,Ruby,JavaScript,HTML,JSHint,Handlebars/Mustache" collectionTime="1470919247534" />
+      <project id="json-easy-merge" values="PATCH,Images,C++,PLAIN_TEXT,JSON,HTML,JSHint,Markdown,JavaScript,YAML,XML,JSON Schema,JSCS" collectionTime="1469110051537" />
+      <project id="Lab3" values="HTML,IDEA_MODULE,JAVA,UNKNOWN,XML" collectionTime="1445021227694" />
+      <project id="TheHelp" values="XML,IDEA_MODULE,PLAIN_TEXT,Python,UNKNOWN" collectionTime="0" />
+      <project id="ember-cli-easy-table" values="Python,Images,JSON,Handlebars/Mustache,UNKNOWN,IDEA_MODULE,JavaScript,JSCS,TypeScript,PLAIN_TEXT,ECMAScript 6,CoffeeScript,Perl5 script,YAML,JSHint,CSS,SourceMap,XML,HTML,C++,SCSS,Ruby,PATCH,ESLint,ARCHIVE" collectionTime="1446515175931" />
+      <project id="radtracker" values="CoffeeScript,JavaScript,CSS,IDEA_MODULE,SQL,SCSS,ARCHIVE,Images,Ruby,Markdown,DATASOURCE_STORAGE,YAML,LESS,PLAIN_TEXT,RDOC,RHTML,UNKNOWN,HTML,XML,Bash" collectionTime="0" />
+      <project id="FBFeedParser" values="Images,plist,PATCH,CSS,UNKNOWN,Ruby,HTML,PLAIN_TEXT" collectionTime="0" />
+      <project id="GoogleInterview" values="Ruby,IDEA_MODULE" collectionTime="1469018881619" />
+      <project id="Default" values="UNKNOWN" collectionTime="0" />
+      <project id="Bluetooth2" values="ARCHIVE,Properties,AIDL,XML,ProGuard File,IDEA_MODULE,JAVA,Groovy,PLAIN_TEXT,UNKNOWN,Images" collectionTime="1462648301052" />
+      <project id="OSX-JXA" values="PLAIN_TEXT,PATCH,SourceMap,YAML,Markdown,CSS,JavaScript,JSON Schema,Literate CoffeeScript,JSHint,CoffeeScript" collectionTime="1471188182483" />
+      <project id="ember-cli-d29" values="HTML,JSON,CSS,JSHint,Handlebars/Mustache,SCSS,UNKNOWN,IDEA_MODULE,CoffeeScript,PLAIN_TEXT,JavaScript,YAML,XML" collectionTime="0" />
+      <project id="ember-cli-deployment-url" values="UNKNOWN,IDEA_MODULE,HTML,JavaScript,JSON,CSS,JSHint,XML,PLAIN_TEXT,YAML,Handlebars/Mustache" collectionTime="0" />
+      <project id="web-desktop" values="JSON,ARCHIVE,SQL,IDEA_MODULE,DATASOURCE_STORAGE,CoffeeScript,C++,XHTML,XML,Native,RDOC,JAVA,Sass,PLAIN_TEXT,RHTML,UNKNOWN,SCSS,JavaScript,YAML,CSS,HTML,Ruby,Images" collectionTime="1433868532414" />
+      <project id="SensorApp 2" values="PLAIN_TEXT,AIDL,Properties,Groovy,Images,XML,ARCHIVE,ProGuard File,JAVA" collectionTime="1459173164586" />
+      <project id="Project3" values="LaTeX file,Native,PLAIN_TEXT,UNKNOWN,XML,IDEA_MODULE" collectionTime="1426533569823" />
+      <project id="ReachSearch" values="JSON,PLAIN_TEXT,YAML,XML,HTML,Handlebars/Mustache,Ruby,Markdown,CoffeeScript,SCSS,SourceMap,CSS,Images,UNKNOWN,IDEA_MODULE,SQL,RDOC,JSON Schema,JavaScript,JSHint" collectionTime="1471476489850" />
+      <project id="emerge" values="Images,HTML,CSS,YAML,UNKNOWN,JavaScript,PLAIN_TEXT,JSON,Jade,IDEA_MODULE,XML,CoffeeScript,PATCH,JSHint" collectionTime="0" />
+      <project id="PurchaseExample" values="YAML,DTD,UNKNOWN,PATCH,XML,HTML,Ruby,JSON,CSS,Images,CoffeeScript,JSHint,Markdown,PLAIN_TEXT,JavaScript,SourceMap,Native" collectionTime="1458424370983" />
+    </group>
+    <group name="deployment server">
+      <project id="MRIProject" values="SFTP" collectionTime="1445379050414" />
+      <project id="Soundless" values="SFTP" collectionTime="1463430725347" />
+      <project id="alfred2-ruby-template" values="SFTP" collectionTime="1454643892454" />
+      <project id=".zsh_scripts" values="SFTP" collectionTime="1466514752886" />
+      <project id="BetterProjectSwitch" values="SFTP" collectionTime="1434974624785" />
+      <project id="untitled folder" values="SFTP" collectionTime="0" />
+      <project id="rails4" values="SFTP" collectionTime="0" />
+      <project id="myapp" values="SFTP" collectionTime="1455043860449" />
+      <project id="peer-doc-review" values="SFTP" collectionTime="0" />
+      <project id="resident-worklist" values="SFTP" collectionTime="1470855739593" />
+      <project id="untitled" values="SFTP" collectionTime="1456450945079" />
+      <project id="byozfwv" values="SFTP" collectionTime="1432872816168" />
+      <project id="CMSC483-Optimization" values="SFTP" collectionTime="1462379396784" />
+      <project id="trelawney" values="SFTP" collectionTime="1471448625942" />
+      <project id="website" values="SFTP" collectionTime="1469498678578" />
+      <project id="bluetooth" values="SFTP" collectionTime="1462733688143" />
+      <project id="service-app" values="SFTP" collectionTime="0" />
+      <project id="ScopeCreep" values="SFTP" collectionTime="0" />
+      <project id="ember-inspector" values="SFTP" collectionTime="1457652786764" />
+      <project id="DemoRailsApp" values="SFTP" collectionTime="0" />
+      <project id="service_app" values="SFTP" collectionTime="0" />
+      <project id="idea-assemblysupport-read-only" values="SFTP" collectionTime="0" />
+      <project id="findings-notification" values="SFTP" collectionTime="1465570568635" />
+      <project id="readahead_tablet" values="SFTP" collectionTime="1471485576194" />
+      <project id="readahead_hybrid_tablet" values="SFTP" collectionTime="1458342030496" />
+      <project id="websiteTest" values="SFTP" collectionTime="0" />
+      <project id="ServiceExample" values="SFTP" collectionTime="1458622095490" />
+      <project id="Script Libraries" values="SFTP" collectionTime="1463421527834" />
+      <project id="VitalViewerMobile" values="SFTP" collectionTime="0" />
+      <project id="MyApplication2" values="SFTP" collectionTime="1455057452602" />
+      <project id="ember-cli-trelawney" values="SFTP" collectionTime="1470186208645" />
+      <project id="Assignment1" values="SFTP" collectionTime="1459888713745" />
+      <project id="ember-cli-open-web-analytics" values="SFTP" collectionTime="0" />
+      <project id="Python" values="SFTP" collectionTime="0" />
+      <project id="SensorApp" values="SFTP" collectionTime="1459447374895" />
+      <project id="db_scripts" values="SFTP" collectionTime="1458652057660" />
+      <project id="CurencyCalculator" values="SFTP" collectionTime="1455043609432" />
+      <project id="ember-cli-lettering-js" values="SFTP" collectionTime="1458774207522" />
+      <project id="machforms" values="SFTP" collectionTime="0" />
+      <project id="peer-review" values="SFTP" collectionTime="1464802183049" />
+      <project id="jsx" values="SFTP" collectionTime="1454651775415" />
+      <project id="FragmentExample" values="SFTP" collectionTime="1457100293978" />
+      <project id="mapDemo" values="SFTP" collectionTime="1461005586611" />
+      <project id="ember-cli-ipa" values="SFTP" collectionTime="1458856862717" />
+      <project id="sample" values="SFTP" collectionTime="1456960198405" />
+      <project id="rrt" values="SFTP" collectionTime="1436024339114" />
+      <project id="homework7" values="SFTP" collectionTime="1446424720561" />
+      <project id="homework6" values="SFTP" collectionTime="1446239679543" />
+      <project id="ember-cli-ai-js" values="SFTP" collectionTime="0" />
+      <project id="homework4" values="SFTP" collectionTime="1443153137342" />
+      <project id="homework3" values="SFTP" collectionTime="1442622164098" />
+      <project id="homework2" values="SFTP" collectionTime="1441941087298" />
+      <project id="ember-so-fresh" values="SFTP" collectionTime="1469291315494" />
+      <project id="NLPDataExport" values="SFTP" collectionTime="0" />
+      <project id="Desktop" values="SFTP" collectionTime="1452090285977" />
+      <project id="liquid-fire" values="SFTP" collectionTime="1445137366833" />
+      <project id="VTE" values="SFTP" collectionTime="0" />
+      <project id="powerline" values="SFTP" collectionTime="1466443724593" />
+      <project id=".zprezto" values="SFTP" collectionTime="1465040657120" />
+      <project id="GmapDemo" values="SFTP" collectionTime="1461092690616" />
+      <project id="dumbaddon" values="SFTP" collectionTime="1445805564262" />
+      <project id="ember-cli-neat" values="SFTP" collectionTime="1446482459816" />
+      <project id="workshop-jb" values="SFTP" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="SFTP" collectionTime="0" />
+      <project id="koans" values="SFTP" collectionTime="1468848059129" />
+      <project id="ember-cli-powerbars" values="SFTP" collectionTime="1453233600797" />
+      <project id="Bluetooth2" values="SFTP" collectionTime="1462648301277" />
+      <project id="PersonalSite" values="SFTP" collectionTime="1471188182474" />
+      <project id="untitled1" values="SFTP" collectionTime="1456960198325" />
+      <project id="clinical-corrections" values="SFTP" collectionTime="0" />
+      <project id="FlexGrid" values="SFTP" collectionTime="0" />
+      <project id=".tmuxinator" values="SFTP" collectionTime="1470347236667" />
+      <project id="frontend" values="SFTP" collectionTime="1450713863205" />
+      <project id="CompletelyFairScheduler" values="SFTP" collectionTime="0" />
+      <project id="TheHelp" values="SFTP" collectionTime="0" />
+      <project id="extra_credit" values="SFTP" collectionTime="1449840010475" />
+      <project id="ember-cli-animatecss" values="SFTP" collectionTime="1447184668275" />
+      <project id="ember-cli-bourbon" values="SFTP" collectionTime="1451408811735" />
+      <project id="sprockets-rails" values="SFTP" collectionTime="0" />
+      <project id="crusty_model" values="SFTP" collectionTime="1457282582599" />
+      <project id="Project5" values="SFTP" collectionTime="0" />
+      <project id="homework5" values="SFTP" collectionTime="1444007214980" />
+      <project id="radtracker" values="SFTP" collectionTime="0" />
+      <project id="SensorApp 2" values="SFTP" collectionTime="1459173164771" />
+      <project id="compa" values="SFTP" collectionTime="1428940302328" />
+      <project id="ember-cli-easy-table" values="SFTP" collectionTime="1446515175938" />
+      <project id="EmergeData" values="SFTP" collectionTime="0" />
+      <project id="ember-cli-diff" values="SFTP" collectionTime="1465238371293" />
+      <project id="Oasis" values="SFTP" collectionTime="1470919247769" />
+      <project id="json-easy-merge" values="SFTP" collectionTime="1469110051695" />
+      <project id="readahead_hybrid" values="SFTP" collectionTime="1469806345699" />
+      <project id="critical-findings" values="SFTP" collectionTime="1434111547202" />
+      <project id="CSMC 341 Data Structures" values="SFTP" collectionTime="0" />
+      <project id="web-desktop" values="SFTP" collectionTime="1433868532429" />
+      <project id="FBFeedParser" values="SFTP" collectionTime="0" />
+      <project id="GoogleInterview" values="SFTP" collectionTime="1469018881634" />
+      <project id="Lab3" values="SFTP" collectionTime="1445021227820" />
+      <project id="ReachSearch" values="SFTP" collectionTime="1471476489986" />
+      <project id="OSX-JXA" values="SFTP" collectionTime="1471188182490" />
+      <project id="GSSRegistration" values="SFTP" collectionTime="0" />
+      <project id="ember-cli-deployment-url" values="SFTP" collectionTime="0" />
+      <project id="ember-cli-textillate" values="SFTP" collectionTime="1446497998462" />
+      <project id="ember-cli-d29" values="SFTP" collectionTime="0" />
+      <project id="exam2" values="SFTP" collectionTime="1461764105423" />
+      <project id="Joe" values="SFTP" collectionTime="1465064714027" />
+      <project id="emerge" values="SFTP" collectionTime="0" />
+      <project id="PurchaseExample" values="SFTP" collectionTime="1458424371045" />
+    </group>
+    <group name="javaScript Frameworks">
+      <project id="ember-cli-trelawney" values="node_modules" collectionTime="1470186208646" />
+      <project id="EmergeData" values="Node.js Core Modules v0.10.22" collectionTime="0" />
+      <project id="emerge" values="Node.js Core Modules v0.10.22" collectionTime="0" />
+      <project id="ReachSearch" values="node_modules" collectionTime="1471476489987" />
+      <project id="PersonalSite" values="node_modules" collectionTime="1471188182474" />
+      <project id="FlexGrid" values="node_modules" collectionTime="0" />
+      <project id="Oasis" values="node_modules" collectionTime="1470919247769" />
+      <project id="resident-worklist" values="node_modules" collectionTime="1470855739593" />
+      <project id="website" values="node_modules" collectionTime="1469498678579" />
+      <project id="ember-cli-diff" values="node_modules" collectionTime="1465238371293" />
+      <project id="findings-notification" values="node_modules" collectionTime="1465570568635" />
+    </group>
+    <group name="ruby-project-type">
+      <project id="trelawney" values="rails unknown" collectionTime="1471448625942" />
+      <project id="service-app" values="rails 3.2" collectionTime="0" />
+      <project id="VTE" values="rails 4.1" collectionTime="0" />
+      <project id="peer-doc-review" values="rails 4.0" collectionTime="0" />
+      <project id="Oasis" values="rails 3.2" collectionTime="1470919247774" />
+      <project id="peer-review" values="rails unknown" collectionTime="1464802183049" />
+      <project id="findings-notification" values="rails 3.2" collectionTime="1465570568719" />
+      <project id="rrt" values="rails 3.2" collectionTime="1436024339116" />
+      <project id="websiteTest" values="rails 4.1" collectionTime="0" />
+      <project id="ScopeCreep" values="rails 4.0" collectionTime="0" />
+      <project id="CompletelyFairScheduler" values="rails 4.1" collectionTime="0" />
+      <project id="OfficeHours" values="rails 4.0" collectionTime="0" />
+      <project id="FBFeedParser" values="plain ruby" collectionTime="0" />
+      <project id="GoogleInterview" values="plain ruby" collectionTime="1469018881635" />
+      <project id="resident-worklist" values="rails 3.2" collectionTime="1470855739597" />
+      <project id="service_app" values="rails 3.2" collectionTime="0" />
+      <project id="MRIProject" values="rails 3.2" collectionTime="1445379050415" />
+      <project id="clinical-corrections" values="rails 3.2" collectionTime="0" />
+      <project id="web-desktop" values="rails 3.2" collectionTime="1433868532431" />
+      <project id="GSSRegistration" values="rails 4.1" collectionTime="0" />
+      <project id="radtracker" values="rails 3.2" collectionTime="0" />
+      <project id="VitalViewerMobile" values="rails 3.2" collectionTime="0" />
+      <project id="ReachSearch" values="rails 3.2" collectionTime="1471476489990" />
+      <project id="rails4" values="rails 3.2" collectionTime="0" />
+      <project id="critical-findings" values="rails 3.2" collectionTime="1434111547203" />
+      <project id="DemoRailsApp" values="rails 3.2" collectionTime="0" />
+      <project id="NLPDataExport" values="rails 4.1" collectionTime="0" />
+    </group>
+    <group name="images.ide.background">
+      <project id="readahead_hybrid" values="editor 0,frame 0" collectionTime="1469806345696" />
+      <project id="OSX-JXA" values="frame 0,editor 0" collectionTime="1471188182484" />
+      <project id="json-easy-merge" values="frame 0,editor 0" collectionTime="1469110051539" />
+      <project id="Oasis" values="frame 0,editor 0" collectionTime="1470919247570" />
+      <project id="trelawney" values="frame 0,editor 0" collectionTime="1471448625935" />
+      <project id="readahead_tablet" values="frame 0,editor 0" collectionTime="1471485575950" />
+      <project id="koans" values="editor 0,frame 0" collectionTime="1468848059014" />
+      <project id="resident-worklist" values="editor 0,frame 0" collectionTime="1470855739581" />
+      <project id="GoogleInterview" values="frame 0,editor 0" collectionTime="1469018881619" />
+      <project id="PersonalSite" values="frame 0,editor 0" collectionTime="1471188182450" />
+      <project id="ember-cli-trelawney" values="frame 0,editor 0" collectionTime="1470186208379" />
+      <project id=".tmuxinator" values="editor 0,frame 0" collectionTime="1470347236533" />
+      <project id="ReachSearch" values="editor 0,frame 0" collectionTime="1471476489862" />
+      <project id="website" values="editor 0,frame 0" collectionTime="1469498678570" />
+      <project id="ember-so-fresh" values="editor 0,frame 0" collectionTime="1469291315433" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="MRIProject" values="PostgreSQL/9.1.2,PostgreSQL/9.4.1,PostgreSQL/9.4.1,PostgreSQL/9.3.3,PostgreSQL/9.1.2" collectionTime="1445379050414" />
+      <project id="Soundless" values="PostgreSQL/9.1.2" collectionTime="1463430725336" />
+      <project id="critical-findings" values="PostgreSQL/9.1.2,PostgreSQL/9.4.1" collectionTime="1434111547202" />
+      <project id="rails4" values="Microsoft SQL Server/11.00.3000,MySQL/5.1.66-0ubuntu0.10.04.1-log" collectionTime="0" />
+      <project id="myapp" values="PostgreSQL/9.1.2" collectionTime="1455043860449" />
+      <project id="peer-doc-review" values="PostgreSQL/9.3.3,PostgreSQL/9.3.3,PostgreSQL/9.3.3,SQLite/3.6.14.2" collectionTime="0" />
+      <project id="resident-worklist" values="PostgreSQL/9.4.1,PostgreSQL/9.1.2" collectionTime="1470855739593" />
+      <project id="untitled" values="PostgreSQL/9.1.2" collectionTime="1456450945078" />
+      <project id="procheckt" values="PostgreSQL/9.1.2" collectionTime="1426882762820" />
+      <project id="byozfwv" values="PostgreSQL/9.1.2" collectionTime="1432872816167" />
+      <project id="OSX-JXA" values="PostgreSQL/9.1.2" collectionTime="1471188182490" />
+      <project id="trelawney" values="PostgreSQL/9.1.2,PostgreSQL/9.1.2" collectionTime="1471448625941" />
+      <project id="website" values="PostgreSQL/9.1.2" collectionTime="1469498678578" />
+      <project id="bluetooth" values="PostgreSQL/9.1.2" collectionTime="1462733688142" />
+      <project id="ScopeCreep" values="Microsoft SQL Server/11.00.3000,MySQL/5.1.66-0ubuntu0.10.04.1-log" collectionTime="0" />
+      <project id="SensorApp" values="PostgreSQL/9.1.2" collectionTime="1459447374895" />
+      <project id="DemoRailsApp" values="Microsoft SQL Server/11.00.3000,MySQL/5.1.66-0ubuntu0.10.04.1-log" collectionTime="0" />
+      <project id="readahead_hybrid" values="PostgreSQL/9.1.2" collectionTime="1469806345699" />
+      <project id="findings-notification" values="PostgreSQL/9.4.1,PostgreSQL/9.1.2,PostgreSQL/9.1.2" collectionTime="1465570568635" />
+      <project id="readahead_tablet" values="PostgreSQL/9.1.2" collectionTime="1471485576174" />
+      <project id="readahead_hybrid_tablet" values="PostgreSQL/9.1.2" collectionTime="1458342030495" />
+      <project id="websiteTest" values="SQLite/3.7.6.3,SQLite/3.7.6.3" collectionTime="0" />
+      <project id="ServiceExample" values="PostgreSQL/9.1.2" collectionTime="1458622095490" />
+      <project id="Script Libraries" values="PostgreSQL/9.1.2" collectionTime="1463421527831" />
+      <project id="VitalViewerMobile" values="PostgreSQL/9.3.3,Microsoft SQL Server/11.00.3000,PostgreSQL/9.3.3,MySQL/5.1.66-0ubuntu0.10.04.1-log" collectionTime="0" />
+      <project id="ember-cli-trelawney" values="PostgreSQL/9.1.2" collectionTime="1470186208642" />
+      <project id="Assignment1" values="PostgreSQL/9.1.2" collectionTime="1459888713742" />
+      <project id="Bluetooth2" values="PostgreSQL/9.1.2" collectionTime="1462648301273" />
+      <project id="CurencyCalculator" values="PostgreSQL/9.1.2" collectionTime="1455043609431" />
+      <project id="frontend" values="PostgreSQL/9.1.2" collectionTime="1450713863203" />
+      <project id="machforms" values="MySQL/5.1.66-0ubuntu0.10.04.1-log,Microsoft SQL Server/11.00.3000" collectionTime="0" />
+      <project id="peer-review" values="PostgreSQL/9.3.3,PostgreSQL/9.1.2,PostgreSQL/9.1.2,PostgreSQL/9.1.6,PostgreSQL/9.1.2" collectionTime="1464802183046" />
+      <project id="jsx" values="PostgreSQL/9.1.2" collectionTime="1454651775415" />
+      <project id="BetterProjectSwitch" values="PostgreSQL/9.1.2" collectionTime="1434974624785" />
+      <project id="mapDemo" values="PostgreSQL/9.1.2" collectionTime="1461005586611" />
+      <project id="ember-cli-ipa" values="PostgreSQL/9.1.2" collectionTime="1458856862712" />
+      <project id="sample" values="PostgreSQL/9.1.2" collectionTime="1456960198404" />
+      <project id="rrt" values="MySQL/5.1.66-0ubuntu0.10.04.1,PostgreSQL/9.4.1,PostgreSQL/9.1.2,PostgreSQL/9.4.1,PostgreSQL/9.1.2" collectionTime="1436024339114" />
+      <project id="homework7" values="PostgreSQL/9.1.2" collectionTime="1446424720557" />
+      <project id="homework6" values="PostgreSQL/9.1.2" collectionTime="1446239679543" />
+      <project id="ember-cli-ai-js" values="PostgreSQL/9.1.2" collectionTime="0" />
+      <project id="homework4" values="PostgreSQL/9.1.2" collectionTime="1443153137339" />
+      <project id="homework3" values="PostgreSQL/9.1.2" collectionTime="1442622164091" />
+      <project id="homework2" values="PostgreSQL/9.1.2" collectionTime="1441941087295" />
+      <project id="ember-so-fresh" values="PostgreSQL/9.1.2" collectionTime="1469291315481" />
+      <project id="NLPDataExport" values="PostgreSQL/9.1.2" collectionTime="0" />
+      <project id="Desktop" values="PostgreSQL/9.1.2" collectionTime="1452090285977" />
+      <project id="liquid-fire" values="PostgreSQL/9.1.2" collectionTime="1445137366832" />
+      <project id="VTE" values="PostgreSQL/9.3.3,PostgreSQL/9.1.2" collectionTime="0" />
+      <project id="powerline" values="PostgreSQL/9.1.2" collectionTime="1466443724590" />
+      <project id=".zprezto" values="PostgreSQL/9.1.2" collectionTime="1465040657117" />
+      <project id="sprockets-rails" values="PostgreSQL/9.1.2" collectionTime="0" />
+      <project id="dumbaddon" values="PostgreSQL/9.1.2" collectionTime="1445805564262" />
+      <project id="ember-cli-neat" values="PostgreSQL/9.1.2" collectionTime="1446482459813" />
+      <project id="workshop-jb" values="PostgreSQL/9.1.2" collectionTime="0" />
+      <project id="koans" values="PostgreSQL/9.1.2" collectionTime="1468848059128" />
+      <project id="web-desktop" values="PostgreSQL/9.3.3,PostgreSQL/9.1.2,MySQL/5.1.67-0ubuntu0.10.04.1,PostgreSQL/9.3.3" collectionTime="1433868532427" />
+      <project id="db_scripts" values="PostgreSQL/9.1.2" collectionTime="1458652057656" />
+      <project id="PersonalSite" values="PostgreSQL/9.1.2" collectionTime="1471188182473" />
+      <project id="untitled1" values="PostgreSQL/9.1.2" collectionTime="1456960198325" />
+      <project id="alfred2-ruby-template" values="PostgreSQL/9.1.2" collectionTime="1454643892441" />
+      <project id=".tmuxinator" values="PostgreSQL/9.1.2" collectionTime="1470347236662" />
+      <project id="CompletelyFairScheduler" values="PostgreSQL/9.3.3,PostgreSQL/9.3.3,PostgreSQL/9.3.3,PostgreSQL/9.1.2" collectionTime="0" />
+      <project id="ember-inspector" values="PostgreSQL/9.1.2" collectionTime="1457652786763" />
+      <project id="extra_credit" values="PostgreSQL/9.1.2" collectionTime="1449840010475" />
+      <project id="ember-cli-animatecss" values="PostgreSQL/9.1.2" collectionTime="1447184668275" />
+      <project id="ember-cli-bourbon" values="PostgreSQL/9.1.2" collectionTime="1451408811724" />
+      <project id="GSSRegistration" values="PostgreSQL/9.1.2" collectionTime="0" />
+      <project id="crusty_model" values="PostgreSQL/9.1.2" collectionTime="1457282582582" />
+      <project id="FragmentExample" values="PostgreSQL/9.1.2" collectionTime="1457100293975" />
+      <project id="radtracker" values="PostgreSQL/9.3.3" collectionTime="0" />
+      <project id="SensorApp 2" values="PostgreSQL/9.1.2" collectionTime="1459173164766" />
+      <project id="compa" values="PostgreSQL/9.1.2" collectionTime="1428940302325" />
+      <project id="ReachSearch" values="PostgreSQL/9.1.2" collectionTime="1471476489985" />
+      <project id="ember-cli-diff" values="PostgreSQL/9.1.2" collectionTime="1465238371291" />
+      <project id="Oasis" values="PostgreSQL/9.1.2,PostgreSQL/9.1.2,PostgreSQL/9.1.2,MySQL/5.1.66-0ubuntu0.10.04.1,PostgreSQL/9.1.2" collectionTime="1470919247767" />
+      <project id="json-easy-merge" values="PostgreSQL/9.1.2" collectionTime="1469110051690" />
+      <project id="Project3" values="PostgreSQL/9.1.2" collectionTime="1426533570080" />
+      <project id="GmapDemo" values="PostgreSQL/9.1.2" collectionTime="1461092690610" />
+      <project id="ember-cli-easy-table" values="PostgreSQL/9.1.2" collectionTime="1446515175938" />
+      <project id="GoogleInterview" values="PostgreSQL/9.1.2" collectionTime="1469018881632" />
+      <project id="ember-cli-d29" values="PostgreSQL/9.1.2" collectionTime="0" />
+      <project id="ember-cli-deployment-url" values="PostgreSQL/9.1.2" collectionTime="0" />
+      <project id="ember-cli-textillate" values="PostgreSQL/9.1.2" collectionTime="1446497998458" />
+      <project id="ember-cli-powerbars" values="PostgreSQL/9.1.2" collectionTime="1453233600796" />
+      <project id="exam2" values="PostgreSQL/9.1.2" collectionTime="1461764105422" />
+      <project id="Joe" values="PostgreSQL/9.1.2" collectionTime="1465064714025" />
+      <project id="MyApplication2" values="PostgreSQL/9.1.2" collectionTime="1455057452601" />
+      <project id="PurchaseExample" values="PostgreSQL/9.1.2" collectionTime="1458424371039" />
+    </group>
+    <group name="frameworks">
+      <project id="VTE" values="invalid" collectionTime="0" />
+      <project id="Soundless" values="android-gradle,java-gradle,android" collectionTime="1463430725128" />
+      <project id="resident-worklist" values="RailsFacetType" collectionTime="1470855739541" />
+      <project id="MRIProject" values="RailsFacetType" collectionTime="1445379050408" />
+      <project id="VitalViewerMobile" values="RailsFacetType" collectionTime="0" />
+      <project id="SensorApp" values="android,android-gradle,java-gradle" collectionTime="1459447374768" />
+      <project id="findings-notification" values="RailsFacetType" collectionTime="1465570568580" />
+      <project id="peer-doc-review" values="RailsFacetType" collectionTime="0" />
+      <project id="Assignment1" values="android-gradle,android,java-gradle" collectionTime="1459888713586" />
+      <project id="peer-review" values="RailsFacetType" collectionTime="1464802183018" />
+      <project id="rrt" values="RailsFacetType" collectionTime="1436024339076" />
+      <project id="myapp" values="android" collectionTime="1455043860427" />
+      <project id="FragmentExample" values="android-gradle,android,java-gradle" collectionTime="1457100293593" />
+      <project id="web-desktop" values="RailsFacetType" collectionTime="1433868532354" />
+      <project id="CurencyCalculator" values="android,android-gradle,java-gradle" collectionTime="1455043609404" />
+      <project id="OfficeHours" values="RailsFacetType" collectionTime="0" />
+      <project id="CompletelyFairScheduler" values="RailsFacetType" collectionTime="0" />
+      <project id="ScopeCreep" values="RailsFacetType" collectionTime="0" />
+      <project id="websiteTest" values="RailsFacetType" collectionTime="0" />
+      <project id="ServiceExample" values="android,java-gradle" collectionTime="1458622095450" />
+      <project id="GmapDemo" values="android,java-gradle,android-gradle" collectionTime="1461092689918" />
+      <project id="SensorApp 2" values="android,android-gradle,java-gradle" collectionTime="1459173164510" />
+      <project id="homework6" values="Python" collectionTime="1446239679474" />
+      <project id="clinical-corrections" values="RailsFacetType,invalid" collectionTime="0" />
+      <project id="trelawney" values="RailsFacetType" collectionTime="1471448625918" />
+      <project id="Oasis" values="RailsFacetType" collectionTime="1470919247320" />
+      <project id="bluetooth" values="android,android-gradle,java-gradle" collectionTime="1462733688067" />
+      <project id="MyApplication2" values="android,java-gradle,android-gradle" collectionTime="1455057452292" />
+      <project id="NLPDataExport" values="RailsFacetType" collectionTime="0" />
+      <project id="DemoRailsApp" values="RailsFacetType" collectionTime="0" />
+      <project id="GSSRegistration" values="RailsFacetType" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="invalid" collectionTime="0" />
+      <project id="critical-findings" values="RailsFacetType" collectionTime="1434111547187" />
+      <project id="rails4" values="RailsFacetType" collectionTime="0" />
+      <project id="service_app" values="RailsFacetType" collectionTime="0" />
+      <project id="radtracker" values="RailsFacetType" collectionTime="0" />
+      <project id="Bluetooth2" values="java-gradle,android,android-gradle" collectionTime="1462648300942" />
+      <project id="service-app" values="RailsFacetType" collectionTime="0" />
+      <project id="extra_credit" values="Python" collectionTime="1449840010467" />
+      <project id="ReachSearch" values="JRailsFacetType,JRUBY" collectionTime="1471476489766" />
+    </group>
+    <group name="vcs">
+      <project id="MRIProject" values="Git" collectionTime="1445379050408" />
+      <project id="service_app" values="Git" collectionTime="0" />
+      <project id="Soundless" values="Git" collectionTime="1463430725128" />
+      <project id="alfred2-ruby-template" values="Git" collectionTime="1454643892315" />
+      <project id=".zsh_scripts" values="Git" collectionTime="1466514752465" />
+      <project id="CMSC483-Optimization" values="Git" collectionTime="1462379396450" />
+      <project id="peer-doc-review" values="Git" collectionTime="0" />
+      <project id="resident-worklist" values="Git" collectionTime="1470855739541" />
+      <project id="byozfwv" values="Git" collectionTime="1432872816047" />
+      <project id="trelawney" values="Git" collectionTime="1471448625918" />
+      <project id="critical-findings" values="Git" collectionTime="1434111547187" />
+      <project id="OfficeHours" values="Git" collectionTime="0" />
+      <project id="service-app" values="Git" collectionTime="0" />
+      <project id="liquid-fire" values="Git" collectionTime="1445137366825" />
+      <project id="ember-cli-textillate" values="Git" collectionTime="1446497998432" />
+      <project id="ember-inspector" values="Git" collectionTime="1457652786563" />
+      <project id="ember-cli-bourbon" values="Git" collectionTime="1451408811639" />
+      <project id="readahead_hybrid" values="Git" collectionTime="1469806345682" />
+      <project id="Assignment1" values="Git" collectionTime="1459888713585" />
+      <project id="idea-assemblysupport-read-only" values="svn" collectionTime="0" />
+      <project id="findings-notification" values="Git" collectionTime="1465570568579" />
+      <project id="readahead_tablet" values="Git" collectionTime="1471485575542" />
+      <project id="readahead_hybrid_tablet" values="Git" collectionTime="1458342030462" />
+      <project id="websiteTest" values="Git" collectionTime="0" />
+      <project id="ember-cli-powerbars" values="Git" collectionTime="1453233600733" />
+      <project id="VitalViewerMobile" values="Git" collectionTime="0" />
+      <project id="ember-cli-trelawney" values="Git" collectionTime="1470186208285" />
+      <project id="DeeIdentifier" values="Git" collectionTime="0" />
+      <project id="ember-cli-open-web-analytics" values="Git" collectionTime="0" />
+      <project id="SensorApp" values="Git" collectionTime="1459447374767" />
+      <project id="ember-cli-lettering-js" values="Git" collectionTime="1458774207198" />
+      <project id="machforms" values="Git" collectionTime="0" />
+      <project id="peer-review" values="Git" collectionTime="1464802183018" />
+      <project id="GSSRegistration" values="Git" collectionTime="0" />
+      <project id="mapDemo" values="Git" collectionTime="1461005586591" />
+      <project id="ember-cli-ipa" values="Git" collectionTime="1458856862564" />
+      <project id="rrt" values="Git" collectionTime="1436024339076" />
+      <project id="ember-cli-ai-js" values="Git" collectionTime="0" />
+      <project id="ember-so-fresh" values="Git" collectionTime="1469291315375" />
+      <project id="clinical-corrections" values="Git" collectionTime="0" />
+      <project id="VTE" values="Git" collectionTime="0" />
+      <project id=".zprezto" values="Git" collectionTime="1465040656978" />
+      <project id="website" values="Git" collectionTime="1469498678513" />
+      <project id="GmapDemo" values="Git" collectionTime="1461092689917" />
+      <project id="dumbaddon" values="Git" collectionTime="1445805564258" />
+      <project id="ember-cli-neat" values="Git" collectionTime="1446482459732" />
+      <project id="workshop-jb" values="Git" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="Git" collectionTime="0" />
+      <project id="web-desktop" values="Git" collectionTime="1433868532354" />
+      <project id="PersonalSite" values="Git" collectionTime="1471188182336" />
+      <project id="PurchaseExample" values="Git" collectionTime="1458424370876" />
+      <project id="FlexGrid" values="Git" collectionTime="0" />
+      <project id="ember-cli-animatecss" values="Git" collectionTime="1447184668265" />
+      <project id="procheckt" values="Git" collectionTime="1426882762789" />
+      <project id="sprockets-rails" values="Git" collectionTime="0" />
+      <project id="crusty_model" values="Git" collectionTime="1457282582471" />
+      <project id="radtracker" values="Git" collectionTime="0" />
+      <project id="EmergeData" values="Git" collectionTime="0" />
+      <project id="ember-cli-diff" values="Git" collectionTime="1465238371216" />
+      <project id="Oasis" values="Git" collectionTime="1470919247319" />
+      <project id="ReachSearch" values="Git" collectionTime="1471476489765" />
+      <project id="ember-cli-easy-table" values="Git" collectionTime="1446515175873" />
+      <project id="ember-cli-deployment-url" values="Git" collectionTime="0" />
+      <project id="ember-cli-d29" values="Git" collectionTime="0" />
+    </group>
+    <group name="module type">
+      <project id="MRIProject" values="RUBY_MODULE" collectionTime="1445379050408" />
+      <project id="Soundless" values="JAVA_MODULE" collectionTime="1463430725128" />
+      <project id="alfred2-ruby-template" values="JAVA_MODULE" collectionTime="1454643892323" />
+      <project id=".zsh_scripts" values="JAVA_MODULE" collectionTime="1466514752466" />
+      <project id="untitled folder" values="JAVA_MODULE" collectionTime="0" />
+      <project id="rails4" values="RUBY_MODULE" collectionTime="0" />
+      <project id="CMSC483-Optimization" values="PYTHON_MODULE" collectionTime="1462379396451" />
+      <project id="peer-doc-review" values="RUBY_MODULE" collectionTime="0" />
+      <project id="bluetooth" values="JAVA_MODULE" collectionTime="1462733688067" />
+      <project id="resident-worklist" values="RUBY_MODULE" collectionTime="1470855739541" />
+      <project id="untitled" values="JAVA_MODULE" collectionTime="1456450945002" />
+      <project id="FragmentExample" values="JAVA_MODULE" collectionTime="1457100293593" />
+      <project id="procheckt" values="JAVA_MODULE" collectionTime="1426882762791" />
+      <project id="byozfwv" values="WEB_MODULE" collectionTime="1432872816048" />
+      <project id="OSX-JXA" values="JAVA_MODULE" collectionTime="1471188182477" />
+      <project id="trelawney" values="RUBY_MODULE" collectionTime="1471448625919" />
+      <project id="website" values="JAVA_MODULE" collectionTime="1469498678514" />
+      <project id="OfficeHours" values="RUBY_MODULE" collectionTime="0" />
+      <project id="ScopeCreep" values="RUBY_MODULE" collectionTime="0" />
+      <project id="ember-inspector" values="JAVA_MODULE" collectionTime="1457652786564" />
+      <project id="DemoRailsApp" values="RUBY_MODULE" collectionTime="0" />
+      <project id="ember-cli-deployment-url" values="JAVA_MODULE" collectionTime="0" />
+      <project id="service_app" values="RUBY_MODULE" collectionTime="0" />
+      <project id="Assignment1" values="JAVA_MODULE" collectionTime="1459888713586" />
+      <project id="idea-assemblysupport-read-only" values="PLUGIN_MODULE" collectionTime="0" />
+      <project id="findings-notification" values="RUBY_MODULE" collectionTime="1465570568580" />
+      <project id="readahead_tablet" values="JAVA_MODULE" collectionTime="1471485575586" />
+      <project id="readahead_hybrid_tablet" values="JAVA_MODULE" collectionTime="1458342030463" />
+      <project id="websiteTest" values="RUBY_MODULE" collectionTime="0" />
+      <project id="ServiceExample" values="JAVA_MODULE" collectionTime="1458622095450" />
+      <project id="Script Libraries" values="JAVA_MODULE" collectionTime="1463421527744" />
+      <project id="VitalViewerMobile" values="RUBY_MODULE" collectionTime="0" />
+      <project id="lab2" values="PYTHON_MODULE" collectionTime="0" />
+      <project id="ember-cli-trelawney" values="JAVA_MODULE" collectionTime="1470186208286" />
+      <project id="DeeIdentifier" values="WEB_MODULE" collectionTime="0" />
+      <project id="ember-cli-open-web-analytics" values="JAVA_MODULE" collectionTime="0" />
+      <project id="service-app" values="RUBY_MODULE" collectionTime="0" />
+      <project id="PurchaseExample" values="JAVA_MODULE" collectionTime="1458424370876" />
+      <project id="CurencyCalculator" values="JAVA_MODULE" collectionTime="1455043609405" />
+      <project id="ember-cli-lettering-js" values="JAVA_MODULE" collectionTime="1458774207199" />
+      <project id="exam2" values="JAVA_MODULE" collectionTime="1461764105205" />
+      <project id="machforms" values="WEB_MODULE" collectionTime="0" />
+      <project id="peer-review" values="RUBY_MODULE" collectionTime="1464802183018" />
+      <project id="myapp" values="JAVA_MODULE" collectionTime="1455043860427" />
+      <project id="jsx" values="JAVA_MODULE" collectionTime="1454651775142" />
+      <project id="BetterProjectSwitch" values="PLUGIN_MODULE" collectionTime="1434974624715" />
+      <project id="critical-findings" values="RUBY_MODULE" collectionTime="1434111547187" />
+      <project id="ember-cli-ipa" values="JAVA_MODULE" collectionTime="1458856862567" />
+      <project id="sample" values="JAVA_MODULE" collectionTime="1456960198326" />
+      <project id="rrt" values="RUBY_MODULE" collectionTime="1436024339076" />
+      <project id="homework7" values="JAVA_MODULE" collectionTime="1446424720451" />
+      <project id="homework6" values="JAVA_MODULE" collectionTime="1446239679474" />
+      <project id="ember-cli-ai-js" values="JAVA_MODULE" collectionTime="0" />
+      <project id="homework4" values="JAVA_MODULE" collectionTime="1443153137310" />
+      <project id="homework2" values="JAVA_MODULE" collectionTime="1441941086733" />
+      <project id="ember-so-fresh" values="JAVA_MODULE" collectionTime="1469291315375" />
+      <project id="NLPDataExport" values="RUBY_MODULE" collectionTime="0" />
+      <project id="Desktop" values="JAVA_MODULE" collectionTime="1452090285956" />
+      <project id="liquid-fire" values="JAVA_MODULE" collectionTime="1445137366825" />
+      <project id="VTE" values="RUBY_MODULE" collectionTime="0" />
+      <project id="powerline" values="JAVA_MODULE" collectionTime="1466443724458" />
+      <project id=".zprezto" values="JAVA_MODULE" collectionTime="1465040656981" />
+      <project id="GmapDemo" values="JAVA_MODULE" collectionTime="1461092689918" />
+      <project id="GSSRegistration" values="RUBY_MODULE" collectionTime="0" />
+      <project id="ember-cli-neat" values="JAVA_MODULE" collectionTime="1446482459733" />
+      <project id="workshop-jb" values="JAVA_MODULE" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="JAVA_MODULE" collectionTime="0" />
+      <project id="koans" values="JAVA_MODULE" collectionTime="1468848059002" />
+      <project id="ember-cli-powerbars" values="JAVA_MODULE" collectionTime="1453233600734" />
+      <project id="db_scripts" values="JAVA_MODULE" collectionTime="1458652057391" />
+      <project id="PersonalSite" values="JAVA_MODULE" collectionTime="1471188182347" />
+      <project id="untitled1" values="PLUGIN_MODULE" collectionTime="1456960196016" />
+      <project id="clinical-corrections" values="RUBY_MODULE" collectionTime="0" />
+      <project id="FlexGrid" values="JAVA_MODULE" collectionTime="0" />
+      <project id=".tmuxinator" values="JAVA_MODULE" collectionTime="1470347236449" />
+      <project id="CompletelyFairScheduler" values="RUBY_MODULE" collectionTime="0" />
+      <project id="TheHelp" values="PYTHON_MODULE" collectionTime="0" />
+      <project id="extra_credit" values="JAVA_MODULE" collectionTime="1449840010467" />
+      <project id="ember-cli-animatecss" values="JAVA_MODULE" collectionTime="1447184668265" />
+      <project id="ember-cli-bourbon" values="JAVA_MODULE" collectionTime="1451408811640" />
+      <project id="web-desktop" values="RUBY_MODULE" collectionTime="1433868532354" />
+      <project id="crusty_model" values="JAVA_MODULE" collectionTime="1457282582472" />
+      <project id="Project5" values="JAVA_MODULE" collectionTime="0" />
+      <project id="Bluetooth2" values="JAVA_MODULE" collectionTime="1462648300942" />
+      <project id="ember-cli-textillate" values="JAVA_MODULE" collectionTime="1446497998432" />
+      <project id="MyApplication2" values="JAVA_MODULE" collectionTime="1455057452293" />
+      <project id="compa" values="JAVA_MODULE" collectionTime="1428940302312" />
+      <project id="ember-cli-easy-table" values="JAVA_MODULE" collectionTime="1446515175873" />
+      <project id="EmergeData" values="WEB_MODULE" collectionTime="0" />
+      <project id="ember-cli-diff" values="JAVA_MODULE" collectionTime="1465238371217" />
+      <project id="dumbaddon" values="JAVA_MODULE" collectionTime="1445805564258" />
+      <project id="Oasis" values="RUBY_MODULE" collectionTime="1470919247320" />
+      <project id="json-easy-merge" values="JAVA_MODULE" collectionTime="1469110051503" />
+      <project id="readahead_hybrid" values="JAVA_MODULE" collectionTime="1469806345682" />
+      <project id="ReachSearch" values="JAVA_MODULE" collectionTime="1471476489766" />
+      <project id="CSMC 341 Data Structures" values="JAVA_MODULE" collectionTime="0" />
+      <project id="radtracker" values="RUBY_MODULE" collectionTime="0" />
+      <project id="FBFeedParser" values="RUBY_MODULE" collectionTime="0" />
+      <project id="GoogleInterview" values="RUBY_MODULE" collectionTime="1469018881602" />
+      <project id="Lab3" values="JAVA_MODULE" collectionTime="1445021227687" />
+      <project id="SensorApp" values="JAVA_MODULE" collectionTime="1459447374768" />
+      <project id="ember-cli-d29" values="JAVA_MODULE" collectionTime="0" />
+      <project id="homework5" values="JAVA_MODULE" collectionTime="1444007214807" />
+      <project id="sprockets-rails" values="JAVA_MODULE" collectionTime="0" />
+      <project id="SensorApp 2" values="JAVA_MODULE" collectionTime="1459173164511" />
+      <project id="Project3" values="JAVA_MODULE" collectionTime="1426533569804" />
+      <project id="emerge" values="WEB_MODULE" collectionTime="0" />
+      <project id="frontend" values="JAVA_MODULE" collectionTime="1450713863087" />
+    </group>
+    <group name="VCS Log Ui Settings">
+      <project id="readahead_hybrid" values="ui.details.enabled,ui.highlighter.MERGE_COMMITS.enabled,ui.sort.linear.bek.disabled,ui.sort.bek.disabled,ui.sort.normal.enabled,ui.branches.panel.disabled,ui.highlighter.CURRENT_BRANCH.enabled,ui.long.edges.disabled,ui.highlighter.MY_COMMITS.enabled" collectionTime="1469806345696" />
+      <project id="trelawney" values="ui.long.edges.disabled,ui.highlighter.MY_COMMITS.enabled,ui.highlighter.MERGE_COMMITS.enabled,ui.highlighter.CURRENT_BRANCH.enabled,ui.sort.bek.disabled,ui.details.enabled,ui.sort.linear.bek.disabled,ui.sort.normal.enabled,ui.branches.panel.disabled" collectionTime="1471448625935" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="VTE" values="Unknown" collectionTime="0" />
+      <project id="Soundless" values="AndroidRunConfigurationType" collectionTime="1463430725129" />
+      <project id="untitled" values="Application" collectionTime="1456450945002" />
+      <project id="resident-worklist" values="RubyRunConfigurationType" collectionTime="1470855739541" />
+      <project id="MRIProject" values="RakeRunConfigurationType,IrbRunConfigurationType" collectionTime="1445379050408" />
+      <project id="RadiologyModalitySchedule" values="PhpLocalRunConfigurationType,JavascriptDebugType" collectionTime="0" />
+      <project id="Project4" values="Application" collectionTime="0" />
+      <project id="peer-doc-review" values="IrbRunConfigurationType,RakeRunConfigurationType,RSpecRunConfigurationType" collectionTime="0" />
+      <project id="GmapDemo" values="GradleRunConfiguration" collectionTime="1461092689919" />
+      <project id="peer-review" values="CapistranoRunConfigurationType,RSpecRunConfigurationType,IrbRunConfigurationType,RakeRunConfigurationType,RubyRunConfigurationType" collectionTime="1464802183018" />
+      <project id="rrt" values="RubyRunConfigurationType" collectionTime="1436024339077" />
+      <project id="Lab3" values="Application" collectionTime="1445021227688" />
+      <project id="extra_credit" values="PythonConfigurationType" collectionTime="1449840010467" />
+      <project id="web-desktop" values="RakeRunConfigurationType" collectionTime="1433868532355" />
+      <project id="CurencyCalculator" values="JUnit" collectionTime="1455043609405" />
+      <project id="OfficeHours" values="RakeRunConfigurationType" collectionTime="0" />
+      <project id="CMSC483-Optimization" values="PythonConfigurationType" collectionTime="1462379396451" />
+      <project id="GoogleInterview" values="RubyRunConfigurationType" collectionTime="1469018881602" />
+      <project id="ServiceExample" values="GroovyScriptRunConfiguration" collectionTime="1458622095450" />
+      <project id="ScopeCreep" values="IrbRunConfigurationType" collectionTime="0" />
+      <project id="findings-notification" values="RubyRunConfigurationType" collectionTime="1465570568580" />
+      <project id="machforms" values="PhpLocalRunConfigurationType" collectionTime="0" />
+      <project id="Project5" values="Application" collectionTime="0" />
+      <project id="lab2" values="PythonConfigurationType" collectionTime="0" />
+      <project id="ReachSearch" values="RubyRunConfigurationType,RakeRunConfigurationType,IrbRunConfigurationType" collectionTime="1471476489766" />
+      <project id="FBFeedParser" values="RubyRunConfigurationType" collectionTime="0" />
+      <project id="trelawney" values="IrbRunConfigurationType,RubyRunConfigurationType,RSpecRunConfigurationType" collectionTime="1471448625919" />
+      <project id="Oasis" values="RubyRunConfigurationType" collectionTime="1470919247321" />
+      <project id="readahead_tablet" values="JavascriptDebugType" collectionTime="1471485575593" />
+      <project id="TheHelp" values="PythonConfigurationType" collectionTime="0" />
+      <project id="readahead_hybrid" values="JavascriptDebugType" collectionTime="1469806345682" />
+      <project id="VitalViewerMobile" values="IrbRunConfigurationType,RakeRunConfigurationType,RubyRunConfigurationType" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="Application" collectionTime="0" />
+      <project id="byozfwv" values="JavascriptDebugType" collectionTime="1432872816048" />
+      <project id="service-app" values="IrbRunConfigurationType" collectionTime="0" />
+      <project id="workshop-jb" values="JetRunConfigurationType" collectionTime="0" />
+      <project id="homework7" values="PythonConfigurationType" collectionTime="1446424720451" />
+      <project id="homework6" values="PythonConfigurationType" collectionTime="1446239679474" />
+    </group>
+    <group name="php-interpreter-version">
+      <project id="trelawney" values="not installed" collectionTime="0" />
+      <project id="rails4" values="not installed" collectionTime="0" />
+      <project id="VTE" values="not installed" collectionTime="0" />
+      <project id="critical-findings" values="not installed" collectionTime="0" />
+      <project id="peer-review" values="not installed" collectionTime="0" />
+      <project id="untitled folder" values="not installed" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="5.5.1" collectionTime="0" />
+      <project id="websiteTest" values="not installed" collectionTime="0" />
+      <project id="DeeIdentifier" values="5.5.1" collectionTime="0" />
+      <project id="ScopeCreep" values="not installed" collectionTime="0" />
+      <project id="calc" values="not installed" collectionTime="0" />
+      <project id="OfficeHours" values="not installed" collectionTime="0" />
+      <project id="peer-doc-review" values="not installed" collectionTime="0" />
+      <project id="Default" values="5.5.1" collectionTime="0" />
+      <project id="resident-worklist" values="not installed" collectionTime="0" />
+      <project id="service_app" values="not installed" collectionTime="0" />
+      <project id="web-desktop" values="not installed" collectionTime="0" />
+      <project id="MRIProject" values="not installed" collectionTime="0" />
+      <project id="idea-assemblysupport-read-only" values="not installed" collectionTime="0" />
+      <project id="service-app" values="not installed" collectionTime="0" />
+      <project id="radtracker" values="not installed" collectionTime="0" />
+      <project id="VitalViewerMobile" values="not installed" collectionTime="0" />
+      <project id="machforms" values="5.5.1" collectionTime="0" />
+      <project id="EmergeData" values="not installed" collectionTime="0" />
+      <project id="clinical-corrections" values="not installed" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="not installed" collectionTime="0" />
+      <project id="Project4" values="not installed" collectionTime="0" />
+      <project id="DemoRailsApp" values="not installed" collectionTime="0" />
+      <project id="ReachSearch" values="not installed" collectionTime="0" />
+    </group>
+    <group name="libraries">
+      <project id="OSX-JXA" values="javaScript" collectionTime="1471188182483" />
+      <project id="Oasis" values="javaScript" collectionTime="1470919247570" />
+      <project id="ember-cli-diff" values="javaScript" collectionTime="1465238371266" />
+      <project id="jsx" values="javaScript" collectionTime="1454651775348" />
+      <project id="findings-notification" values="javaScript" collectionTime="1465570568630" />
+      <project id="resident-worklist" values="javaScript" collectionTime="1470855739576" />
+      <project id="workshop-jb" values="kotlin-java-runtime" collectionTime="0" />
+      <project id="PersonalSite" values="javaScript" collectionTime="1471188182449" />
+      <project id="ember-cli-trelawney" values="javaScript" collectionTime="1470186208377" />
+      <project id="FlexGrid" values="javaScript" collectionTime="0" />
+      <project id="ReachSearch" values="javaScript" collectionTime="1471476489859" />
+      <project id="EmergeData" values="javaScript" collectionTime="0" />
+      <project id="emerge" values="javaScript" collectionTime="0" />
+      <project id="website" values="javaScript" collectionTime="1469498678570" />
+    </group>
+    <group name="php-debug-skipped-paths">
+      <project id="trelawney" values="0" collectionTime="0" />
+      <project id="rails4" values="0" collectionTime="0" />
+      <project id="VTE" values="0" collectionTime="0" />
+      <project id="critical-findings" values="0" collectionTime="0" />
+      <project id="peer-review" values="0" collectionTime="0" />
+      <project id="untitled folder" values="0" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="0" collectionTime="0" />
+      <project id="websiteTest" values="0" collectionTime="0" />
+      <project id="DeeIdentifier" values="0" collectionTime="0" />
+      <project id="ScopeCreep" values="0" collectionTime="0" />
+      <project id="calc" values="0" collectionTime="0" />
+      <project id="OfficeHours" values="0" collectionTime="0" />
+      <project id="peer-doc-review" values="0" collectionTime="0" />
+      <project id="Default" values="0" collectionTime="0" />
+      <project id="resident-worklist" values="0" collectionTime="0" />
+      <project id="service_app" values="0" collectionTime="0" />
+      <project id="web-desktop" values="0" collectionTime="0" />
+      <project id="MRIProject" values="0" collectionTime="0" />
+      <project id="idea-assemblysupport-read-only" values="0" collectionTime="0" />
+      <project id="service-app" values="0" collectionTime="0" />
+      <project id="radtracker" values="0" collectionTime="0" />
+      <project id="VitalViewerMobile" values="0" collectionTime="0" />
+      <project id="machforms" values="0" collectionTime="0" />
+      <project id="EmergeData" values="0" collectionTime="0" />
+      <project id="clinical-corrections" values="0" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="0" collectionTime="0" />
+      <project id="Project4" values="0" collectionTime="0" />
+      <project id="DemoRailsApp" values="0" collectionTime="0" />
+      <project id="ReachSearch" values="0" collectionTime="0" />
+    </group>
+    <group name="ruby-sdk-version">
+      <project id="websiteTest" values="ruby-2.1.2" collectionTime="0" />
+      <project id="VTE" values="ruby-2.1.2" collectionTime="0" />
+      <project id="Oasis" values="jruby-1.6.8 [1.8]" collectionTime="1470919247774" />
+      <project id="findings-notification" values="jruby-1.6.8 [1.8]" collectionTime="1465570568719" />
+      <project id="rrt" values="jruby-1.6.8 [1.9]" collectionTime="1436024339116" />
+      <project id="DemoRailsApp" values="jruby-1.6.8 [1.8]" collectionTime="0" />
+      <project id="radtracker" values="jruby-1.6.8 [1.9]" collectionTime="0" />
+      <project id="ScopeCreep" values="ruby-2.0.0-p353" collectionTime="0" />
+      <project id="CompletelyFairScheduler" values="ruby-2.1.2" collectionTime="0" />
+      <project id="OfficeHours" values="ruby-2.0.0-p247" collectionTime="0" />
+      <project id="peer-doc-review" values="ruby-2.1.0" collectionTime="0" />
+      <project id="FBFeedParser" values="ruby-2.0.0-p247" collectionTime="0" />
+      <project id="GoogleInterview" values="ruby-2.1.2" collectionTime="1469018881635" />
+      <project id="resident-worklist" values="jruby-1.6.8 [1.8]" collectionTime="1470855739597" />
+      <project id="service_app" values="jruby-1.6.8-p357 [1.8]" collectionTime="0" />
+      <project id="MRIProject" values="jruby-1.6.8 [1.8]" collectionTime="1445379050415" />
+      <project id="clinical-corrections" values="jruby-1.6.8 [1.8]" collectionTime="0" />
+      <project id="web-desktop" values="jruby-1.6.8 [1.8]" collectionTime="1433868532431" />
+      <project id="GSSRegistration" values="ruby-2.1.2" collectionTime="0" />
+      <project id="service-app" values="jruby-1.6.8 [1.8]" collectionTime="0" />
+      <project id="VitalViewerMobile" values="jruby-1.7.12 [1.9]" collectionTime="0" />
+      <project id="ReachSearch" values="jruby-1.6.8 [1.8]" collectionTime="1471476489990" />
+      <project id="rails4" values="jruby-1.7.12 [1.9]" collectionTime="0" />
+      <project id="critical-findings" values="jruby-1.6.8 [1.8]" collectionTime="1434111547203" />
+      <project id="NLPDataExport" values="ruby-2.1.2" collectionTime="0" />
+    </group>
+    <group name="VCS Log 2">
+      <project id="ember-cli-trelawney" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1470186208379" />
+      <project id="readahead_tablet" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1471485575949" />
+      <project id="ember-cli-bourbon" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1451408811712" />
+      <project id="ReachSearch" values="data.git.root.count.1,data.commit.count.100+" collectionTime="1471476489862" />
+      <project id="PersonalSite" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1471188182450" />
+      <project id="SensorApp" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1459447374835" />
+      <project id="website" values="data.git.root.count.1,data.commit.count.1+" collectionTime="1469498678570" />
+      <project id="ember-so-fresh" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1469291315432" />
+      <project id="resident-worklist" values="data.git.root.count.1,data.commit.count.100+" collectionTime="1470855739581" />
+      <project id="trelawney" values="data.git.root.count.1,data.commit.count.100+" collectionTime="1471448625934" />
+      <project id="readahead_hybrid_tablet" values="data.git.root.count.1,data.commit.count.1+" collectionTime="1458342030489" />
+      <project id="readahead_hybrid" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1469806345696" />
+      <project id=".zprezto" values="data.git.root.count.1,data.commit.count.1K+" collectionTime="1465040657044" />
+    </group>
+    <group name="php-include-path">
+      <project id="trelawney" values="0" collectionTime="0" />
+      <project id="rails4" values="0" collectionTime="0" />
+      <project id="VTE" values="0" collectionTime="0" />
+      <project id="critical-findings" values="0" collectionTime="0" />
+      <project id="peer-review" values="0" collectionTime="0" />
+      <project id="untitled folder" values="0" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="0" collectionTime="0" />
+      <project id="websiteTest" values="0" collectionTime="0" />
+      <project id="DeeIdentifier" values="0" collectionTime="0" />
+      <project id="ScopeCreep" values="0" collectionTime="0" />
+      <project id="calc" values="0" collectionTime="0" />
+      <project id="OfficeHours" values="0" collectionTime="0" />
+      <project id="peer-doc-review" values="0" collectionTime="0" />
+      <project id="Default" values="0" collectionTime="0" />
+      <project id="resident-worklist" values="0" collectionTime="0" />
+      <project id="service_app" values="0" collectionTime="0" />
+      <project id="web-desktop" values="0" collectionTime="0" />
+      <project id="MRIProject" values="0" collectionTime="0" />
+      <project id="idea-assemblysupport-read-only" values="0" collectionTime="0" />
+      <project id="service-app" values="0" collectionTime="0" />
+      <project id="radtracker" values="0" collectionTime="0" />
+      <project id="VitalViewerMobile" values="0" collectionTime="0" />
+      <project id="machforms" values="0" collectionTime="0" />
+      <project id="EmergeData" values="0" collectionTime="0" />
+      <project id="clinical-corrections" values="0" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="0" collectionTime="0" />
+      <project id="Project4" values="0" collectionTime="0" />
+      <project id="DemoRailsApp" values="0" collectionTime="0" />
+      <project id="ReachSearch" values="0" collectionTime="0" />
+    </group>
+    <group name="language-level">
+      <project id="MRIProject" values="JDK_1_3" collectionTime="1445379050414" />
+      <project id="service_app" values="JDK_1_6" collectionTime="0" />
+      <project id="Soundless" values="JDK_1_7" collectionTime="1463430725213" />
+      <project id="alfred2-ruby-template" values="JDK_1_3" collectionTime="1454643892412" />
+      <project id=".zsh_scripts" values="JDK_1_6" collectionTime="1466514752528" />
+      <project id="untitled folder" values="JDK_1_6" collectionTime="0" />
+      <project id="rails4" values="JDK_1_6" collectionTime="0" />
+      <project id="CMSC483-Optimization" values="JDK_1_6" collectionTime="1462379396516" />
+      <project id="peer-doc-review" values="JDK_1_6" collectionTime="0" />
+      <project id="bluetooth" values="JDK_1_7" collectionTime="1462733688138" />
+      <project id="resident-worklist" values="JDK_1_6" collectionTime="1470855739587" />
+      <project id="compa" values="JDK_1_6" collectionTime="1428940302324" />
+      <project id="untitled" values="JDK_1_6" collectionTime="1456450945071" />
+      <project id="calc" values="JDK_1_6" collectionTime="0" />
+      <project id="byozfwv" values="JDK_1_6" collectionTime="1432872816095" />
+      <project id="Bluetooth2" values="JDK_1_6,JDK_1_7" collectionTime="1462648301123" />
+      <project id="trelawney" values="JDK_1_6" collectionTime="1471448625939" />
+      <project id="website" values="JDK_1_6" collectionTime="1469498678574" />
+      <project id="OfficeHours" values="JDK_1_6" collectionTime="0" />
+      <project id="ScopeCreep" values="JDK_1_6" collectionTime="0" />
+      <project id="ember-inspector" values="JDK_1_6" collectionTime="1457652786626" />
+      <project id="DemoRailsApp" values="JDK_1_6" collectionTime="0" />
+      <project id="ember-cli-deployment-url" values="JDK_1_6" collectionTime="0" />
+      <project id="readahead_hybrid" values="JDK_1_6" collectionTime="1469806345698" />
+      <project id="idea-assemblysupport-read-only" values="JDK_1_6" collectionTime="0" />
+      <project id="findings-notification" values="JDK_1_3" collectionTime="1465570568634" />
+      <project id="readahead_tablet" values="JDK_1_6" collectionTime="1471485575990" />
+      <project id="readahead_hybrid_tablet" values="JDK_1_6" collectionTime="1458342030493" />
+      <project id="websiteTest" values="JDK_1_3" collectionTime="0" />
+      <project id="ServiceExample" values="JDK_1_7,JDK_1_6" collectionTime="1458622095489" />
+      <project id="Assignment1" values="JDK_1_7" collectionTime="1459888713726" />
+      <project id="VitalViewerMobile" values="JDK_1_3" collectionTime="0" />
+      <project id="SensorApp 2" values="JDK_1_7" collectionTime="1459173164612" />
+      <project id="lab2" values="JDK_1_6" collectionTime="0" />
+      <project id="ember-cli-trelawney" values="JDK_1_6" collectionTime="1470186208388" />
+      <project id="DeeIdentifier" values="JDK_1_6" collectionTime="0" />
+      <project id="ember-cli-open-web-analytics" values="JDK_1_6" collectionTime="0" />
+      <project id="SensorApp" values="JDK_1_7" collectionTime="1459447374840" />
+      <project id="CurencyCalculator" values="JDK_1_7,JDK_1_6" collectionTime="1455043609428" />
+      <project id="ember-cli-lettering-js" values="JDK_1_6" collectionTime="1458774207228" />
+      <project id="machforms" values="JDK_1_6" collectionTime="0" />
+      <project id="peer-review" values="JDK_1_6" collectionTime="1464802183036" />
+      <project id="jsx" values="JDK_1_6" collectionTime="1454651775404" />
+      <project id="BetterProjectSwitch" values="JDK_1_6" collectionTime="1434974624785" />
+      <project id="mapDemo" values="JDK_1_3" collectionTime="1461005586609" />
+      <project id="ember-cli-ipa" values="JDK_1_6" collectionTime="1458856862653" />
+      <project id="sample" values="JDK_1_6" collectionTime="1456960198403" />
+      <project id="rrt" values="JDK_1_6" collectionTime="1436024339113" />
+      <project id="homework7" values="JDK_1_6" collectionTime="1446424720557" />
+      <project id="homework6" values="JDK_1_6" collectionTime="1446239679542" />
+      <project id="ember-cli-ai-js" values="JDK_1_6" collectionTime="0" />
+      <project id="homework4" values="JDK_1_6" collectionTime="1443153137339" />
+      <project id="homework3" values="JDK_1_6" collectionTime="1442622164088" />
+      <project id="homework2" values="JDK_1_6" collectionTime="1441941087295" />
+      <project id="ember-so-fresh" values="JDK_1_6" collectionTime="1469291315435" />
+      <project id="NLPDataExport" values="JDK_1_3" collectionTime="0" />
+      <project id="Desktop" values="JDK_1_6" collectionTime="1452090285976" />
+      <project id="liquid-fire" values="JDK_1_6" collectionTime="1445137366832" />
+      <project id="VTE" values="JDK_1_3" collectionTime="0" />
+      <project id="powerline" values="JDK_1_6" collectionTime="1466443724478" />
+      <project id=".zprezto" values="JDK_1_6" collectionTime="1465040657068" />
+      <project id="ember-cli-animatecss" values="JDK_1_6" collectionTime="1447184668275" />
+      <project id="service-app" values="JDK_1_6" collectionTime="0" />
+      <project id="dumbaddon" values="JDK_1_6" collectionTime="1445805564262" />
+      <project id="FragmentExample" values="JDK_1_7" collectionTime="1457100293919" />
+      <project id="workshop-jb" values="JDK_1_6" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="JDK_1_6" collectionTime="0" />
+      <project id="koans" values="JDK_1_6" collectionTime="1468848059023" />
+      <project id="ember-cli-powerbars" values="JDK_1_6" collectionTime="1453233600789" />
+      <project id="db_scripts" values="JDK_1_6" collectionTime="1458652057480" />
+      <project id="ember-cli-bourbon" values="JDK_1_6" collectionTime="1451408811722" />
+      <project id="PersonalSite" values="JDK_1_6" collectionTime="1471188182464" />
+      <project id="untitled1" values="JDK_1_8,JDK_1_3" collectionTime="1456960198285" />
+      <project id="clinical-corrections" values="JDK_1_6" collectionTime="0" />
+      <project id="FlexGrid" values="JDK_1_6" collectionTime="0" />
+      <project id=".tmuxinator" values="JDK_1_6" collectionTime="1470347236541" />
+      <project id="frontend" values="JDK_1_6" collectionTime="1450713863183" />
+      <project id="CompletelyFairScheduler" values="JDK_1_3" collectionTime="0" />
+      <project id="ember-cli-neat" values="JDK_1_6" collectionTime="1446482459812" />
+      <project id="GmapDemo" values="JDK_1_7" collectionTime="1461092690389" />
+      <project id="extra_credit" values="JDK_1_6" collectionTime="1449840010475" />
+      <project id="myapp" values="JDK_1_6" collectionTime="1455043860449" />
+      <project id="procheckt" values="JDK_1_6" collectionTime="1426882762819" />
+      <project id="web-desktop" values="JDK_1_6" collectionTime="1433868532426" />
+      <project id="crusty_model" values="JDK_1_6" collectionTime="1457282582520" />
+      <project id="Project5" values="JDK_1_6" collectionTime="0" />
+      <project id="Project4" values="JDK_1_6" collectionTime="0" />
+      <project id="ember-cli-textillate" values="JDK_1_6" collectionTime="1446497998458" />
+      <project id="MyApplication2" values="JDK_1_6" collectionTime="1455057452463" />
+      <project id="Python" values="JDK_1_6" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="JDK_1_7" collectionTime="0" />
+      <project id="EmergeData" values="JDK_1_6" collectionTime="0" />
+      <project id="ember-cli-diff" values="JDK_1_6" collectionTime="1465238371283" />
+      <project id="Oasis" values="JDK_1_6" collectionTime="1470919247599" />
+      <project id="json-easy-merge" values="JDK_1_6" collectionTime="1469110051544" />
+      <project id="Project3" values="JDK_1_6" collectionTime="1426533570013" />
+      <project id="Lab3" values="JDK_1_6" collectionTime="1445021227702" />
+      <project id="critical-findings" values="JDK_1_3" collectionTime="1434111547202" />
+      <project id="ember-cli-easy-table" values="JDK_1_6" collectionTime="1446515175938" />
+      <project id="Script Libraries" values="JDK_1_6" collectionTime="1463421527825" />
+      <project id="radtracker" values="JDK_1_6" collectionTime="0" />
+      <project id="FBFeedParser" values="JDK_1_6" collectionTime="0" />
+      <project id="GoogleInterview" values="JDK_1_3" collectionTime="1469018881624" />
+      <project id="Default" values="JDK_1_6" collectionTime="0" />
+      <project id="ReachSearch" values="JDK_1_3" collectionTime="1471476489866" />
+      <project id="OSX-JXA" values="JDK_1_6" collectionTime="1471188182490" />
+      <project id="GSSRegistration" values="JDK_1_3" collectionTime="0" />
+      <project id="homework5" values="JDK_1_6" collectionTime="1444007214841" />
+      <project id="TheHelp" values="JDK_1_6" collectionTime="0" />
+      <project id="sprockets-rails" values="JDK_1_6" collectionTime="0" />
+      <project id="ember-cli-d29" values="JDK_1_6" collectionTime="0" />
+      <project id="exam2" values="JDK_1_6" collectionTime="1461764105263" />
+      <project id="Joe" values="JDK_1_8" collectionTime="1465064713910" />
+      <project id="emerge" values="JDK_1_6" collectionTime="0" />
+      <project id="PurchaseExample" values="JDK_1_6" collectionTime="1458424371020" />
+    </group>
+    <group name="php-interpreters">
+      <project id="trelawney" values="2" collectionTime="0" />
+      <project id="rails4" values="2" collectionTime="0" />
+      <project id="VTE" values="2" collectionTime="0" />
+      <project id="critical-findings" values="2" collectionTime="0" />
+      <project id="peer-review" values="2" collectionTime="0" />
+      <project id="untitled folder" values="2" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="2" collectionTime="0" />
+      <project id="websiteTest" values="2" collectionTime="0" />
+      <project id="DeeIdentifier" values="2" collectionTime="0" />
+      <project id="ScopeCreep" values="2" collectionTime="0" />
+      <project id="calc" values="2" collectionTime="0" />
+      <project id="OfficeHours" values="2" collectionTime="0" />
+      <project id="peer-doc-review" values="2" collectionTime="0" />
+      <project id="Default" values="2" collectionTime="0" />
+      <project id="resident-worklist" values="2" collectionTime="0" />
+      <project id="service_app" values="2" collectionTime="0" />
+      <project id="web-desktop" values="2" collectionTime="0" />
+      <project id="MRIProject" values="2" collectionTime="0" />
+      <project id="idea-assemblysupport-read-only" values="2" collectionTime="0" />
+      <project id="service-app" values="2" collectionTime="0" />
+      <project id="radtracker" values="2" collectionTime="0" />
+      <project id="VitalViewerMobile" values="2" collectionTime="0" />
+      <project id="machforms" values="2" collectionTime="0" />
+      <project id="EmergeData" values="2" collectionTime="0" />
+      <project id="clinical-corrections" values="2" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="2" collectionTime="0" />
+      <project id="Project4" values="2" collectionTime="0" />
+      <project id="DemoRailsApp" values="2" collectionTime="0" />
+      <project id="ReachSearch" values="2" collectionTime="0" />
+    </group>
+    <group name="Git">
+      <project id="GoogleInterview" values="config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1469018881624" />
+      <project id="Soundless" values="config.force.push.enabled,data.remotes.in.project.1,config.warn.about.crlf.enabled,data.local.branches.count.2+,config.push.autoupdate.disabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,data.remote.branches.count.2+,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.push.update.all.roots.enabled" collectionTime="1463430725217" />
+      <project id="FragmentExample" values="config.force.push.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.save.policy.STASH" collectionTime="1457100293931" />
+      <project id="resident-worklist" values="config.warn.about.detached.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,data.remotes.in.project.1,config.force.push.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,data.local.branches.count.8+,data.remote.branches.count.5+" collectionTime="1470855739588" />
+      <project id="json-easy-merge" values="config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled" collectionTime="1469110051545" />
+      <project id="Desktop" values="config.ssh.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.save.policy.STASH" collectionTime="1452090285976" />
+      <project id="ember-cli-trelawney" values="config.force.push.enabled,config.warn.about.crlf.enabled,data.remote.branches.count.1,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,data.remotes.in.project.1,config.push.update.all.roots.enabled,config.ssh.enabled" collectionTime="1470186208390" />
+      <project id="GmapDemo" values="config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.push.update.all.roots.enabled,config.ssh.enabled,data.local.branches.count.1,data.remote.branches.count.1,config.warn.about.detached.enabled,config.save.policy.STASH,config.force.push.enabled,config.warn.about.crlf.enabled" collectionTime="1461092690409" />
+      <project id=".zsh_scripts" values="config.warn.about.detached.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,data.remotes.in.project.1,config.ssh.enabled,data.remote.branches.count.2+,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,data.local.branches.count.2+" collectionTime="1466514752534" />
+      <project id="peer-review" values="config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,data.local.branches.count.8+,config.force.push.enabled,data.remotes.in.project.2+,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.push.autoupdate.disabled,data.remote.branches.count.30+" collectionTime="1464802183037" />
+      <project id="readahead_hybrid_tablet" values="data.remote.branches.count.2+,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.ssh.enabled,data.remotes.in.project.1,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,data.local.branches.count.1,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1458342030493" />
+      <project id=".zprezto" values="data.remotes.in.project.1,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,data.local.branches.count.1,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.ssh.enabled,data.remote.branches.count.30+,config.warn.about.detached.enabled" collectionTime="1465040657069" />
+      <project id="myapp" values="config.save.policy.STASH,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.force.push.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT" collectionTime="1455043860449" />
+      <project id="koans" values="config.warn.about.detached.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.ssh.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED" collectionTime="1468848059024" />
+      <project id="sample" values="config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED" collectionTime="1456960198403" />
+      <project id="Script Libraries" values="config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1463421527825" />
+      <project id="powerline" values="config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.crlf.enabled" collectionTime="1466443724479" />
+      <project id="website" values="config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.ssh.enabled,config.force.push.enabled,data.remote.branches.count.1,data.remotes.in.project.1,config.save.policy.STASH,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled" collectionTime="1469498678574" />
+      <project id="CurencyCalculator" values="config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.ssh.enabled,config.warn.about.crlf.enabled" collectionTime="1455043609430" />
+      <project id="frontend" values="config.warn.about.detached.enabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.push.autoupdate.disabled" collectionTime="1450713863184" />
+      <project id="db_scripts" values="config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH" collectionTime="1458652057481" />
+      <project id="ember-inspector" values="config.warn.about.crlf.enabled,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,data.remote.branches.count.2+,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.detached.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,data.local.branches.count.1,config.push.update.all.roots.enabled" collectionTime="1457652786629" />
+      <project id="exam2" values="config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1461764105265" />
+      <project id="findings-notification" values="config.warn.about.detached.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,data.remote.branches.count.5+,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,data.remotes.in.project.1,data.local.branches.count.5+" collectionTime="1465570568634" />
+      <project id="ServiceExample" values="config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled" collectionTime="1458622095489" />
+      <project id="ember-so-fresh" values="data.local.branches.count.1,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.push.autoupdate.disabled,data.remote.branches.count.1,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH" collectionTime="1469291315436" />
+      <project id="SensorApp 2" values="config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.force.push.enabled" collectionTime="1459173164618" />
+      <project id="trelawney" values="data.remote.branches.count.5+,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.ssh.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,data.local.branches.count.8+,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.force.push.enabled,config.warn.about.crlf.enabled" collectionTime="1471448625939" />
+      <project id="Oasis" values="config.force.push.enabled,data.local.branches.count.5+,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,data.remotes.in.project.1,config.push.update.all.roots.enabled,data.remote.branches.count.5+,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.ssh.enabled" collectionTime="1470919247602" />
+      <project id="bluetooth" values="config.warn.about.detached.enabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.ssh.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT" collectionTime="1462733688139" />
+      <project id="alfred2-ruby-template" values="config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,data.remotes.in.project.1,config.warn.about.detached.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,data.remote.branches.count.2+,data.local.branches.count.1" collectionTime="1454643892435" />
+      <project id="readahead_tablet" values="config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,data.local.branches.count.2+,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.force.push.enabled,data.remotes.in.project.1,data.remote.branches.count.2+" collectionTime="1471485575996" />
+      <project id="crusty_model" values="config.force.push.enabled,data.remote.branches.count.1,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,data.local.branches.count.1,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.save.policy.STASH,config.push.update.all.roots.enabled" collectionTime="1457282582534" />
+      <project id="untitled" values="config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1456450945072" />
+      <project id="CMSC483-Optimization" values="config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.ssh.enabled,config.push.autoupdate.disabled,data.local.branches.count.2+,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,data.remote.branches.count.2+,config.force.push.enabled" collectionTime="1462379396518" />
+      <project id="PurchaseExample" values="config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,data.remotes.in.project.1,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.save.policy.STASH,data.remote.branches.count.1,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,data.local.branches.count.1" collectionTime="1458424371022" />
+      <project id="PersonalSite" values="data.local.branches.count.1,config.force.push.enabled,config.push.autoupdate.disabled,data.remotes.in.project.2+,config.ssh.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,data.remote.branches.count.2+,config.update.type.BRANCH_DEFAULT" collectionTime="1471188182465" />
+      <project id="readahead_hybrid" values="config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.save.policy.STASH,data.remote.branches.count.2+,data.remotes.in.project.1,config.repo.sync.NOT_DECIDED,data.local.branches.count.5+,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled" collectionTime="1469806345698" />
+      <project id="ember-cli-powerbars" values="data.local.branches.count.1,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.ssh.enabled,config.force.push.enabled,data.remote.branches.count.1,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,config.save.policy.STASH" collectionTime="1453233600795" />
+      <project id="Assignment1" values="config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,data.remotes.in.project.1,data.local.branches.count.2+,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,data.remote.branches.count.2+,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH" collectionTime="1459888713727" />
+      <project id="SensorApp" values="config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,data.remotes.in.project.1,config.ssh.enabled,data.local.branches.count.1,config.warn.about.detached.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.force.push.enabled,data.remote.branches.count.1,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled" collectionTime="1459447374841" />
+      <project id="ember-cli-bourbon" values="data.remotes.in.project.1,data.local.branches.count.1,config.force.push.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,data.remote.branches.count.1,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled" collectionTime="1451408811724" />
+      <project id="OSX-JXA" values="config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.push.autoupdate.disabled" collectionTime="1471188182490" />
+      <project id="mapDemo" values="data.remote.branches.count.1,config.cherry-pick.autocommit.disabled,config.force.push.enabled,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.ssh.enabled,data.local.branches.count.1,config.push.update.all.roots.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled" collectionTime="1461005586609" />
+      <project id="ember-cli-diff" values="config.save.policy.STASH,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,data.remote.branches.count.1,data.local.branches.count.1,data.remotes.in.project.1,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.warn.about.detached.enabled" collectionTime="1465238371289" />
+      <project id=".tmuxinator" values="config.push.update.all.roots.enabled,config.force.push.enabled,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.save.policy.STASH" collectionTime="1470347236542" />
+      <project id="jsx" values="config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.force.push.enabled" collectionTime="1454651775408" />
+      <project id="Bluetooth2" values="config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled" collectionTime="1462648301125" />
+      <project id="ember-cli-ipa" values="data.remotes.in.project.1,config.warn.about.detached.enabled,data.remote.branches.count.1,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,data.local.branches.count.1" collectionTime="1458856862660" />
+      <project id="untitled1" values="config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.force.push.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.ssh.enabled" collectionTime="1456960198285" />
+      <project id="MyApplication2" values="config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.save.policy.STASH,config.warn.about.detached.enabled" collectionTime="1455057452464" />
+      <project id="ember-cli-lettering-js" values="config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,data.remote.branches.count.1,config.push.update.all.roots.enabled,config.force.push.enabled,data.local.branches.count.1,config.ssh.enabled,config.push.autoupdate.disabled,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled" collectionTime="1458774207233" />
+      <project id="Joe" values="config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled" collectionTime="1465064713911" />
+      <project id="ReachSearch" values="data.remote.branches.count.8+,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,data.local.branches.count.2+,data.remotes.in.project.2+,config.ssh.enabled" collectionTime="1471476489867" />
+    </group>
+    <group name="JSDebugConfig">
+      <project id="readahead_tablet" values="browser-default.preferredBrowser-null.no_mappings,browser-default.preferredBrowser-null.no_mappings,browser-default.preferredBrowser-null.no_mappings" collectionTime="1471485576652" />
+      <project id="readahead_hybrid" values="browser-default.preferredBrowser-null.no_mappings" collectionTime="1469806345769" />
+      <project id="byozfwv" values="browser-default.preferredEngine-null.no_mappings,browser-default.preferredEngine-null.no_mappings" collectionTime="1432872816285" />
+      <project id="findings-notification" values="browser-default.preferredBrowser-null.no_mappings" collectionTime="1465570568719" />
+    </group>
+    <group name="ruby-gems-names">
+      <project id="websiteTest" values="rack,actionpack,treetop,railties,actionmailer,i18n,jquery-rails,turbolinks,coffee-rails,activerecord,actionview,jbuilder,rails,coffee-script,sprockets,coffee-script-source,thor,rdoc,mail,multi_json,rake,uglifier,activemodel,sqlite3,arel,mime-types,tzinfo,activesupport,erubis,execjs,thread_safe,rack-test,builder,tilt,sdoc,sprockets-rails,minitest,bundler,sass-rails,hike,polyglot,sass" collectionTime="0" />
+      <project id="VTE" values="tzinfo,connection_pool,rubyzip,actionpack,rspec-expectations,jquery-rails,actionview,builder,slop,rspec-mocks,factory_girl_rails,sass-rails,minitest,rspec-core,roo,jbuilder,thread_safe,puma,mail,pry-rails,factory_girl,active_model_serializers,activesupport,railties,origin,activerecord,mini_portile,spring,coffee-script,namey,rack-test,actionmailer,spreadsheet,hike,i18n,mime-types,coderay,sprockets,ruby-ole,erubis,method_source,multi_json,sequel,sqlite3,database_cleaner,bson,pg,rspec-rails,nokogiri,bourbon,rack-cors,moped,mongoid,activemodel,rake,optionable,sdoc,rspec-support,sass,diff-lcs,rails,coffee-script-source,polyglot,coffee-rails,bitters,neat,bundler,arel,pry,thor,uglifier,sprockets-rails,execjs,rack,rdoc,tilt,turbolinks,treetop" collectionTime="0" />
+      <project id="Oasis" values="thor,rubyzip,polyglot,execjs,hike,mail,multi_json,actionmailer,rspec-core,puma,trelawney,coffee-script-source,jruby-rack,activerecord,rack-ssl,treetop,json,tzinfo,rspec-rails,erubis,railties,rdoc,therubyrhino_jar,jquery-rails,jruby-jars,rails,actionpack,active_model_serializers,rack-cache,rspec-expectations,therubyrhino,jdbc-mysql,journey,i18n,tilt,diff-lcs,activerecord-jdbcpostgresql-adapter,uglifier,builder,database_cleaner,mime-types,coffee-script,rspec-mocks,coffee-rails,activeresource,rack,activesupport,activemodel,rack-test,bundler,rspec-support,warbler,arel,sass-rails,sass,jdbc-postgres,activerecord-jdbc-adapter,sprockets,rake,activerecord-jdbcmysql-adapter,composite_primary_keys" collectionTime="1470919247775" />
+      <project id="findings-notification" values="iced-coffee-script,gyoku,coffee-rails,less-rails,sass-rails,warbler,treetop,rake,rubyzip,coffee-script-source,chosen-rails,kaminari,iced-coffee-script-source,hike,font-awesome-rails,jruby-openssl,multi_json,i18n,wasabi,rdoc,puma,bundler,coffee-script,httpi,nori,activesupport,arel,sass,rack-ssl,timeliness,bouncy-castle-java,jruby-rack,activemodel,activerecord-jdbc-adapter,jruby-jars,therubyrhino,activerecord-jdbcpostgresql-adapter,rack-test,tzinfo,fastercsv,builder,sprockets,actionmailer,actionpack,historyjs-rails,rack,activeresource,jquery-rails,mime-types,uglifier,akami,tilt,validates_timeliness,polyglot,jdbc-postgres,savon,mail,anjlab-bootstrap-rails,nokogiri,bootstrap-datetimepicker-rails,polyamorous,ransack,less,erubis,formtastic,railties,json,commonjs,trelawney,therubyrhino_jar,execjs,activerecord,active_model_serializers,journey,rails,rack-cache,thor,iced-rails" collectionTime="1465570568719" />
+      <project id="rrt" values="jquery-rails,actionmailer,rubyzip,rspec-mocks,rake,multi_json,rack-cache,therubyrhino_jar,puma,coffee-rails,json,rspec-core,activeresource,sprockets,execjs,journey,builder,arel,rack,rails,hike,rspec-support,jdbc-postgres,railties,actionpack,rack-ssl,trelawney,rdoc,bundler,activerecord-jdbcmysql-adapter,diff-lcs,jruby-jars,activemodel,activerecord-jdbc-adapter,erubis,thor,polyglot,coffee-script-source,jruby-rack,activesupport,treetop,mail,i18n,coffee-script,uglifier,activerecord-jdbcpostgresql-adapter,warbler,activerecord,tilt,sass,mime-types,rack-test,rspec-rails,database_cleaner,therubyrhino,rspec-expectations,sass-rails,tzinfo,jdbc-mysql" collectionTime="1436024339117" />
+      <project id="DemoRailsApp" values="arel,jdbc-postgres,therubyrhino_jar,rack-test,activerecord,json,rails,jdbc-sqlite3,uglifier,journey,activerecord-jdbcpostgresql-adapter,jruby-jars,rdoc,erubis,sprockets,hike,actionpack,i18n,rack-cache,builder,activesupport,treetop,bouncy-castle-java,tzinfo,rake,sass,activemodel,tilt,activerecord-jdbcsqlite3-adapter,activeresource,bundler,rubyzip,sass-rails,jquery-rails,mail,actionmailer,execjs,thor,polyglot,railties,multi_json,jruby-openssl,activerecord-jdbc-adapter,jruby-rack,mime-types,therubyrhino,rack-ssl,rack,warbler" collectionTime="0" />
+      <project id="radtracker" values="jquery-tablesorter,rake,activeresource,phony,flatui-rails,sass,actionmailer,tilt,coderay,formtastic-bootstrap,hike,bundler,rails,therubyrhino_jar,ffi,historyjs-rails,rubyzip,chosen-rails,rack,jruby-openssl,activemodel,activesupport,fastercsv,treetop,twitter-bootstrap-rails,mail,coffee-rails,commonjs,thor,kaminari,polyglot,currencies,rack-test,bootstrap-sass,pry,maruku,uglifier,rack-cache,railties,mime-types,erubis,tzinfo,therubyrhino,execjs,activevalidators,jruby-rack,i18n,sprockets,haml,warbler,slop,spoon,arel,method_source,pry-rails,less,bootstrap-datetimepicker-rails,coffee-script-source,jdbc-postgres,formtastic,journey,ransack,validates_timeliness,select2-rails,polyamorous,jquery-rails,actionpack,rack-ssl,date_validator,countries,less-rails,bouncy-castle-java,syntax,timeliness,activerecord-jdbc-adapter,activerecord-jdbcpostgresql-adapter,jruby-jars,multi_json,json,builder,sass-rails,rdoc,activerecord,coffee-script,gritter" collectionTime="0" />
+      <project id="ScopeCreep" values="sprockets-rails,i18n,polyglot,actionpack,rdoc,thread_safe,mime-types,tilt,coffee-script,multi_json,activesupport,uglifier,minitest,json,thor,sdoc,coffee-rails,builder,coffee-script-source,actionmailer,arel,sprockets,sass-rails,tiny_tds,turbolinks,activerecord,railties,treetop,rack,mail,sqlite3,rake,rails,hike,sass,atomic,jbuilder,jquery-rails,activerecord-sqlserver-adapter=2,activemodel,erubis,execjs,bundler,activerecord-deprecated_finders,tzinfo,rack-test" collectionTime="0" />
+      <project id="CompletelyFairScheduler" values="minitest,devise,rdoc,bcrypt,diff-lcs,warden,tzinfo,pg,formtastic_i18n,meta_request,turbolinks,better_errors,formtastic,rake,rspec-core,poltergeist,inherited_resources,actionview,websocket-extensions,uglifier,capybara-screenshot,rspec-mocks,debug_inspector,thread_safe,bourbon,ruby-progressbar,rubocop,spring,pry,polyamorous,quiet_assets,rspec-expectations,sdoc,pry-stack_explorer,cliver,activemodel,arel,hike,erubis,factory_girl_rails,bundler,jquery-rails,builder,actionpack,i18n,ransack,capybara,coderay,shoulda-matchers,rack,pry-rails,activeadmin,powerpack,mime-types,xpath,rspec-rails,sass-rails,method_source,mini_portile,activerecord,jbuilder,sprockets-rails,orm_adapter,colored,rails,actionmailer,railties,rack-contrib,responders,spring-commands-rspec,arbre,thor,slop,faker,rainbow,execjs,coffee-rails,addressable,websocket-driver,callsite,activesupport,launchy,database_cleaner,coffee-script-source,factory_girl,rack-test,ast,astrolabe,coffee-script,jquery-ui-rails,kaminari,nokogiri,sass,binding_of_caller,multi_json,rspec-support,parser,tilt,mail,has_scope,pry-theme,pry-nav,sprockets" collectionTime="0" />
+      <project id="OfficeHours" values="sqlite3,execjs,coffee-script-source,activesupport,erubis,tzinfo,minitest,coffee-rails,coffee-script,jbuilder,activemodel,sass,sprockets,activerecord-deprecated_finders,railties,actionpack,uglifier,rails,rdoc,thread_safe,rack,tilt,mail,sass-rails,builder,thor,i18n,addressable,activerecord,json,turbolinks,opentok,treetop,polyglot,atomic,mime-types,bundler,sdoc,rake,actionmailer,rack-test,hike,sprockets-rails,jquery-rails,multi_json,arel" collectionTime="0" />
+      <project id="peer-doc-review" values="factory_girl,jquery-cookie-rails,rspec-support,rails,database_cleaner,commonjs,ember-data-source,arel,pg,actionpack,execjs,coderay,multi_json,sprockets-rails,polyglot,sprockets,cocaine,pry-rails,therubyracer,i18n,actionmailer,rspec-mocks,tilt,bourbon,active_model_serializers,rdoc,raindrops,method_source,uglifier,thread_safe,coffee-script-source,thor,rake,bundler,rspec-core,less-rails,namey,lorem,sass-rails,pry,sequel,ref,ember-source,rails-api,mime-types,ember_simple_auth-rails,barber,sdoc,railties,activemodel,slop,activerecord-deprecated_finders,unicorn,rack-test,rack,sass,less,twitter-bootstrap-rails,jbuilder,activesupport,ember-rails,coffee-script,tzinfo,hike,activerecord,climate_control,handlebars-source,builder,factory_girl_rails,erubis,libv8,diff-lcs,kgio,rspec-rails,turbolinks,sqlite3,coffee-rails,mail,treetop,paperclip,rspec-expectations,jquery-rails,rspec-collection_matchers,bcrypt" collectionTime="0" />
+      <project id="FBFeedParser" values="mini_portile,nokogiri" collectionTime="0" />
+      <project id="resident-worklist" values="warbler,jdbc-postgres,polyglot,jruby-jars,sass,execjs,sass-rails,composite_primary_keys,rspec-mocks,actionpack,diff-lcs,rack-test,builder,thor,rubyzip,rake,therubyrhino_jar,bundler,coffee-script-source,erubis,tzinfo,rspec-rails,therubyrhino,uglifier,activerecord-jdbcpostgresql-adapter,activeresource,jquery-rails,rack,active_model_serializers,multi_json,rack-cache,coffee-rails,actionmailer,activerecord-jdbcmysql-adapter,jdbc-mysql,activemodel,journey,rails,json,sprockets,rspec-expectations,treetop,tilt,activerecord-jdbc-adapter,hike,rack-ssl,rspec-support,activesupport,i18n,database_cleaner,jruby-rack,rdoc,mail,mime-types,railties,rspec-core,activerecord,coffee-script,arel" collectionTime="1470855739597" />
+      <project id="service_app" values="therubyrhino_jar,coffee-script-source,date_validator,activevalidators,rack-cache,rails,activeresource,bouncy-castle-java,rack-test,ransack,activemodel,formtastic-bootstrap,timeliness,rdoc,multi_json,railties,jruby-jars,rubyzip,bootstrap-datetimepicker-rails,jruby-openssl,formtastic,phony,i18n,tilt,validates_timeliness,sass,builder,sass-rails,kaminari,jdbc-postgres,twitter-bootstrap-rails,puma,journey,activesupport,mail,coffee-rails,arel,tzinfo,thor,execjs,jquery-rails,warbler,treetop,currencies,activerecord,activerecord-jdbc-adapter,less-rails,fastercsv,hike,sprockets,erubis,rack,polyamorous,coffee-script,rack-ssl,mime-types,actionmailer,less,commonjs,json,polyglot,actionpack,countries,therubyrhino,jruby-rack,rake,uglifier,activerecord-jdbcpostgresql-adapter,bundler" collectionTime="0" />
+      <project id="MRIProject" values="actionmailer,hike,jdbc-postgres,journey,erubis,activesupport,railties,tilt,rails,json,treetop,activemodel,tzinfo,rack-test,mail,warbler,rubyzip,activerecord-jdbcpostgresql-adapter,activerecord-jdbc-adapter,active_model_serializers,rdoc,polyglot,rack-ssl,rake,bundler,builder,jruby-rack,multi_json,activerecord,jruby-jars,rack-cache,trelawney,thor,mime-types,i18n,rack,activeresource,sprockets,actionpack,arel" collectionTime="1445379050415" />
+      <project id="clinical-corrections" values="jquery-rails,timeliness,actionmailer,activevalidators,mime-types,multi_json,rake,jruby-openssl,hike,activeresource,twitter-bootstrap-rails,kaminari,railties,validates_timeliness,polyamorous,coffee-rails,slop,coffee-script,ransack,method_source,builder,rubyzip,rack-ssl,i18n,sprockets,coffee-script-source,rack-cache,rack-test,coderay,jdbc-postgres,rack,bundler,fastercsv,commonjs,pry,actionpack,tzinfo,spoon,uglifier,activerecord-jdbc-adapter,journey,formtastic,mail,execjs,bouncy-castle-java,phony,activesupport,therubyrhino_jar,warbler,arel,treetop,countries,jruby-jars,bootstrap-datetimepicker-rails,activemodel,less-rails,ffi,activerecord-jdbcpostgresql-adapter,polyglot,less,rails,rdoc,currencies,therubyrhino,erubis,puma,tilt,date_validator,thor,activerecord,sass,json,formtastic-bootstrap,pry-rails,sass-rails,jruby-rack" collectionTime="0" />
+      <project id="web-desktop" values="activemodel,tzinfo,rack,hike,railties,polyglot,activeresource,jdbc-mysql,rack-test,jdbc-postgres,multi_json,bundler,activesupport,actionmailer,rack-ssl,twitter-bootstrap-rails,coffee-script,mail,less,execjs,activerecord-jdbc-adapter,cocaine,jruby-rack,json,sass,jruby-openssl,coffee-script-source,formtastic,sass-rails,uglifier,rack-cache,activerecord-jdbcpostgresql-adapter,journey,therubyrhino,warbler,rdoc,mime-types,rails,activerecord-jdbcmysql-adapter,commonjs,coffee-rails,actionpack,jruby-jars,formtastic-bootstrap,jquery-rails,nifty-generators,less-rails,activerecord,sprockets,builder,treetop,rake,arel,i18n,erubis,bouncy-castle-java,rubyzip,paperclip,bootstrap-datetimepicker-rails,thor,tilt,puma" collectionTime="1433868532431" />
+      <project id="GSSRegistration" values="debug_inspector,bundler,formtastic_i18n,jquery-ui-rails,capybara,turbolinks,tzinfo,sdoc,pry-stack_explorer,pry,rubocop,rdoc,colored,hike,astrolabe,activerecord,json,factory_girl,actionpack,powerpack,orm_adapter,rake,shoulda-matchers,formtastic,spring,warden,cliver,mime-types,coderay,rack,erubis,rainbow,coffee-script,uglifier,slop,callsite,responders,active_model_serializers,railties,jbuilder,multi_json,activesupport,addressable,arel,nokogiri,diff-lcs,execjs,has_scope,rack-contrib,bourbon,devise,activemodel,activeadmin,arbre,rspec-support,sprockets-rails,rack-test,ruby-progressbar,sass,inherited_resources,ast,binding_of_caller,meta_request,actionview,rspec-expectations,rspec-rails,mail,i18n,ransack,method_source,minitest,spring-commands-rspec,actionmailer,pry-rails,builder,launchy,better_errors,rails,pry-nav,rspec-mocks,bcrypt,pg,factory_girl_rails,poltergeist,rspec-core,thor,sass-rails,coffee-rails,tilt,jquery-rails,kaminari,capybara-screenshot,polyamorous,faker,xpath,parser,pry-theme,websocket-extensions,thread_safe,sprockets,coffee-script-source,mini_portile,database_cleaner,websocket-driver,quiet_assets" collectionTime="0" />
+      <project id="service-app" values="sass,rdoc,rack-cache,bouncy-castle-java,sprockets,ransack,activevalidators,phony,builder,countries,mail,rake,mime-types,formtastic,kaminari,commonjs,rack-test,puma,jdbc-postgres,bootstrap-datetimepicker-rails,railties,polyamorous,actionpack,warbler,jruby-openssl,coffee-rails,execjs,formtastic-bootstrap,fastercsv,coffee-script-source,rack,jquery-rails,arel,activerecord,therubyrhino,thor,journey,json,date_validator,hike,rails,treetop,polyglot,tzinfo,multi_json,jruby-rack,activemodel,less,sass-rails,currencies,actionmailer,therubyrhino_jar,bundler,i18n,activerecord-jdbc-adapter,activerecord-jdbcpostgresql-adapter,activeresource,timeliness,less-rails,rack-ssl,rubyzip,jruby-jars,erubis,tilt,activesupport,twitter-bootstrap-rails,validates_timeliness,coffee-script,uglifier" collectionTime="0" />
+      <project id="VitalViewerMobile" values="ruby-asterisk,phony,mail,flatui-rails,rack,uglifier,sass-rails,less,railties,formtastic-bootstrap,coffee-script,coffee-script-source,warbler,mime-types,jquery-rails,compass-rails,currencies,activerecord-jdbcpostgresql-adapter,sprockets,jruby-rack,timeliness,less-rails,rack-ssl,polyamorous,bootstrap-sass,jdbc-postgres,erubis,jdbc-sqlite3,therubyrhino_jar,hike,commonjs,activevalidators,activeresource,countries,date_validator,multi_json,json,treetop,sass,ransack,puma,rdoc,i18n,therubyrhino,jruby-jars,rake,activesupport,activemodel,chunky_png,fssm,rails,rack-test,polyglot,actionpack,execjs,kaminari,thor,activerecord,rack-cache,arel,activerecord-jdbc-adapter,compass,journey,validates_timeliness,builder,tzinfo,fastercsv,formtastic,rubyzip,coffee-rails,tilt,actionmailer,bundler,activerecord-jdbcsqlite3-adapter" collectionTime="0" />
+      <project id="ReachSearch" values="rack-cache,rails,jdbc-postgres,activerecord-jdbc-adapter,activerecord-jdbcpostgresql-adapter,warbler,activevalidators,multi_json,countries,actionmailer,journey,erubis,rack-test,bundler,timeliness,actionpack,polyglot,jruby-rack,hike,rack-ssl,json,phony,active_model_serializers,sprockets,rdoc,treetop,activesupport,trelawney,rake,mail,i18n,railties,thor,sass,date_validator,validates_timeliness,jquery-rails,arel,activeresource,rubyzip,jruby-jars,rack,tilt,mime-types,activerecord,builder,activemodel,ruby-asterisk,ransack,polyamorous,tzinfo,currencies" collectionTime="1471476489990" />
+      <project id="rails4" values="multi_json,jruby-openssl,rack-ssl,execjs,i18n,jdbc-sqlite3,tzinfo,coffee-rails,rake,activerecord-jdbc-adapter,sass-rails,rack,rails,actionmailer,therubyrhino,sass,activeresource,tilt,activesupport,activerecord-jdbcsqlite3-adapter,rdoc,railties,coffee-script-source,erubis,json,sprockets,bundler,jruby-jars,hike,builder,activemodel,rack-test,rack-cache,uglifier,coffee-script,journey,treetop,jquery-rails,thor,rubyzip,activerecord,polyglot,arel,warbler,actionpack,mime-types,therubyrhino_jar,mail,jruby-rack" collectionTime="0" />
+      <project id="critical-findings" values="ransack,erubis,hike,execjs,therubyrhino_jar,commonjs,actionmailer,polyglot,rubyzip,arel,timeliness,i18n,chosen-rails,activemodel,formtastic,mime-types,fastercsv,treetop,railties,puma,wasabi,iced-coffee-script,uglifier,gyoku,sass-rails,activesupport,rack-cache,journey,polyamorous,jruby-rack,rack-test,nori,thor,coffee-script,multi_json,font-awesome-rails,bootstrap-datetimepicker-rails,rack-ssl,sass,activerecord,nokogiri,httpi,coffee-rails,bundler,rdoc,warbler,trelawney,less-rails,savon,mail,rake,less,iced-coffee-script-source,tzinfo,jdbc-postgres,kaminari,validates_timeliness,actionpack,akami,rails,activerecord-jdbc-adapter,json,coffee-script-source,jquery-rails,sprockets,bouncy-castle-java,jruby-openssl,anjlab-bootstrap-rails,therubyrhino,tilt,builder,activeresource,jruby-jars,rack,activerecord-jdbcpostgresql-adapter,iced-rails,historyjs-rails" collectionTime="1434111547203" />
+      <project id="NLPDataExport" values="i18n,actionview,uglifier,multi_json,json,activesupport,thor,mail,actionpack,railties,tzinfo,jquery-rails,turbolinks,builder,hike,pg,spring,bundler,sass,sprockets-rails,arel,rack-test,coffee-script-source,jbuilder,coffee-script,actionmailer,execjs,erubis,sprockets,tilt,rake,minitest,activerecord,sass-rails,sdoc,coffee-rails,mime-types,rack,rails,rdoc,thread_safe,activemodel" collectionTime="0" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="MRIProject" values="Project,Project" collectionTime="1445379050415" />
+      <project id="service_app" values="Project,Project" collectionTime="0" />
+      <project id="Soundless" values="Project,Project" collectionTime="1463430725347" />
+      <project id="alfred2-ruby-template" values="Project,Project" collectionTime="1454643892457" />
+      <project id=".zsh_scripts" values="Project,Project" collectionTime="1466514752887" />
+      <project id="untitled folder" values="Project,Project" collectionTime="0" />
+      <project id="rails4" values="Project,Project" collectionTime="0" />
+      <project id="CMSC483-Optimization" values="Project,Project" collectionTime="1462379396785" />
+      <project id="peer-doc-review" values="Project,Project" collectionTime="0" />
+      <project id="bluetooth" values="Project,Project" collectionTime="1462733688143" />
+      <project id="resident-worklist" values="Project,Project,Project,Project,Project" collectionTime="1470855739593" />
+      <project id="compa" values="Project,Project" collectionTime="1428940302324" />
+      <project id="untitled" values="Project,Project" collectionTime="1456450945079" />
+      <project id="calc" values="Project,Project" collectionTime="0" />
+      <project id="byozfwv" values="Project,Project" collectionTime="1432872816095" />
+      <project id="Bluetooth2" values="Project,Project" collectionTime="1462648301279" />
+      <project id="trelawney" values="Project,Project" collectionTime="1471448625942" />
+      <project id="website" values="Project,Project,Project,Project,Project" collectionTime="1469498678579" />
+      <project id="OfficeHours" values="Project,Project" collectionTime="0" />
+      <project id="ScopeCreep" values="Project,Project" collectionTime="0" />
+      <project id="ember-inspector" values="Project,Project,Project" collectionTime="1457652786765" />
+      <project id="DemoRailsApp" values="Project,Project" collectionTime="0" />
+      <project id="ember-cli-deployment-url" values="Project,Project" collectionTime="0" />
+      <project id="readahead_hybrid" values="Project,Project" collectionTime="1469806345699" />
+      <project id="idea-assemblysupport-read-only" values="Project,Project" collectionTime="0" />
+      <project id="findings-notification" values="Project,Project,Project,Project,Project" collectionTime="1465570568635" />
+      <project id="readahead_tablet" values="Project,Project" collectionTime="1471485576221" />
+      <project id="readahead_hybrid_tablet" values="Project,Project" collectionTime="1458342030496" />
+      <project id="websiteTest" values="Project,Project" collectionTime="0" />
+      <project id="ServiceExample" values="Project,Project" collectionTime="1458622095490" />
+      <project id="Assignment1" values="Project,Project" collectionTime="1459888713745" />
+      <project id="VitalViewerMobile" values="Project,Project" collectionTime="0" />
+      <project id="SensorApp 2" values="Project,Project" collectionTime="1459173164772" />
+      <project id="lab2" values="Project,Project" collectionTime="0" />
+      <project id="ember-cli-trelawney" values="Project,Project,Project,Project,Project" collectionTime="1470186208646" />
+      <project id="DeeIdentifier" values="Project,Project" collectionTime="0" />
+      <project id="ember-cli-open-web-analytics" values="Project,Project" collectionTime="0" />
+      <project id="SensorApp" values="Project,Project" collectionTime="1459447374896" />
+      <project id="CurencyCalculator" values="Project,Project" collectionTime="1455043609433" />
+      <project id="ember-cli-lettering-js" values="Project,Project" collectionTime="1458774207522" />
+      <project id="machforms" values="Project,Project" collectionTime="0" />
+      <project id="peer-review" values="Project,Project" collectionTime="1464802183049" />
+      <project id="jsx" values="Project" collectionTime="1454651775415" />
+      <project id="BetterProjectSwitch" values="Project,Project" collectionTime="1434974624785" />
+      <project id="mapDemo" values="Project,Project" collectionTime="1461005586611" />
+      <project id="ember-cli-ipa" values="Project,Project,File,Project" collectionTime="1458856862717" />
+      <project id="sample" values="Project,Project" collectionTime="1456960198405" />
+      <project id="rrt" values="Project,Project" collectionTime="1436024339114" />
+      <project id="homework7" values="Project,Project" collectionTime="1446424720561" />
+      <project id="homework6" values="Project,Project" collectionTime="1446239679543" />
+      <project id="ember-cli-ai-js" values="Project,Project" collectionTime="0" />
+      <project id="homework4" values="Project,Project" collectionTime="1443153137341" />
+      <project id="homework3" values="Project,Project" collectionTime="1442622164093" />
+      <project id="homework2" values="Project,Project" collectionTime="1441941087295" />
+      <project id="ember-so-fresh" values="Project,Project,Project" collectionTime="1469291315494" />
+      <project id="NLPDataExport" values="Project,Project" collectionTime="0" />
+      <project id="Desktop" values="Project,Project" collectionTime="1452090285977" />
+      <project id="liquid-fire" values="Project,Project" collectionTime="1445137366833" />
+      <project id="VTE" values="Project,Project" collectionTime="0" />
+      <project id="powerline" values="Project,Project" collectionTime="1466443724593" />
+      <project id=".zprezto" values="Project,Project" collectionTime="1465040657120" />
+      <project id="ember-cli-animatecss" values="Project,Project" collectionTime="1447184668275" />
+      <project id="service-app" values="Project,Project" collectionTime="0" />
+      <project id="dumbaddon" values="Project,Project" collectionTime="1445805564262" />
+      <project id="FragmentExample" values="Project,Project" collectionTime="1457100293966" />
+      <project id="workshop-jb" values="Project,Project" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="Project,Project" collectionTime="0" />
+      <project id="koans" values="Project,Project" collectionTime="1468848059130" />
+      <project id="ember-cli-powerbars" values="Project,Project,Project" collectionTime="1453233600797" />
+      <project id="db_scripts" values="Project,Project" collectionTime="1458652057661" />
+      <project id="ember-cli-bourbon" values="Project,Project" collectionTime="1451408811735" />
+      <project id="PersonalSite" values="Project,Project,Project,Project,Project" collectionTime="1471188182476" />
+      <project id="untitled1" values="Project,Project" collectionTime="1456960198325" />
+      <project id="clinical-corrections" values="Project,Project" collectionTime="0" />
+      <project id="FlexGrid" values="Project,Project,Directory" collectionTime="0" />
+      <project id=".tmuxinator" values="Project,Project" collectionTime="1470347236667" />
+      <project id="frontend" values="Project,Project" collectionTime="1450713863205" />
+      <project id="CompletelyFairScheduler" values="Project,Project" collectionTime="0" />
+      <project id="ember-cli-neat" values="Project,Project" collectionTime="1446482459816" />
+      <project id="GmapDemo" values="Project,Project" collectionTime="1461092690616" />
+      <project id="extra_credit" values="Project,Project" collectionTime="1449840010476" />
+      <project id="myapp" values="Project,Project" collectionTime="1455043860449" />
+      <project id="procheckt" values="Project,Project" collectionTime="1426882762820" />
+      <project id="web-desktop" values="Project,Project" collectionTime="1433868532427" />
+      <project id="crusty_model" values="Project,Project" collectionTime="1457282582602" />
+      <project id="Project5" values="Project,Project" collectionTime="0" />
+      <project id="Project4" values="Project,Project" collectionTime="0" />
+      <project id="ember-cli-textillate" values="Project,Project" collectionTime="1446497998462" />
+      <project id="MyApplication2" values="Project,Project" collectionTime="1455057452602" />
+      <project id="Python" values="Project,Project" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="Project,Project" collectionTime="0" />
+      <project id="EmergeData" values="Project,Project,Directory,Project,Project" collectionTime="0" />
+      <project id="ember-cli-diff" values="Project,Project,Project,Project,Project" collectionTime="1465238371294" />
+      <project id="Oasis" values="Project,Project,Project,Project,Project" collectionTime="1470919247769" />
+      <project id="json-easy-merge" values="Project,Project" collectionTime="1469110051696" />
+      <project id="Project3" values="Project,Project" collectionTime="1426533570013" />
+      <project id="Lab3" values="Project,Project" collectionTime="1445021227821" />
+      <project id="critical-findings" values="Project,Project" collectionTime="1434111547202" />
+      <project id="ember-cli-easy-table" values="Project,Project" collectionTime="1446515175938" />
+      <project id="Script Libraries" values="Project,Project" collectionTime="1463421527834" />
+      <project id="radtracker" values="Project" collectionTime="0" />
+      <project id="FBFeedParser" values="Project,Project" collectionTime="0" />
+      <project id="GoogleInterview" values="Project,Project" collectionTime="1469018881634" />
+      <project id="Default" values="Project,Project" collectionTime="0" />
+      <project id="ReachSearch" values="Project,Project,Project,Project" collectionTime="1471476489987" />
+      <project id="OSX-JXA" values="Project" collectionTime="1471188182490" />
+      <project id="GSSRegistration" values="Project,Project" collectionTime="0" />
+      <project id="homework5" values="Project,Project" collectionTime="1444007214981" />
+      <project id="TheHelp" values="Project,Project" collectionTime="0" />
+      <project id="sprockets-rails" values="Project,Project" collectionTime="0" />
+      <project id="ember-cli-d29" values="Project,Project" collectionTime="0" />
+      <project id="exam2" values="Project,Project" collectionTime="1461764105424" />
+      <project id="Joe" values="Project,Project" collectionTime="1465064714027" />
+      <project id="emerge" values="Project,Project,Project,Directory,Project" collectionTime="0" />
+      <project id="PurchaseExample" values="Project,Project" collectionTime="1458424371045" />
+    </group>
+    <group name="php-server-debug-ext">
+      <project id="Default" values="xdebug" collectionTime="0" />
+      <project id="DeeIdentifier" values="xdebug" collectionTime="0" />
+    </group>
+    <group name="py-interpreter">
+      <project id="homework6" values="Python 2.7.2" collectionTime="1446239679544" />
+      <project id="CSMC 341 Data Structures" values="Python 2.7.2" collectionTime="0" />
+      <project id="extra_credit" values="Python 2.7.2" collectionTime="1449840010484" />
+      <project id="lab2" values="Python 2.7.2" collectionTime="0" />
+      <project id="CMSC483-Optimization" values="Python 2.7.10" collectionTime="1462379396786" />
+      <project id="TheHelp" values="Python 2.7.2" collectionTime="0" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="MRIProject" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1445379050414" />
+      <project id="Soundless" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1463430725336" />
+      <project id="alfred2-ruby-template" values="org.postgresql.Driver" collectionTime="1454643892441" />
+      <project id=".zsh_scripts" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1466514752884" />
+      <project id="rails4" values="com.microsoft.sqlserver.jdbc.SQLServerDriver,com.mysql.jdbc.Driver" collectionTime="0" />
+      <project id="CMSC483-Optimization" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1462379396783" />
+      <project id="peer-doc-review" values="org.postgresql.Driver,org.sqlite.JDBC,org.sqlite.JDBC,org.postgresql.Driver,org.postgresql.Driver" collectionTime="0" />
+      <project id="Bluetooth2" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1462648301274" />
+      <project id="resident-worklist" values="com.microsoft.sqlserver.jdbc.SQLServerDriver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1470855739593" />
+      <project id="untitled" values="org.postgresql.Driver" collectionTime="1456450945078" />
+      <project id="byozfwv" values="org.postgresql.Driver" collectionTime="1432872816168" />
+      <project id="OSX-JXA" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1471188182490" />
+      <project id="trelawney" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1471448625941" />
+      <project id="website" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1469498678578" />
+      <project id="bluetooth" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1462733688142" />
+      <project id="service-app" values="org.postgresql.Driver" collectionTime="0" />
+      <project id="ScopeCreep" values="com.mysql.jdbc.Driver,org.sqlite.JDBC,com.microsoft.sqlserver.jdbc.SQLServerDriver" collectionTime="0" />
+      <project id="ember-inspector" values="org.postgresql.Driver" collectionTime="1457652786763" />
+      <project id="DemoRailsApp" values="org.sqlite.JDBC,com.mysql.jdbc.Driver,com.microsoft.sqlserver.jdbc.SQLServerDriver" collectionTime="0" />
+      <project id="readahead_hybrid" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1469806345699" />
+      <project id="findings-notification" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.sqlite.JDBC,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1465570568635" />
+      <project id="readahead_tablet" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1471485576174" />
+      <project id="readahead_hybrid_tablet" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1458342030495" />
+      <project id="websiteTest" values="org.sqlite.JDBC,org.sqlite.JDBC" collectionTime="0" />
+      <project id="ServiceExample" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1458622095490" />
+      <project id="Script Libraries" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1463421527831" />
+      <project id="VitalViewerMobile" values="org.postgresql.Driver,org.postgresql.Driver,com.microsoft.sqlserver.jdbc.SQLServerDriver,com.mysql.jdbc.Driver" collectionTime="0" />
+      <project id="lab2" values="org.postgresql.Driver" collectionTime="0" />
+      <project id="ember-cli-trelawney" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1470186208643" />
+      <project id="Assignment1" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1459888713742" />
+      <project id="ember-cli-open-web-analytics" values="org.postgresql.Driver" collectionTime="0" />
+      <project id="SensorApp" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1459447374895" />
+      <project id="CurencyCalculator" values="org.postgresql.Driver" collectionTime="1455043609431" />
+      <project id="ember-cli-lettering-js" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1458774207521" />
+      <project id="exam2" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1461764105422" />
+      <project id="machforms" values="com.mysql.jdbc.Driver,com.microsoft.sqlserver.jdbc.SQLServerDriver" collectionTime="0" />
+      <project id="peer-review" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1464802183046" />
+      <project id="jsx" values="org.postgresql.Driver" collectionTime="1454651775415" />
+      <project id="BetterProjectSwitch" values="org.postgresql.Driver" collectionTime="1434974624785" />
+      <project id="mapDemo" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1461005586611" />
+      <project id="ember-cli-ipa" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1458856862712" />
+      <project id="sample" values="org.postgresql.Driver" collectionTime="1456960198405" />
+      <project id="rrt" values="org.postgresql.Driver,org.postgresql.Driver,com.mysql.jdbc.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1436024339114" />
+      <project id="homework7" values="org.postgresql.Driver" collectionTime="1446424720557" />
+      <project id="homework6" values="org.postgresql.Driver" collectionTime="1446239679543" />
+      <project id="ember-cli-ai-js" values="org.postgresql.Driver" collectionTime="0" />
+      <project id="homework4" values="org.postgresql.Driver" collectionTime="1443153137340" />
+      <project id="homework3" values="org.postgresql.Driver" collectionTime="1442622164092" />
+      <project id="homework2" values="org.postgresql.Driver" collectionTime="1441941087295" />
+      <project id="ember-so-fresh" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1469291315481" />
+      <project id="NLPDataExport" values="org.postgresql.Driver" collectionTime="0" />
+      <project id="Desktop" values="org.postgresql.Driver" collectionTime="1452090285977" />
+      <project id="liquid-fire" values="org.postgresql.Driver" collectionTime="1445137366832" />
+      <project id="VTE" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="0" />
+      <project id="powerline" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1466443724590" />
+      <project id=".zprezto" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1465040657117" />
+      <project id="ember-cli-animatecss" values="org.postgresql.Driver" collectionTime="1447184668275" />
+      <project id="PurchaseExample" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1458424371039" />
+      <project id="dumbaddon" values="org.postgresql.Driver" collectionTime="1445805564262" />
+      <project id="ember-cli-neat" values="org.postgresql.Driver" collectionTime="1446482459813" />
+      <project id="workshop-jb" values="org.postgresql.Driver" collectionTime="0" />
+      <project id="koans" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1468848059128" />
+      <project id="ember-cli-powerbars" values="org.postgresql.Driver" collectionTime="1453233600796" />
+      <project id="db_scripts" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1458652057656" />
+      <project id="ember-cli-bourbon" values="org.postgresql.Driver" collectionTime="1451408811724" />
+      <project id="PersonalSite" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1471188182473" />
+      <project id="untitled1" values="org.postgresql.Driver" collectionTime="1456960198325" />
+      <project id="clinical-corrections" values="org.postgresql.Driver" collectionTime="0" />
+      <project id=".tmuxinator" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1470347236662" />
+      <project id="CompletelyFairScheduler" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="0" />
+      <project id="critical-findings" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1434111547202" />
+      <project id="extra_credit" values="org.postgresql.Driver" collectionTime="1449840010475" />
+      <project id="myapp" values="org.postgresql.Driver" collectionTime="1455043860449" />
+      <project id="procheckt" values="org.postgresql.Driver" collectionTime="1426882762821" />
+      <project id="web-desktop" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,com.mysql.jdbc.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1433868532427" />
+      <project id="crusty_model" values="org.postgresql.Driver" collectionTime="1457282582582" />
+      <project id="FragmentExample" values="org.postgresql.Driver" collectionTime="1457100293975" />
+      <project id="homework5" values="org.postgresql.Driver" collectionTime="1444007214980" />
+      <project id="ember-cli-textillate" values="org.postgresql.Driver" collectionTime="1446497998458" />
+      <project id="MyApplication2" values="org.postgresql.Driver" collectionTime="1455057452601" />
+      <project id="compa" values="org.postgresql.Driver" collectionTime="1428940302325" />
+      <project id="ReachSearch" values="org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1471476489985" />
+      <project id="ember-cli-diff" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1465238371291" />
+      <project id="Oasis" values="oracle.jdbc.driver.OracleDriver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,com.mysql.jdbc.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1470919247767" />
+      <project id="json-easy-merge" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1469110051690" />
+      <project id="Lab3" values="org.postgresql.Driver" collectionTime="1445021227819" />
+      <project id="GmapDemo" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1461092690611" />
+      <project id="ember-cli-easy-table" values="org.postgresql.Driver" collectionTime="1446515175938" />
+      <project id="radtracker" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="0" />
+      <project id="GoogleInterview" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1469018881632" />
+      <project id="ember-cli-d29" values="org.postgresql.Driver" collectionTime="0" />
+      <project id="GSSRegistration" values="org.postgresql.Driver" collectionTime="0" />
+      <project id="ember-cli-deployment-url" values="org.postgresql.Driver" collectionTime="0" />
+      <project id="sprockets-rails" values="org.postgresql.Driver" collectionTime="0" />
+      <project id="SensorApp 2" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1459173164766" />
+      <project id="Project3" values="org.postgresql.Driver" collectionTime="1426533570081" />
+      <project id="Joe" values="org.postgresql.Driver,org.postgresql.Driver" collectionTime="1465064714025" />
+      <project id="frontend" values="org.postgresql.Driver" collectionTime="1450713863203" />
+    </group>
+    <group name="ruby-custom-scripts">
+      <project id="calc" values="loaded scripts" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="loaded scripts" collectionTime="0" />
+      <project id="OfficeHours" values="loaded scripts" collectionTime="0" />
+      <project id="machforms" values="loaded scripts" collectionTime="0" />
+      <project id="Default" values="loaded scripts" collectionTime="0" />
+      <project id="service_app" values="loaded scripts" collectionTime="0" />
+      <project id="VitalViewerMobile" values="loaded scripts" collectionTime="0" />
+      <project id="Project4" values="loaded scripts" collectionTime="0" />
+      <project id="DeeIdentifier" values="loaded scripts" collectionTime="0" />
+    </group>
+    <group name="php-interpreter-debug-ext">
+      <project id="Default" values="xdebug" collectionTime="0" />
+      <project id="machforms" values="xdebug" collectionTime="0" />
+      <project id="DeeIdentifier" values="xdebug" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="xdebug" collectionTime="0" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="MRIProject" values="ECMAScript 6" collectionTime="1445379050415" />
+      <project id="service_app" values="DEFAULT" collectionTime="0" />
+      <project id="Soundless" values="ECMAScript 5.1" collectionTime="1463430725347" />
+      <project id="alfred2-ruby-template" values="ECMAScript 5.1" collectionTime="1454643892459" />
+      <project id=".zsh_scripts" values="ECMAScript 5.1" collectionTime="1466514752887" />
+      <project id="untitled folder" values="DEFAULT" collectionTime="0" />
+      <project id="rails4" values="DEFAULT" collectionTime="0" />
+      <project id="CMSC483-Optimization" values="ECMAScript 5.1" collectionTime="1462379396785" />
+      <project id="peer-doc-review" values="DEFAULT" collectionTime="0" />
+      <project id="bluetooth" values="ECMAScript 5.1" collectionTime="1462733688143" />
+      <project id="resident-worklist" values="ECMAScript 6" collectionTime="1470855739593" />
+      <project id="compa" values="DEFAULT" collectionTime="1428940302324" />
+      <project id="untitled" values="ECMAScript 5.1" collectionTime="1456450945079" />
+      <project id="calc" values="DEFAULT" collectionTime="0" />
+      <project id="byozfwv" values="DEFAULT" collectionTime="1432872816096" />
+      <project id="Bluetooth2" values="ECMAScript 5.1" collectionTime="1462648301280" />
+      <project id="trelawney" values="ECMAScript 5.1" collectionTime="1471448625942" />
+      <project id="website" values="ECMAScript 6" collectionTime="1469498678579" />
+      <project id="OfficeHours" values="DEFAULT" collectionTime="0" />
+      <project id="ScopeCreep" values="DEFAULT" collectionTime="0" />
+      <project id="ember-inspector" values="ECMAScript 6" collectionTime="1457652786765" />
+      <project id="DemoRailsApp" values="DEFAULT" collectionTime="0" />
+      <project id="ember-cli-deployment-url" values="DEFAULT" collectionTime="0" />
+      <project id="readahead_hybrid" values="ECMAScript 5.1" collectionTime="1469806345699" />
+      <project id="idea-assemblysupport-read-only" values="DEFAULT" collectionTime="0" />
+      <project id="findings-notification" values="ECMAScript 6" collectionTime="1465570568635" />
+      <project id="readahead_tablet" values="ECMAScript 5.1" collectionTime="1471485576222" />
+      <project id="readahead_hybrid_tablet" values="ECMAScript 5.1" collectionTime="1458342030496" />
+      <project id="websiteTest" values="DEFAULT" collectionTime="0" />
+      <project id="ServiceExample" values="ECMAScript 5.1" collectionTime="1458622095490" />
+      <project id="Assignment1" values="ECMAScript 5.1" collectionTime="1459888713745" />
+      <project id="VitalViewerMobile" values="DEFAULT" collectionTime="0" />
+      <project id="SensorApp 2" values="ECMAScript 5.1" collectionTime="1459173164773" />
+      <project id="lab2" values="DEFAULT" collectionTime="0" />
+      <project id="ember-cli-trelawney" values="ECMAScript 6" collectionTime="1470186208646" />
+      <project id="DeeIdentifier" values="DEFAULT" collectionTime="0" />
+      <project id="ember-cli-open-web-analytics" values="DEFAULT" collectionTime="0" />
+      <project id="SensorApp" values="ECMAScript 5.1" collectionTime="1459447374896" />
+      <project id="CurencyCalculator" values="ECMAScript 5.1" collectionTime="1455043609433" />
+      <project id="ember-cli-lettering-js" values="ECMAScript 5.1" collectionTime="1458774207522" />
+      <project id="machforms" values="DEFAULT" collectionTime="0" />
+      <project id="peer-review" values="ECMAScript 6" collectionTime="1464802183049" />
+      <project id="jsx" values="ECMAScript 6" collectionTime="1454651775415" />
+      <project id="BetterProjectSwitch" values="DEFAULT" collectionTime="1434974624785" />
+      <project id="mapDemo" values="ECMAScript 5.1" collectionTime="1461005586611" />
+      <project id="ember-cli-ipa" values="ECMAScript 6" collectionTime="1458856862719" />
+      <project id="sample" values="ECMAScript 5.1" collectionTime="1456960198405" />
+      <project id="rrt" values="DEFAULT" collectionTime="1436024339114" />
+      <project id="homework7" values="ECMAScript 5.1" collectionTime="1446424720561" />
+      <project id="homework6" values="ECMAScript 5.1" collectionTime="1446239679543" />
+      <project id="ember-cli-ai-js" values="DEFAULT" collectionTime="0" />
+      <project id="homework4" values="ECMAScript 5.1" collectionTime="1443153137341" />
+      <project id="homework3" values="ECMAScript 5.1" collectionTime="1442622164093" />
+      <project id="homework2" values="ECMAScript 5.1" collectionTime="1441941087295" />
+      <project id="ember-so-fresh" values="ECMAScript 6" collectionTime="1469291315494" />
+      <project id="NLPDataExport" values="DEFAULT" collectionTime="0" />
+      <project id="Desktop" values="ECMAScript 5.1" collectionTime="1452090285977" />
+      <project id="liquid-fire" values="ECMAScript 5.1" collectionTime="1445137366833" />
+      <project id="VTE" values="ECMAScript 6" collectionTime="0" />
+      <project id="powerline" values="ECMAScript 5.1" collectionTime="1466443724593" />
+      <project id=".zprezto" values="ECMAScript 5.1" collectionTime="1465040657120" />
+      <project id="ember-cli-animatecss" values="ECMAScript 5.1" collectionTime="1447184668275" />
+      <project id="service-app" values="DEFAULT" collectionTime="0" />
+      <project id="dumbaddon" values="ECMAScript 5.1" collectionTime="1445805564262" />
+      <project id="FragmentExample" values="ECMAScript 5.1" collectionTime="1457100293968" />
+      <project id="workshop-jb" values="DEFAULT" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="DEFAULT" collectionTime="0" />
+      <project id="koans" values="ECMAScript 5.1" collectionTime="1468848059130" />
+      <project id="ember-cli-powerbars" values="ECMAScript 6" collectionTime="1453233600797" />
+      <project id="db_scripts" values="ECMAScript 5.1" collectionTime="1458652057661" />
+      <project id="ember-cli-bourbon" values="ECMAScript 5.1" collectionTime="1451408811735" />
+      <project id="PersonalSite" values="ECMAScript 6" collectionTime="1471188182476" />
+      <project id="untitled1" values="ECMAScript 5.1" collectionTime="1456960198325" />
+      <project id="clinical-corrections" values="DEFAULT" collectionTime="0" />
+      <project id="FlexGrid" values="DEFAULT" collectionTime="0" />
+      <project id=".tmuxinator" values="ECMAScript 5.1" collectionTime="1470347236668" />
+      <project id="frontend" values="ECMAScript 5.1" collectionTime="1450713863205" />
+      <project id="CompletelyFairScheduler" values="DEFAULT" collectionTime="0" />
+      <project id="ember-cli-neat" values="ECMAScript 5.1" collectionTime="1446482459817" />
+      <project id="GmapDemo" values="ECMAScript 5.1" collectionTime="1461092690616" />
+      <project id="extra_credit" values="ECMAScript 5.1" collectionTime="1449840010476" />
+      <project id="myapp" values="ECMAScript 5.1" collectionTime="1455043860449" />
+      <project id="procheckt" values="DEFAULT" collectionTime="1426882762820" />
+      <project id="web-desktop" values="DEFAULT" collectionTime="1433868532427" />
+      <project id="crusty_model" values="ECMAScript 5.1" collectionTime="1457282582604" />
+      <project id="Project5" values="DEFAULT" collectionTime="0" />
+      <project id="Project4" values="DEFAULT" collectionTime="0" />
+      <project id="ember-cli-textillate" values="ECMAScript 5.1" collectionTime="1446497998462" />
+      <project id="MyApplication2" values="ECMAScript 5.1" collectionTime="1455057452602" />
+      <project id="Python" values="DEFAULT" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="DEFAULT" collectionTime="0" />
+      <project id="EmergeData" values="DEFAULT" collectionTime="0" />
+      <project id="ember-cli-diff" values="ECMAScript 6" collectionTime="1465238371294" />
+      <project id="Oasis" values="ECMAScript 6" collectionTime="1470919247769" />
+      <project id="json-easy-merge" values="ECMAScript 5.1" collectionTime="1469110051696" />
+      <project id="Project3" values="DEFAULT" collectionTime="1426533570013" />
+      <project id="Lab3" values="ECMAScript 5.1" collectionTime="1445021227821" />
+      <project id="critical-findings" values="DEFAULT" collectionTime="1434111547202" />
+      <project id="ember-cli-easy-table" values="ECMAScript 5.1" collectionTime="1446515175938" />
+      <project id="Script Libraries" values="ECMAScript 5.1" collectionTime="1463421527834" />
+      <project id="radtracker" values="JavaScript 1.6" collectionTime="0" />
+      <project id="FBFeedParser" values="DEFAULT" collectionTime="0" />
+      <project id="GoogleInterview" values="ECMAScript 5.1" collectionTime="1469018881634" />
+      <project id="Default" values="DEFAULT" collectionTime="0" />
+      <project id="ReachSearch" values="ECMAScript 6" collectionTime="1471476489987" />
+      <project id="OSX-JXA" values="ECMAScript 6" collectionTime="1471188182490" />
+      <project id="GSSRegistration" values="DEFAULT" collectionTime="0" />
+      <project id="homework5" values="ECMAScript 5.1" collectionTime="1444007214981" />
+      <project id="TheHelp" values="DEFAULT" collectionTime="0" />
+      <project id="sprockets-rails" values="DEFAULT" collectionTime="0" />
+      <project id="ember-cli-d29" values="DEFAULT" collectionTime="0" />
+      <project id="exam2" values="ECMAScript 5.1" collectionTime="1461764105424" />
+      <project id="Joe" values="ECMAScript 5.1" collectionTime="1465064714027" />
+      <project id="emerge" values="DEFAULT" collectionTime="0" />
+      <project id="PurchaseExample" values="ECMAScript 5.1" collectionTime="1458424371045" />
+    </group>
+    <group name="php-servers">
+      <project id="trelawney" values="0" collectionTime="0" />
+      <project id="rails4" values="0" collectionTime="0" />
+      <project id="VTE" values="0" collectionTime="0" />
+      <project id="critical-findings" values="0" collectionTime="0" />
+      <project id="peer-review" values="0" collectionTime="0" />
+      <project id="untitled folder" values="0" collectionTime="0" />
+      <project id="RadiologyModalitySchedule" values="0" collectionTime="0" />
+      <project id="websiteTest" values="0" collectionTime="0" />
+      <project id="DeeIdentifier" values="1" collectionTime="0" />
+      <project id="ScopeCreep" values="0" collectionTime="0" />
+      <project id="calc" values="0" collectionTime="0" />
+      <project id="OfficeHours" values="0" collectionTime="0" />
+      <project id="peer-doc-review" values="0" collectionTime="0" />
+      <project id="Default" values="1" collectionTime="0" />
+      <project id="resident-worklist" values="0" collectionTime="0" />
+      <project id="service_app" values="0" collectionTime="0" />
+      <project id="web-desktop" values="0" collectionTime="0" />
+      <project id="MRIProject" values="0" collectionTime="0" />
+      <project id="idea-assemblysupport-read-only" values="0" collectionTime="0" />
+      <project id="service-app" values="0" collectionTime="0" />
+      <project id="radtracker" values="0" collectionTime="0" />
+      <project id="VitalViewerMobile" values="0" collectionTime="0" />
+      <project id="machforms" values="0" collectionTime="0" />
+      <project id="EmergeData" values="0" collectionTime="0" />
+      <project id="clinical-corrections" values="0" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="0" collectionTime="0" />
+      <project id="Project4" values="0" collectionTime="0" />
+      <project id="DemoRailsApp" values="0" collectionTime="0" />
+      <project id="ReachSearch" values="0" collectionTime="0" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="VTE" values="Unknown" collectionTime="0" />
+      <project id="idea-assemblysupport-read-only" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" collectionTime="0" />
+      <project id="rrt" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="1436024339077" />
+      <project id="resident-worklist" values="RakeRunConfigurationType,RubyRunConfigurationType,RailsRunConfigurationType" collectionTime="1470855739541" />
+      <project id="MRIProject" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="1445379050408" />
+      <project id="VitalViewerMobile" values="RubyRemoteDebugConfigurationType,RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="0" />
+      <project id="SensorApp" values="AndroidRunConfigurationType" collectionTime="1459447374768" />
+      <project id="DeeIdentifier" values="PhpHttpRequestRunConfigurationType,PhpBuiltInWebServerConfigurationType" collectionTime="0" />
+      <project id="peer-doc-review" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="0" />
+      <project id="Assignment1" values="AndroidRunConfigurationType" collectionTime="1459888713586" />
+      <project id="peer-review" values="RubyRemoteDebugConfigurationType,RailsRunConfigurationType,RakeRunConfigurationType" collectionTime="1464802183018" />
+      <project id="FragmentExample" values="AndroidRunConfigurationType" collectionTime="1457100293596" />
+      <project id="web-desktop" values="RailsRunConfigurationType,RakeRunConfigurationType" collectionTime="1433868532355" />
+      <project id="GSSRegistration" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="0" />
+      <project id="CurencyCalculator" values="AndroidRunConfigurationType" collectionTime="1455043609405" />
+      <project id="OfficeHours" values="RailsRunConfigurationType,JavascriptDebugSession.Remote,RakeRunConfigurationType" collectionTime="0" />
+      <project id="CompletelyFairScheduler" values="RailsRunConfigurationType,RakeRunConfigurationType" collectionTime="0" />
+      <project id="PersonalSite" values="RubyRunConfigurationType" collectionTime="1471188182354" />
+      <project id="ScopeCreep" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="0" />
+      <project id="findings-notification" values="RakeRunConfigurationType,JavascriptDebugType,RailsRunConfigurationType" collectionTime="1465570568580" />
+      <project id="emerge" values="NodeJSConfigurationType" collectionTime="0" />
+      <project id="GmapDemo" values="AndroidRunConfigurationType" collectionTime="1461092689919" />
+      <project id="SensorApp 2" values="AndroidRunConfigurationType" collectionTime="1459173164511" />
+      <project id="clinical-corrections" values="RailsRunConfigurationType,RakeRunConfigurationType" collectionTime="0" />
+      <project id="trelawney" values="RSpecRunConfigurationType" collectionTime="1471448625919" />
+      <project id="Oasis" values="RailsRunConfigurationType,RakeRunConfigurationType" collectionTime="1470919247321" />
+      <project id="bluetooth" values="AndroidRunConfigurationType" collectionTime="1462733688067" />
+      <project id="MyApplication2" values="AndroidRunConfigurationType" collectionTime="1455057452293" />
+      <project id="websiteTest" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="0" />
+      <project id="NLPDataExport" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="0" />
+      <project id="DemoRailsApp" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="0" />
+      <project id="EmergeData" values="NodeJSConfigurationType,JavascriptDebugType,NodeJSRemoteDebug" collectionTime="0" />
+      <project id="CSMC 341 Data Structures" values="RubyRunConfigurationType" collectionTime="0" />
+      <project id="critical-findings" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="1434111547187" />
+      <project id="rails4" values="RailsRunConfigurationType,RakeRunConfigurationType" collectionTime="0" />
+      <project id="service_app" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="0" />
+      <project id="radtracker" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="0" />
+      <project id="untitled1" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" collectionTime="1456960196016" />
+      <project id="ReachSearch" values="RubyRemoteDebugConfigurationType,RailsRunConfigurationType,RakeRunConfigurationType" collectionTime="1471476489766" />
+      <project id="Bluetooth2" values="AndroidRunConfigurationType" collectionTime="1462648300943" />
+      <project id="service-app" values="RakeRunConfigurationType,RailsRunConfigurationType" collectionTime="0" />
+      <project id="workshop-jb" values="JetRunConfigurationType,JUnit" collectionTime="0" />
+      <project id="BetterProjectSwitch" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" collectionTime="1434974624715" />
+      <project id="Default" values="PhpBuiltInWebServerConfigurationType,PhpWebAppRunConfigurationType" collectionTime="0" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="113" />
+      <entry feature="JSDebugConfig.Debug.browser-default.preferredBrowser-null.no_mappings" count="2" />
+      <entry feature="JSDebugConfig.Run.browser-default.preferredBrowser-null.no_mappings" count="13" />
+      <entry feature="JSDebugConfig.Run.browser-default.preferredEngine-null.no_mappings" count="3" />
+      <entry feature="OpenInBrowser.Safari" count="1" />
+      <entry feature="OpenInBrowser.default" count="2" />
+      <entry feature="diff.DiffSettings.Tool.Side-by-side viewer" count="1" />
+      <entry feature="diff.DiffSettings.Tool.Unified viewer" count="1" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.DEFAULT" count="1" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.IGNORE_WHITESPACES_CHUNKS" count="2" />
+      <entry feature="execute.#org.jetbrains.idea.devkit.run.PluginConfigurationType.Debug" count="6" />
+      <entry feature="execute.#org.jetbrains.idea.devkit.run.PluginConfigurationType.Run" count="13" />
+      <entry feature="execute.AndroidRunConfigurationType.Debug" count="100" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="169" />
+      <entry feature="execute.Application.Debug" count="391" />
+      <entry feature="execute.Application.Run" count="305" />
+      <entry feature="execute.CapistranoRunConfigurationType.Debug" count="1" />
+      <entry feature="execute.GradleRunConfiguration.Debug" count="2" />
+      <entry feature="execute.GradleRunConfiguration.Run" count="14" />
+      <entry feature="execute.GroovyScriptRunConfiguration.Debug" count="1" />
+      <entry feature="execute.GroovyScriptRunConfiguration.Run" count="3" />
+      <entry feature="execute.IrbRunConfigurationType.Debug" count="4" />
+      <entry feature="execute.IrbRunConfigurationType.Run" count="6" />
+      <entry feature="execute.JUnit.Coverage" count="4" />
+      <entry feature="execute.JUnit.Debug" count="67" />
+      <entry feature="execute.JUnit.Run" count="166" />
+      <entry feature="execute.JavascriptDebugSession.Debug" count="6" />
+      <entry feature="execute.JavascriptDebugType.Debug" count="130" />
+      <entry feature="execute.JavascriptDebugType.Run" count="16" />
+      <entry feature="execute.JetRunConfigurationType.Run" count="6" />
+      <entry feature="execute.NodeJSConfigurationType.Debug" count="72" />
+      <entry feature="execute.NodeJSConfigurationType.Run" count="119" />
+      <entry feature="execute.NodeJSRemoteDebug.Debug" count="2" />
+      <entry feature="execute.PhpBuiltInWebServerConfigurationType.Run" count="4" />
+      <entry feature="execute.PhpHttpRequestRunConfigurationType.Debug" count="60" />
+      <entry feature="execute.PhpHttpRequestRunConfigurationType.Run" count="46" />
+      <entry feature="execute.PhpLocalRunConfigurationType.Debug" count="103" />
+      <entry feature="execute.PhpLocalRunConfigurationType.Run" count="15" />
+      <entry feature="execute.PhpWebAppRunConfigurationType.Debug" count="11" />
+      <entry feature="execute.PhpWebAppRunConfigurationType.Run" count="33" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="95" />
+      <entry feature="execute.PythonConfigurationType.Run" count="154" />
+      <entry feature="execute.RSpecRunConfigurationType.Coverage" count="1" />
+      <entry feature="execute.RSpecRunConfigurationType.Debug" count="179" />
+      <entry feature="execute.RSpecRunConfigurationType.Run" count="313" />
+      <entry feature="execute.RailsRunConfigurationType.Debug" count="552" />
+      <entry feature="execute.RailsRunConfigurationType.Run" count="312" />
+      <entry feature="execute.RakeRunConfigurationType.Debug" count="32" />
+      <entry feature="execute.RakeRunConfigurationType.Run" count="26" />
+      <entry feature="execute.RubyRemoteDebugConfigurationType.Debug" count="15" />
+      <entry feature="execute.RubyRunConfigurationType.Coverage" count="2" />
+      <entry feature="execute.RubyRunConfigurationType.Debug" count="100" />
+      <entry feature="execute.RubyRunConfigurationType.Run" count="235" />
+      <entry feature="execute.TestUnitRunConfigurationType.Debug" count="7" />
+      <entry feature="execute.TestUnitRunConfigurationType.Run" count="15" />
+      <entry feature="git.branch.checkout.local" count="15" />
+      <entry feature="git.branch.create.new" count="8" />
+      <entry feature="git.branch.delete.local" count="1" />
+      <entry feature="git.branch.delete.remote" count="1" />
+      <entry feature="git.branch.merge" count="6" />
+      <entry feature="git.branch.rebase" count="4" />
+      <entry feature="git.branch.rename" count="1" />
+      <entry feature="ide.help.find.todoList" count="2" />
+      <entry feature="ide.help.top" count="1" />
+      <entry feature="ide.settings.Appearance" count="12" />
+      <entry feature="ide.settings.Application&#10;Servers" count="1" />
+      <entry feature="ide.settings.Atlassian&#10;Connector" count="1" />
+      <entry feature="ide.settings.Atlassian_Connector" count="1" />
+      <entry feature="ide.settings.Atlassian_Connector_-_Project" count="3" />
+      <entry feature="ide.settings.Bower" count="4" />
+      <entry feature="ide.settings.CoffeeScript" count="2" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="9" />
+      <entry feature="ide.settings.Compiler" count="1" />
+      <entry feature="ide.settings.Console_Font" count="18" />
+      <entry feature="ide.settings.Custom_Plugin_Repositories" count="1" />
+      <entry feature="ide.settings.Debugger" count="2" />
+      <entry feature="ide.settings.Deployment" count="15" />
+      <entry feature="ide.settings.Diff" count="3" />
+      <entry feature="ide.settings.ERB" count="2" />
+      <entry feature="ide.settings.ESLint" count="3" />
+      <entry feature="ide.settings.File_Colors" count="1" />
+      <entry feature="ide.settings.File_Status" count="5" />
+      <entry feature="ide.settings.File_Types" count="6" />
+      <entry feature="ide.settings.File_Watchers" count="8" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="1" />
+      <entry feature="ide.settings.Font" count="46" />
+      <entry feature="ide.settings.General" count="11" />
+      <entry feature="ide.settings.Genymotion" count="1" />
+      <entry feature="ide.settings.Gradle" count="15" />
+      <entry feature="ide.settings.Gradle-Android_Compiler" count="1" />
+      <entry feature="ide.settings.HTML" count="6" />
+      <entry feature="ide.settings.Handlebars/Mustache" count="5" />
+      <entry feature="ide.settings.HotSwap" count="1" />
+      <entry feature="ide.settings.JSHint" count="2" />
+      <entry feature="ide.settings.JavaScript" count="18" />
+      <entry feature="ide.settings.Keymap" count="66" />
+      <entry feature="ide.settings.LaTeX" count="2" />
+      <entry feature="ide.settings.Language_Defaults" count="13" />
+      <entry feature="ide.settings.Libraries" count="7" />
+      <entry feature="ide.settings.Live_Templates" count="55" />
+      <entry feature="ide.settings.Mongo_servers" count="4" />
+      <entry feature="ide.settings.Notifications" count="1" />
+      <entry feature="ide.settings.Options" count="11" />
+      <entry feature="ide.settings.Plugins" count="14" />
+      <entry feature="ide.settings.Project_Structure" count="7" />
+      <entry feature="ide.settings.SSH_Terminal" count="1" />
+      <entry feature="ide.settings.Servers" count="8" />
+      <entry feature="ide.settings.Templates" count="1" />
+      <entry feature="ide.settings.Time_Tracking" count="1" />
+      <entry feature="ide.settings.Updates" count="1" />
+      <entry feature="ide.settings.Version_Control" count="1" />
+      <entry feature="ide.settings.Web_Browsers" count="1" />
+      <entry feature="ideaapp.started" count="902" />
+      <entry feature="uml.ShowDiagram.DATABASE" count="1" />
+      <entry feature="uml.ShowDiagram.DIFF.popup" count="5" />
+      <entry feature="uml.ShowDiagram.JAVA.popup" count="3" />
+      <entry feature="uml.ShowDiagram.RailsDependency" count="16" />
+      <entry feature="vcs.log.HighlightNon-PickedCommits" count="1" />
+      <entry feature="vcs.log.Refresh" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="5" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="25" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="7" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="8" />
+      <entry feature="welcome.screen.WelcomeScreen.Plugins" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Update" count="1" />
+    </counts>
+  </component>
+</application>

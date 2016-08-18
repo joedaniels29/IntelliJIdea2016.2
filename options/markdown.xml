@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="MarkdownSettings" parsingTimeout="10000" smarts="true" quotes="true" abbreviations="true" hardWraps="true" autoLinks="true" wikiLinks="true" tables="true" definitions="true" fencedCodeBlocks="true" suppressHTMLBlocks="true" suppressInlineHTML="true" strikethrough="false" />
+</application>
+

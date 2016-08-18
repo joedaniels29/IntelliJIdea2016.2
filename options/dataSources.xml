@@ -1,0 +1,22 @@
+<application>
+  <component name="dataSourceStorage" format="xml">
+    <data-source source="LOCAL" name="PostgreSQL - harbinger@ai.rad.jhmi.edu" uuid="7a519d71-0a36-4acf-bf46-a2e21caf1f7c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ai.rad.jhmi.edu:5432/harbinger</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - harbinger@ai.rad.jhmi.edu [2]" uuid="6fddc64c-1082-46f1-94d1-c3b317865489">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ai.rad.jhmi.edu:5432/harbinger</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="ReachSearch BETA" uuid="8b953e28-9395-447e-901f-8bf5d01c0d3b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/harbinger</jdbc-url>
+    </data-source>
+  </component>
+</application>

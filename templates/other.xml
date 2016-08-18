@@ -1,0 +1,26 @@
+<templateSet group="other">
+  <template name="ddate" value="$date$" description="Date" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="aauthor" value="Joseph Daniels" description="My Name" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="CSCC" value="/**&#10; * This class models a traditional table capable of containing 3 or 4 legs&#10; * with a ROUND, RECTANGLE or OVAL shape.&#10; *&#10; * @version $date$&#10; * @author Joe Daniels &lt;josephd3@gl.umbc.edu&gt;&#10; * CMSC 202 - Fall 2013- Project $number$&#10; * Section 02&#10; */" description="CMSC 341  Description" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="number" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ext" value="exten =&gt; $2002$,1,Answer()&#10;exten =&gt; $2002$,n,Dial(SIP/$2002$,20,tr)&#10;exten =&gt; $2002$,n,Hangup.&#10;&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="2002" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

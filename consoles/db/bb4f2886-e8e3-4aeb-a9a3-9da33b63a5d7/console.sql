@@ -1,0 +1,1 @@
+ALTER TABLE oasis.states add column "showing" BOOLEAN DEFAULT TRUE;
